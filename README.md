@@ -3,8 +3,9 @@
 Аудио записи можно послушать [по ссылке в гугл диск](https://drive.google.com/drive/folders/1ZNAoliEhEgSu4WaKN8yGY2GxW4bth9DE?usp=drive_link).
 Аудиофайлы разделены по папкам, которые обозначают возраст и пол говорящего.
 
-Распознанные тексты можно посмотреть [по ссылке в гугл диск](https://drive.google.com/drive/folders/1u8EeoMah1fYDgtYevZ8KhRAmHE9OBAJs?usp=sharing).
+Распознанные тексты можно посмотреть [по ссылке в гугл диск](https://drive.google.com/drive/folders/1u8EeoMah1fYDgtYevZ8KhRAmHE9OBAJs?usp=sharing). В названии файла тоже есть обозначения (пол и возраст).
 
+`soyle_results_full.txt` - файл, в котором распознаны все аудиофайлы с помощью библиотеки Söyle.
 
 # Основные файлы
 
