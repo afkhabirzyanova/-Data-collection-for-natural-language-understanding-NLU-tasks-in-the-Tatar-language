@@ -1,0 +1,1321 @@
+# id: valid_101
+# annotator: Alsu
+# text EN: What are my reminders?
+# text TAT: Минем нинди искә төшерүләрем бар?
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	нинди	reminder/show_reminders	O
+3	искә	reminder/show_reminders	O
+4	төшерүләрем	reminder/show_reminders	O
+5	бар	reminder/show_reminders	O
+6	?	reminder/show_reminders	O
+
+# id: valid_102
+# annotator: Alsu
+# text EN: Cancel my reminder to text Dad
+# text TAT: Минем әтиге язу турында хәтерләтүемне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference, 7:15:reminder/todo
+1	Минем	reminder/cancel_reminder	B-reference
+2	әтиге	reminder/cancel_reminder	B-reminder/todo
+3	язу	reminder/cancel_reminder	I-reminder/todo
+4	турында	reminder/cancel_reminder	O
+5	хәтерләтүемне	reminder/cancel_reminder	O
+6	бетер	reminder/cancel_reminder	O
+
+# id: valid_103
+# annotator: Alsu
+# text EN: set alarm for 6 am
+# text TAT: Будильникны иртәнге 6-га куй
+# intent: alarm/set_alarm
+# slots: 13:24:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	6-га	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_104
+# annotator: Alsu
+# text EN: turn off the alarm
+# text TAT: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_105
+# annotator: Alsu
+# text EN: cancel the alarm
+# text TAT: будильникны бетер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	бетер	alarm/cancel_alarm	O
+
+# id: valid_106
+# annotator: Alsu
+# text EN: turn off alarm
+# text TAT: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_107
+# annotator: Alsu
+# text EN: remind me to call mom today at 2 p.m.
+# text TAT: Бүген көндезге сәгать 2-дә әнигә шалтыратырга миңа искә төшер
+# intent: reminder/set_reminder
+# slots: 1:26:datetime, 28:45:reminder/todo
+1	Бүген	reminder/set_reminder	B-datetime
+2	көндезге	reminder/set_reminder	I-datetime
+3	сәгать	reminder/set_reminder	I-datetime
+4	2-дә	reminder/set_reminder	I-datetime
+5	әнигә	reminder/set_reminder	B-reminder/todo
+6	шалтыратырга	reminder/set_reminder	I-reminder/todo
+7	миңа	reminder/set_reminder	O
+8	искә	reminder/set_reminder	O
+9	төшер	reminder/set_reminder	O
+
+# id: valid_108
+# annotator: Alsu
+# text EN: cancel all alarms
+# text TAT: бөтен будильникларны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+4	бетер	alarm/cancel_alarm	O
+
+# id: valid_109
+# annotator: Alsu
+# text EN: is it going to be hot tomorrow
+# text TAT: иртәгә эссе булырмы
+# intent: weather/find
+# slots: 1:6:datetime, 8:11:weather/attribute
+1	иртәгә	weather/find	B-datetime
+2	эссе	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+
+# id: valid_110
+# annotator: Alsu
+# text EN: is it cold out today?
+# text TAT: бүген урамда салкынмы?
+# intent: weather/find
+# slots: 1:5:datetime, 7:12:location, 14:21:weather/attribute
+1	бүген	weather/find	B-datetime
+2	урамда	weather/find	B-location
+3	салкынмы	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: valid_111
+# annotator: Alsu
+# text EN: Set alarm for 5 pm tonight
+# text TAT: будильникны бүген кичке 5 куй
+# intent: alarm/set_alarm
+# slots: 13:25:datetime
+1	Будильникны	alarm/set_alarm	O
+2	бүген	alarm/set_alarm	B-datetime
+3	кичке	alarm/set_alarm	I-datetime
+4	5	alarm/set_alarm	I-datetime
+5	куй	alarm/set_alarm	O
+
+# id: valid_112
+# annotator: Alsu
+# text EN: Will it rain this weekend?
+# text TAT: Бу ял көннәрендә яңгыр булырмы?
+# intent: weather/find
+# slots: 1:16:datetime, 18:22:weather/attribute
+1	Бу	weather/find	B-datetime
+2	ял	weather/find	I-datetime
+3	көннәрендә	weather/find	I-datetime
+4	яңгыр	weather/find	B-weather/attribute
+5	булырмы	weather/find	O
+6	?	weather/find	O
+
+# id: valid_113
+# annotator: Alsu
+# text EN: is it going to rain today
+# text TAT: бүген яңгыр явырмы
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	бүген	weather/find	B-datetime
+2	яңгыр	weather/find	B-weather/attribute
+3	явырмы	weather/find	O
+
+# id: valid_114
+# annotator: Alsu
+# text EN: set an alarm for monday at 3 am
+# text TAT: будильникны дүшәмбе көнне төнге сәгать 3-тә куй
+# intent: alarm/set_alarm
+# slots: 13:43:datetime
+1	будильникны	alarm/set_alarm	O
+2	дүшәмбе	alarm/set_alarm	B-datetime
+3	көнне	alarm/set_alarm	I-datetime
+4	төнге	alarm/set_alarm	I-datetime
+5	сәгать	alarm/set_alarm	I-datetime
+6	3-тә	alarm/set_alarm	I-datetime
+7	куй	alarm/set_alarm	O
+
+# id: valid_115
+# annotator: Alsu
+# text EN: alarm on
+# text TAT: будильник кабызылган
+# intent: alarm/set_alarm
+# slots: 
+1	будильник	alarm/set_alarm	O
+2	кабызылган	alarm/set_alarm	O
+
+# id: valid_116
+# annotator: Alsu
+# text EN: Is it going to rain on Saturday?
+# text TAT: Шимбә көнне яңгыр булырмы?
+# intent: weather/find
+# slots: 1:11:datetime, 13:17:weather/attribute
+1	Шимбә	weather/find	B-datetime
+2	көнне	weather/find	I-datetime
+3	яңгыр	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_117
+# annotator: Alsu
+# text EN: Set alarm for 5 am
+# text TAT: Будильникны иртәнге 5 куй
+# intent: alarm/set_alarm
+# slots: 13:21:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	5	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_118
+# annotator: Alsu
+# text EN: Will I need a coat today?
+# text TAT: Бүген миңа пәлтә кирәкме?
+# intent: weather/find
+# slots: 1:5:datetime, 12:16:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	миңа	weather/find	O
+3	пәлтә	weather/find	B-weather/attribute
+4	кирәкме	weather/find	O
+5	?	weather/find	O
+
+# id: valid_119
+# annotator: Alsu
+# text EN: turn off alarm
+# text TAT: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_120
+# annotator: Alsu
+# text EN: What weather warnings do I have?
+# text TAT: Минем һава торышы турында нинди кисәтүләр бар?
+# intent: weather/find
+# slots: 33:41:weather/attribute
+5	Минем	weather/find	O
+2	һава	weather/find	O
+2	торышы	weather/find	O
+4	турында	weather/find	O
+1	нинди	weather/find	O
+3	кисәтүләр	weather/find	B-weather/attribute
+7	бар	weather/find	O
+7	?	weather/find	O
+
+# id: valid_121
+# annotator: Alsu
+# text EN: Cancel the reminder for the meeting at the lodge
+# text TAT: Лоджада очрашу турында хәтерләтүне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:14:reminder/todo
+1	Лоджада	reminder/cancel_reminder	B-reminder/todo
+2	очрашу	reminder/cancel_reminder	I-reminder/todo
+3	турында	reminder/cancel_reminder	O
+4	хәтерләтүне	reminder/cancel_reminder	O
+5	бетер	reminder/cancel_reminder	O
+
+# id: valid_122
+# annotator: Alsu
+# text EN: Should I wear a coat today
+# text TAT: Бүген миңа пәлтә кияргә кирәкме
+# intent: weather/find
+# slots: 1:5:datetime, 12:16:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	миңа	weather/find	O
+3	пәлтә	weather/find	B-weather/attribute
+4	кияргә	weather/find	O
+5	кирәкме	weather/find	O
+
+# id: valid_123
+# annotator: Alsu
+# text EN: Turn off all alarms.
+# text TAT: Бөтен будильникларны сүндер.
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	Бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	сүндер	alarm/cancel_alarm	O
+5	.	alarm/cancel_alarm	O
+
+# id: valid_124
+# annotator: Alsu
+# text EN: show all alarms
+# text TAT: бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	бөтен	reminder/show_reminders	B-reference
+2	будильникларны	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_125
+# annotator: Alsu
+# text EN: Make a new alarm for Thursday at 1pm.
+# text TAT: Пәнҗешәмбе көнне сәгать 13-тә яңы будильникны куй.
+# intent: alarm/set_alarm
+# slots: 1:29:datetime
+1	Пәнҗешәмбе	alarm/set_alarm	B-datetime
+2	көнне	alarm/set_alarm	I-datetime
+3	сәгать	alarm/set_alarm	I-datetime
+4	13-тә	alarm/set_alarm	I-datetime
+5	яңы	alarm/set_alarm	O
+6	будильникны	alarm/set_alarm	O
+7	куй	alarm/set_alarm	O
+8	.	alarm/set_alarm	O
+
+# id: valid_126
+# annotator: Alsu
+# text EN: Remind me to go to the dentist next Monday.
+# text TAT: Киләсе дүшәмбе көнне теш табибына барырга исемә төшер.
+# intent: reminder/set_reminder
+# slots: 1:20:datetime, 22:41:reminder/todo
+1	Киләсе	reminder/set_reminder	B-datetime
+2	дүшәмбе	reminder/set_reminder	I-datetime
+3	көнне	reminder/set_reminder	I-datetime
+4	теш	reminder/set_reminder	B-reminder/todo
+5	табибына	reminder/set_reminder	I-reminder/todo
+6	барырга	reminder/set_reminder	I-reminder/todo
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+9	.	reminder/set_reminder	O
+
+# id: valid_127
+# annotator: Alsu
+# text EN: should I bring an umbrella today
+# text TAT: мин кул чатырны бүген алыйммы
+# intent: weather/find
+# slots: 5:15:weather/attribute, 17:21:datetime
+1	мин	weather/find	O
+2	кул	weather/find	B-weather/attribute
+3	чатырны	weather/find	I-weather/attribute
+4	бүген	weather/find	B-datetime
+5	алыйммы	weather/find	O
+
+# id: valid_128
+# annotator: Alsu
+# text EN: how is the weather this week?
+# text TAT: бу атнада һава торышы нинди?
+# intent: weather/find
+# slots: 1:9:datetime
+1	бу	weather/find	B-datetime
+2	атнада	weather/find	I-datetime
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	нинди	weather/find	O
+6	?	weather/find	O
+
+# id: valid_129
+# annotator: Alsu
+# text EN: is it below freezing today?
+# text TAT: бүген температура нульдән түбәнме?
+# intent: weather/find
+# slots: 1:5:datetime, 7:33:weather/attribute
+1	бүген	weather/find	B-datetime
+2	температура	weather/find	B-weather/attribute
+3	нульдән	weather/find	I-weather/attribute
+4	түбәнме	weather/find	I-weather/attribute
+5	?	weather/find	O
+
+# id: valid_130
+# annotator: Alsu
+# text EN: Delete all reminders
+# text TAT: Бөтен хәтерләтүләрне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference
+1	Бөтен	reminder/cancel_reminder	B-reference
+2	хәтерләтүләрне	reminder/cancel_reminder	O
+3	бетер	reminder/cancel_reminder	O
+
+# id: valid_131
+# annotator: Alsu
+# text EN: Is it going to rain today?
+# text TAT: Бүген яңгыр явырмы?
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	яңгыр	weather/find	B-weather/attribute
+3	явырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_132
+# annotator: Alsu
+# text EN: Will it rain this weekend?
+# text TAT: Бу ял көннәрендә яңгыр булырмы?
+# intent: weather/find
+# slots: 1:16:datetime, 18:22:weather/attribute
+1	Бу	weather/find	B-datetime
+2	ял	weather/find	I-datetime
+3	көннәрендә	weather/find	I-datetime
+4	яңгыр	weather/find	B-weather/attribute
+5	булырмы	weather/find	O
+6	?	weather/find	O
+
+# id: valid_133
+# annotator: Alsu
+# text EN: Set reminder for mom's visit next week
+# text TAT: Киләсе атнада әни килүен исемә төшер
+# intent: reminder/set_reminder
+# slots: 1:13:datetime, 15:24:reminder/todo
+1	Киләсе	reminder/set_reminder	B-datetime
+2	атнада	reminder/set_reminder	I-datetime
+3	әни	reminder/set_reminder	B-reminder/todo
+4	килүен	reminder/set_reminder	I-reminder/todo
+5	искә	reminder/set_reminder	O
+6	төшер	reminder/set_reminder	O
+
+# id: valid_134
+# annotator: Alsu
+# text EN: Will it snow tomorrow?
+# text TAT: Иртәгә кар явармы?
+# intent: weather/find
+# slots: 1:6:datetime, 8:10:weather/attribute
+1	Иртәгә	weather/find	B-datetime
+2	кар	weather/find	B-weather/attribute
+3	явармы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_135
+# annotator: Alsu
+# text EN: show all reminders
+# text TAT: бөтен хәтерләтүләрне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	бөтен	reminder/show_reminders	B-reference
+2	хәтерләтүләрне	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_136
+# annotator: Alsu
+# text EN: Do I need a coat today?
+# text TAT: Миңа бүген пәлтә кирәкме?
+# intent: weather/find
+# slots: 6:10:datetime, 12:16:weather/attribute
+1	Миңа	weather/find	O
+2	бүген	weather/find	B-datetime
+3	пәлтә	weather/find	B-weather/attribute
+4	кирәкме	weather/find	O
+5	?	weather/find	O
+
+# id: valid_137
+# annotator: Alsu
+# text EN: is it going to snow thursday
+# text TAT: пәнҗешәмбе көнне кар булырмы
+# intent: weather/find
+# slots: 1:16:datetime, 18:20:weather/attribute
+1	пәнҗешәмбе	weather/find	B-datetime
+2	көнне	weather/find	I-datetime
+3	кар	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+
+# id: valid_138
+# annotator: Alsu
+# text EN: Remind me to buy coffee at Starbucks this afternoon
+# text TAT: Бүген көндез Starbucks-та кофе сатып алырга исемә төшер
+# intent: reminder/set_reminder
+# slots: 1:12:datetime, 14:43:reminder/todo
+1	Бүген	reminder/set_reminder	B-datetime
+2	көндез	reminder/set_reminder	I-datetime
+3	Starbucks-та	reminder/set_reminder	B-reminder/todo
+4	кофе	reminder/set_reminder	I-reminder/todo
+5	сатып	reminder/set_reminder	I-reminder/todo
+6	алырга	reminder/set_reminder	I-reminder/todo
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+
+# id: valid_139
+# annotator: Alsu
+# text EN: Set an alarm for every ten minutes, starting at 5:30 and ending at 6 am.
+# text TAT: Будильникны 5:30-дан башлап иртәнге 6-га кадәр ун минут саен куй.
+# intent: alarm/set_alarm
+# slots: 13:60:recurring_datetime
+1	Будильникны	alarm/set_alarm	O
+2	5:30-дан	alarm/set_alarm	B-recurring_datetime
+3	башлап	alarm/set_alarm	I-recurring_datetime
+4	иртәнге	alarm/set_alarm	I-recurring_datetime
+5	6-га	alarm/set_alarm	I-recurring_datetime
+6	кадәр	alarm/set_alarm	I-recurring_datetime
+7	ун	alarm/set_alarm	I-recurring_datetime
+8	минут	alarm/set_alarm	I-recurring_datetime
+9	саен	alarm/set_alarm	I-recurring_datetime
+10	куй	alarm/set_alarm	O
+11	.	alarm/set_alarm	O
+
+# id: valid_140
+# annotator: Alsu
+# text EN: Is it going to rain on Saturday?
+# text TAT: Шимбә көнне яңгыр булырмы?
+# intent: weather/find
+# slots: 1:5:datetime, 13:17:weather/attribute
+1	Шимбә	weather/find	B-datetime
+2	көнне	weather/find	O
+3	яңгыр	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_141
+# annotator: Alsu
+# text EN: Set eh alarm to 7:20am for the shoe release.
+# text TAT: Аяк киеме җитештерү өчен иртәнге 7:20 сәгатькә будильникны куй.
+# intent: alarm/set_alarm
+# slots: 1:19:reminder/todo, 26:7:datetime
+1	Аяк	alarm/set_alarm	B-reminder/todo
+2	киеме	alarm/set_alarm	I-reminder/todo
+3	җитештерү	alarm/set_alarm	I-reminder/todo
+4	өчен	alarm/set_alarm	O
+5	иртәнге	alarm/set_alarm	B-datetime
+6	7:20	alarm/set_alarm	I-datetime
+7	сәгатькә	alarm/set_alarm	I-datetime
+8	будильникны	alarm/set_alarm	O
+9	куй	alarm/set_alarm	O
+10	.	alarm/set_alarm	O
+
+# id: valid_142
+# annotator: Alsu
+# text EN: Will there be storms in Bordentown today
+# text TAT: Бүген Бордентаунда бураннар булырмы
+# intent: weather/find
+# slots: 1:5:datetime, 7:18:location, 20:27:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	Бордентаунда	weather/find	B-location
+3	бураннар	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+
+# id: valid_143
+# annotator: Alsu
+# text EN: what is the current temperature
+# text TAT: хәзер температура нинди
+# intent: weather/find
+# slots: 1:5:datetime, 7:17:weather/attribute
+1	хәзер	weather/find	B-datetime
+2	температура	weather/find	B-weather/attribute
+3	нинди	weather/find	O
+
+# id: valid_144
+# annotator: Alsu
+# text EN: remind me to make Dan's lunch at 7:30am tomorrow.
+# text TAT: иртәгә иртәнге 7:30-да Данга төш әзерләгә исемә төшер.
+# intent: reminder/set_reminder
+# slots: 1:22:datetime, 24:41:reminder/todo
+1	иртәгә	reminder/set_reminder	B-datetime
+2	иртәнге	reminder/set_reminder	I-datetime
+3	7:30-да	reminder/set_reminder	I-datetime
+4	Данга	reminder/set_reminder	B-reminder/todo
+5	төш	reminder/set_reminder	I-reminder/todo
+6	әзерләгә	reminder/set_reminder	I-reminder/todo
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+9	.	reminder/set_reminder	O
+
+# id: valid_145
+# annotator: Alsu
+# text EN: Set alarm for 6:30am tomorrow.
+# text TAT: Иртәгә иртәнге 6:30-да будильникны куй.
+# intent: alarm/set_alarm
+# slots: 1:6:datetime
+1	Иртәгә	alarm/set_alarm	B-datetime
+2	иртәнге	alarm/set_alarm	I-datetime
+3	6:30-да	alarm/set_alarm	I-datetime
+4	будильникны	alarm/set_alarm	O
+5	куй	alarm/set_alarm	O
+6	.	alarm/set_alarm	O
+
+# id: valid_146
+# annotator: Alsu
+# text EN: Do I have any reminders set?
+# text TAT: Минем хәтерләтүләрем бармы?
+# intent: reminder/show_reminders
+# slots: 
+1	Минем	reminder/show_reminders	O
+2	хәтерләтүләрем	reminder/show_reminders	O
+3	бармы	reminder/show_reminders	O
+4	?	reminder/show_reminders	O
+
+# id: valid_147
+# annotator: Alsu
+# text EN: Is my dentist appointment in my reminder ?
+# text TAT: Минем хәтерләтүне теш табибыма бару турында язма бармы ?
+# intent: reminder/show_reminders
+# slots: 1:5:reference, 19:35:reminder/todo
+1	Минем	reminder/show_reminders	B-reference
+2	хәтерләтүне	reminder/show_reminders	O
+3	теш	reminder/show_reminders	B-reminder/todo
+4	табибыма	reminder/show_reminders	I-reminder/todo
+5	бару	reminder/show_reminders	I-reminder/todo
+6	турында	reminder/show_reminders	O
+7	язма	reminder/show_reminders	O
+8	бармы	reminder/show_reminders	O
+9	?	reminder/show_reminders	O
+
+# id: valid_148
+# annotator: Alsu
+# text EN: when will it stop raining?
+# text TAT: Яңгыр кайчан туктар?
+# intent: weather/find
+# slots: 1:5:weather/attribute
+1	Яңгыр	weather/find	B-weather/attribute
+2	кайчан	weather/find	O
+3	туктар	weather/find	O
+4	?	weather/find	O
+
+# id: valid_149
+# annotator: Alsu
+# text EN: Is it going to snow this week?
+# text TAT: Бу атнада кар булырмы?
+# intent: weather/find
+# slots: 1:9:datetime, 11:13:weather/attribute
+1	Бу	weather/find	B-datetime
+2	атнада	weather/find	I-datetime
+3	кар	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_150
+# annotator: Alsu
+# text EN: turn off alarm
+# text TAT: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_151
+# annotator: Alsu
+# text EN: I would give Half a Life 3 out of 6
+# text TAT: Мин Half a Life-ка 6-дан 3 куяр идем
+# intent: RateBook
+# slots: 5:18:object_name, 20:24:best_rating, 26:26:rating_value
+1	Мин	RateBook	O
+2	Half	RateBook	B-object_name
+3	a	RateBook	I-object_name
+4	Life-ка	RateBook	I-object_name
+5	6-дан	RateBook	B-best_rating
+6	3	RateBook	B-rating_value
+7	куяр	RateBook	O
+8	идем	RateBook	O
+
+# id: valid_152
+# annotator: Alsu
+# text EN: Play some Mf Doom from the sixties on pandora .
+# text TAT: Pandora-да алтмышынчы еллардагы Mf Doom-ны уйнат .
+# intent: PlayMusic
+# slots: 1:10:service, 12:31:datetime, 33:42:artist
+1	Pandora-да	PlayMusic	B-service
+2	алтмышынчы	PlayMusic	B-datetime
+3	еллардагы	PlayMusic	I-datetime
+4	уйнат	PlayMusic	O
+5	some	PlayMusic	O
+6	Mf	PlayMusic	B-artist
+7	Doom-ны	PlayMusic	I-artist
+8	from	PlayMusic	O
+9	the	PlayMusic	O
+10	.	PlayMusic	O
+
+# id: valid_153
+# annotator: Alsu
+# text EN: Search for Chasing Fortune a TV series .
+# text TAT: Chasing Fortune телесериалны таб .
+# intent: SearchCreativeWork
+# slots: 1:15:object_name, 17:28:object_type
+1	Chasing	SearchCreativeWork	B-object_name
+2	Fortune	SearchCreativeWork	I-object_name
+3	телесериалны	SearchCreativeWork	B-object_type
+4	таб	SearchCreativeWork	O
+5	.	SearchCreativeWork	O
+
+# id: valid_154
+# annotator: Alsu
+# text EN: Play shadowplay by Dana on Deezer .
+# text TAT: Deezer-да Dana-ның shadowplay-ны уйнат .
+# intent: PlayMusic
+# slots: 1:9:service, 11:18:artist, 20:32:track
+1	Deezer-да	PlayMusic	B-service
+2	Dana-ның	PlayMusic	B-artist
+3	shadowplay-ны	PlayMusic	B-track
+4	уйнат	PlayMusic	O
+5	.	PlayMusic	O
+
+# id: valid_155
+# annotator: Alsu
+# text EN: me and imelda want a reservation in Missouri at seven am
+# text TAT: мин һәм имельда өстәлне иртәнге җидегә Миссурида броньларга телибез
+# intent: BookRestaurant
+# slots: 1:15:party_size_description, 25:38:datetime, 40:48:location
+1	мин	BookRestaurant	B-party_size_description
+2	һәм	BookRestaurant	I-party_size_description
+3	имельда	BookRestaurant	I-party_size_description
+4	өстәлне	BookRestaurant	O
+5	иртәнге	BookRestaurant	B-datetime
+6	җидегә	BookRestaurant	I-datetime
+7	Миссурида	BookRestaurant	B-location
+8	броньларга	BookRestaurant	O
+9	телибез	BookRestaurant	O
+
+# id: valid_156
+# annotator: Alsu
+# text EN: add bob klose to la mejor música para tus fiestas
+# text TAT: bob klose-ны la mejor música para tus fiestas-га өстә 
+# intent: AddToPlaylist
+# slots: 1:12:artist, 14:48:playlist
+1	bob	AddToPlaylist	B-artist
+2	klose-ны	AddToPlaylist	I-artist
+3	la	AddToPlaylist	B-playlist
+4	mejor	AddToPlaylist	I-playlist
+5	música	AddToPlaylist	I-playlist
+6	para	AddToPlaylist	I-playlist
+7	tus	AddToPlaylist	I-playlist
+8	fiestas-га	AddToPlaylist	I-playlist
+9	өстә	AddToPlaylist	O
+
+# id: valid_157
+# annotator: Alsu
+# text EN: play Luis Alfonzo Larrain from 1995
+# text TAT: 1995-енче елгы Luis Alfonzo Larrain-ны уйнат
+# intent: PlayMusic
+# slots: 1:9:datetime, 16:38:artist
+1	1995-енче	PlayMusic	B-datetime
+2	елгы	PlayMusic	O
+3	Luis	PlayMusic	B-artist
+4	Alfonzo	PlayMusic	I-artist
+5	Larrain-ны	PlayMusic	I-artist
+6	уйнат	PlayMusic	O
+
+# id: valid_158
+# annotator: Alsu
+# text EN: What will the weather be like in the Bahamas eleven years and a half from now
+# text TAT: Унбер ел ярымнан соң Багамда һава торышы нинди булыр
+# intent: weather/find
+# slots: 1:20:datetime, 22:28:location
+1	Унбер	weather/find	B-datetime
+2	ел	weather/find	I-datetime
+3	ярымнан	weather/find	I-datetime
+4	соң	weather/find	I-datetime
+5	Багамда	weather/find	B-location
+6	һава	weather/find	O
+7	торышы	weather/find	O
+8	нинди	weather/find	O
+9	булыр	weather/find	O
+
+# id: valid_159
+# annotator: Alsu
+# text EN: What will the weather be like in Arizona on october the 3rd
+# text TAT: 3-енче октябрьдә Аризонада һава торышы нинди булыр
+# intent: weather/find
+# slots: 1:16:datetime, 18:26:location
+1	3-енче	weather/find	B-datetime
+2	октябрьдә	weather/find	I-datetime
+3	Аризонада	weather/find	B-location
+4	һава	weather/find	O
+5	торышы	weather/find	O
+6	нинди	weather/find	O
+7	булыр	weather/find	O
+
+# id: valid_160
+# annotator: Alsu
+# text EN: Play opera music on google music
+# text TAT: Google music-та opera музыкасын уйнат
+# intent: PlayMusic
+# slots: 1:15:service, 17:21:genre
+1	Google	PlayMusic	B-service
+2	music-та	PlayMusic	I-service
+3	opera	PlayMusic	B-genre
+4	музыкасын	PlayMusic	O
+5	уйнат	PlayMusic	O
+
+# id: valid_161
+# annotator: Alsu
+# text EN: find Vegucated starting at zero pm
+# text TAT: көндез сәгать уникедән башлап Vegucated-ны таб
+# intent: SearchScreeningEvent
+# slots: 1:29:datetime, 31:42:movie_name
+1	көндез	SearchScreeningEvent	B-datetime
+2	сәгать	SearchScreeningEvent	I-datetime
+3	уникедән	SearchScreeningEvent	I-datetime
+4	башлап	SearchScreeningEvent	I-datetime
+5	Vegucated-ны	SearchScreeningEvent	B-movie_name
+6	таб	SearchScreeningEvent	O
+
+# id: valid_162
+# annotator: Alsu
+# text EN: Give the current novel a 3 out of 6 rating
+# text TAT: Хәзерге романга 6-дан 3 балл бир
+# intent: RateBook
+# slots: 1:7:object_select, 9:15:object_type, 17:21:best_rating, 23:23:rating_value
+1	Хәзерге	RateBook	B-object_select
+2	романга	RateBook	B-object_type
+3	6-дан	RateBook	B-best_rating
+4	3	RateBook	B-rating_value
+5	балл	RateBook	O
+6	бир	RateBook	O
+
+# id: valid_163
+# annotator: Alsu
+# text EN: I'd like to add this album to funtime .
+# text TAT: Мин бу альбомны funtime-га өстәргә телим .
+# intent: AddToPlaylist
+# slots: 8:15:music_item, 17:26:playlist
+1	Мин	AddToPlaylist	O
+2	бу	AddToPlaylist	O
+3	альбомны	AddToPlaylist	B-music_item
+4	funtime-га	AddToPlaylist	B-playlist
+5	өстәргә	AddToPlaylist	O
+6	телим	AddToPlaylist	O
+7	.	AddToPlaylist	O
+
+# id: valid_164
+# annotator: Alsu
+# text EN: I need a table for 4 at a restaurant around 0 AM .
+# text TAT: Миңа төнге нульдә тирәсендә ресторанда дүрт кешелек өстәл кирәк .
+# intent: BookRestaurant
+# slots: 6:17:datetime, 29:38:restaurant_type, 40:43:party_size_number
+1	Миңа	BookRestaurant	O
+2	төнге	BookRestaurant	B-datetime
+3	нульдә	BookRestaurant	I-datetime
+4	тирәсендә	BookRestaurant	O
+5	ресторанда	BookRestaurant	B-restaurant_type
+6	дүрт	BookRestaurant	B-party_size_number
+7	кешелек	BookRestaurant	O
+8	өстәл	BookRestaurant	O
+9	кирәк	BookRestaurant	O
+10	.	BookRestaurant	O
+
+# id: valid_165
+# annotator: Alsu
+# text EN: find the picture Louder Than Bombs
+# text TAT: Louder Than Bombs рәсемен таб
+# intent: SearchCreativeWork
+# slots: 1:17:object_name, 19:25:object_type
+1	Louder	SearchCreativeWork	B-object_name
+2	Than	SearchCreativeWork	I-object_name
+3	Bombs	SearchCreativeWork	I-object_name
+4	рәсемен	SearchCreativeWork	B-object_type
+5	таб	SearchCreativeWork	O
+
+# id: valid_166
+# annotator: Alsu
+# text EN: Give 2 out of 6 points to A Tale of Time City
+# text TAT: A Tale of Time City-га 6 баллдан 2 бир
+# intent: RateBook
+# slots: 1:22:object_name, 24:24:best_rating, 26:32:rating_unit, 34:34:rating_value
+1	A	RateBook	B-object_name
+2	Tale	RateBook	I-object_name
+3	of	RateBook	I-object_name
+4	Time	RateBook	I-object_name
+5	City-га	RateBook	I-object_name
+6	6	RateBook	B-best_rating
+7	баллдан	RateBook	B-rating_unit
+8	2	RateBook	B-rating_value
+9	бир	RateBook	O
+
+# id: valid_167
+# annotator: Alsu
+# text EN: add this current book five stars
+# text TAT: бу хәзерге китапка биш йолдыз өстә
+# intent: RateBook
+# slots: 4:10:object_select, 12:18:object_type, 20:22:rating_value, 24:29:rating_unit
+1	бу	RateBook	O
+2	хәзерге	RateBook	B-object_select
+3	китапка	RateBook	B-object_type
+4	биш	RateBook	B-rating_value
+5	йолдыз	RateBook	B-rating_unit
+6	өстә	RateBook	O
+
+# id: valid_168
+# annotator: Alsu
+# text EN: add track 70s smash hits to my
+# text TAT: 70s smash hits трегын миңа өстә
+# intent: AddToPlaylist
+# slots: 1:14:playlist, 16:21:music_item, 23:26:reference
+1	70s	AddToPlaylist	B-playlist
+2	smash	AddToPlaylist	I-playlist
+3	hits	AddToPlaylist	I-playlist
+4	трегын	AddToPlaylist	B-music_item
+5	миңа	AddToPlaylist	B-reference
+6	өстә	AddToPlaylist	O
+
+# id: valid_169
+# annotator: Alsu
+# text EN: book near Montana restaurant serving sri lankan food for 6 that is highly rated on tues.
+# text TAT: сишәмбе көнне Монтана янында югары бәяләнгән шри ланка аш-суы ресторанында 6 кешелек өстәл броньны яса.
+# intent: BookRestaurant
+# slots: 1:13:datetime, 15:21:location, 23:28:location, 30:44:sort, 46:54:cuisine, 63:74:restaurant_type, 76:76:party_size_number
+1	сишәмбе	BookRestaurant	B-datetime
+2	көнне	BookRestaurant	I-datetime
+3	Монтана	BookRestaurant	B-location
+4	янында	BookRestaurant	B-location
+5	югары	BookRestaurant	B-sort
+6	бәяләнгән	BookRestaurant	I-sort
+7	шри	BookRestaurant	B-cuisine
+8	ланка	BookRestaurant	I-cuisine
+9	аш-суы	BookRestaurant	O
+10	ресторанында	BookRestaurant	B-restaurant_type
+11	6	BookRestaurant	B-party_size_number
+12	кешелек	BookRestaurant	O
+13	өстәл	BookRestaurant	O
+14	заказать	BookRestaurant	O
+15	ит	BookRestaurant	O
+16	.	BookRestaurant	O
+
+# id: valid_170
+# annotator: Alsu
+# text EN: Book me a lunch at Boreas for a party of 8
+# text TAT: Миңа Boreas-тан 8 кешедән торган кичәгә төшке аш заказ ит
+# intent: BookRestaurant
+# slots: 6:15:restaurant_name, 17:17:party_size_number, 41:48:datetime
+1	Миңа	BookRestaurant	O
+2	Boreas-тан	BookRestaurant	B-restaurant_name
+3	8	BookRestaurant	B-party_size_number
+4	кешедән	BookRestaurant	O
+5	торган	BookRestaurant	O
+6	кичәгә	BookRestaurant	O
+7	төшке	BookRestaurant	B-datetime
+8	аш	BookRestaurant	I-datetime
+9	заказ	BookRestaurant	O
+10	ит	BookRestaurant	O
+
+# id: valid_171
+# annotator: Alsu
+# text EN: Please put another tune into the laundry playlist.
+# text TAT: Зинһар, laundry плейлистында бүтән көй кабыз.
+# intent: AddToPlaylist
+# slots: 9:15:playlist, 36:38:music_item
+1	Зинһар	AddToPlaylist	O
+2	,	AddToPlaylist	O
+7	laundry	AddToPlaylist	B-playlist
+8	плейлистында	AddToPlaylist	O
+3	бүтән	AddToPlaylist	O
+4	көй	AddToPlaylist	B-music_item
+5	кабыз	AddToPlaylist	O
+6	.	AddToPlaylist	O
+
+# id: valid_172 *
+# annotator: Alsu
+# text EN: what is the PW forecast for stormy weather
+# text TAT: давыллы һава торышы өчен PW-дан фаразы нинди
+# intent: weather/find
+# slots: 1:7:condition_description, 26:27:location
+1	давыллы	weather/find	B-condition_description
+2	һава	weather/find	O
+3	торышы	weather/find	O
+4	өчен	weather/find	O
+5	PW	weather/find	B-location
+6	фаразы	weather/find	O
+7	нинди	weather/find	O
+
+# id: valid_173
+# annotator: Alsu
+# text EN: What is the predicted weather for my current spot next month ?
+# text TAT: Киләсе айда минем хәзерге урынымда һава торышы нинди ?
+# intent: weather/find
+# slots: 1:11:datetime, 19:34:location
+10	Киләсе	weather/find	B-datetime
+11	айда	weather/find	I-datetime
+7	минем	weather/find	O
+8	хәзерге	weather/find	B-location
+9	урынымда	weather/find	I-location
+2	һава	weather/find	O
+3	торышы	weather/find	O
+4	нинди	weather/find	O
+12	?	weather/find	O
+
+# id: valid_174 *
+# annotator: Alsu
+# text EN: Book a reservation for 1 on march 17
+# text TAT: 17 мартка бер кешегә бронь яса
+# intent: BookRestaurant
+# slots: 1:9:datetime, 11:13:party_size_number
+1	17	BookRestaurant	B-datetime
+2	мартка	BookRestaurant	I-datetime
+3	бер	BookRestaurant	B-party_size_number
+4	кешегә	BookRestaurant	O
+5	бронь	BookRestaurant	O
+6	яса	BookRestaurant	O
+
+# id: valid_175
+# annotator: Alsu
+# text EN: The current album gets three out of 6 points
+# text TAT: Хәзерге альбом 6 баллдан өч алды
+# intent: RateBook
+# slots: 1:7:object_select, 9:14:object_type, 16:16:best_rating, 18:24:rating_unit, 26:27:rating_value
+1	Хәзерге	RateBook	B-object_select
+2	альбом	RateBook	B-object_type
+3	6	RateBook	B-best_rating
+4	баллдан	RateBook	B-rating_unit
+5	өч	RateBook	B-rating_value
+6	алды	RateBook	O
+
+# id: valid_176 *
+# annotator: Alsu
+# text EN: Add the Nastya Kamenskih song to my The Martin Garrix Show playlist.
+# text TAT: Настя Каменскихның җырын минем The Martin Garrix Show плейлистыма өстә.
+# intent: AddToPlaylist
+# slots: 1:18:artist, 20:24:music_item, 26:30:reference, 32:53:playlist
+1	Настя	AddToPlaylist	B-artist
+2	Каменскихның	AddToPlaylist	I-artist
+3	җырын	AddToPlaylist	B-music_item
+4	минем	AddToPlaylist	B-reference
+5	The	AddToPlaylist	B-playlist
+6	Martin	AddToPlaylist	I-playlist
+7	Garrix	AddToPlaylist	I-playlist
+8	Show	AddToPlaylist	I-playlist
+9	плейлистыма	AddToPlaylist	O
+10	өстә	AddToPlaylist	O
+11	.	AddToPlaylist	O
+
+# id: valid_177
+# annotator: Alsu
+# text EN: Wish to hear the album Since I Saw You Last
+# text TAT: Since I Saw You Last альбомын тыңларга телим
+# intent: SearchCreativeWork
+# slots: 1:20:object_name, 22:29:object_type
+1	Since	SearchCreativeWork	B-object_name
+2	I	SearchCreativeWork	I-object_name
+3	Saw	SearchCreativeWork	I-object_name
+4	You	SearchCreativeWork	I-object_name
+5	Last	SearchCreativeWork	I-object_name
+6	альбомын	SearchCreativeWork	B-object_type
+7	тыңларга	SearchCreativeWork	O
+8	телим	SearchCreativeWork	O
+
+# id: valid_178
+# annotator: Alsu
+# text EN: play top tunes by Joseph Utsler
+# text TAT: Джозеф Уистлерның иң яхшы көйләрен кабыз
+# intent: PlayMusic
+# slots: 1:17:artist, 19:25:sort
+1	Джозеф	PlayMusic	B-artist
+2	Уистлерның	PlayMusic	I-artist
+3	иң	PlayMusic	B-sort
+4	яхшы	PlayMusic	I-sort
+5	көйләрен	PlayMusic	O
+6	кабыз	PlayMusic	O
+
+# id: valid_179
+# annotator: Alsu
+# text EN: Find the schedule for Ghost World .
+# text TAT: Ghost World графигын таб .
+# intent: SearchScreeningEvent
+# slots: 1:11:movie_name, 13:20:object_type
+1	Ghost	SearchScreeningEvent	B-movie_name
+2	World	SearchScreeningEvent	I-movie_name
+3	графигын	SearchScreeningEvent	B-object_type
+4	таб	SearchScreeningEvent	O
+5	.	SearchScreeningEvent	O
+
+# id: valid_180
+# annotator: Alsu
+# text EN: I want to listen to a concerto from Timour Moutsouraev .
+# text TAT: Мин Тимур Муцураев концертын тыңларга телим .
+# intent: PlayMusic
+# slots: 5:18:artist, 20:28:music_item
+1	Мин	PlayMusic	O
+2	Тимур	PlayMusic	B-artist
+3	Муцураев	PlayMusic	I-artist
+4	концертын	PlayMusic	B-music_item
+5	тыңларга	PlayMusic	O
+6	телим	PlayMusic	O
+7	.	PlayMusic	O
+
+# id: valid_181
+# annotator: Alsu
+# text EN: play the album Everybody Happy by Lee Aaron
+# text TAT: Ли Ааронның Everybody Happy альбомын уйнат
+# intent: PlayMusic
+# slots: 1:11:artist, 13:27:album, 29:36:music_item
+1	Ли	PlayMusic	B-artist
+2	Ааронның	PlayMusic	I-artist
+3	Everybody	PlayMusic	B-album
+4	Happy	PlayMusic	I-album
+5	альбомын	PlayMusic	B-music_item
+6	уйнат	PlayMusic	O
+
+# id: valid_182
+# annotator: Alsu
+# text EN: play Fereydoun Farrokhzad best track
+# text TAT: Ферейдун Фаррохзадның иң яхшы трекын уйнат
+# intent: PlayMusic
+# slots: 1:21:artist, 23:29:sort, 31:36:music_item
+1	Ферейдун	PlayMusic	B-artist
+2	Фаррохзадның	PlayMusic	I-artist
+3	иң	PlayMusic	B-sort
+4	яхшы	PlayMusic	I-sort
+5	трекын	PlayMusic	B-music_item
+6	уйнат	PlayMusic	O
+
+# id: valid_183
+# annotator: Alsu
+# text EN: rate the current book three stars
+# text TAT: хәзерге китапка өч йолдыз куй
+# intent: RateBook
+# slots: 1:7:object_select, 9:15:object_type, 17:18:rating_value, 20:25:rating_unit
+1	хәзерге	RateBook	B-object_select
+2	китапка	RateBook	B-object_type
+3	өч	RateBook	B-rating_value
+4	йолдыз	RateBook	B-rating_unit
+5	куй	RateBook	O
+
+# id: valid_184
+# annotator: Alsu
+# text EN: What will the weather be in Meeres-Nationalpark Insel Bastimentos at twelve PM ?
+# text TAT: Көндезге 12-де Бастиментоста нинди һава торышы булачак ?
+# intent: weather/find
+# slots: 1:14:datetime, 16:28:location
+1	Көндезге	weather/find	B-datetime
+2	12-де	weather/find	I-datetime
+3	Бастиментоста	weather/find	B-location
+4	нинди	weather/find	O
+5	һава	weather/find	O
+6	торышы	weather/find	O
+7	булачак	weather/find	O
+8	?	weather/find	O
+
+# id: valid_185
+# annotator: Alsu
+# text EN: Book a table for 10 people at a restaurant which offers internet .
+# text TAT: Интернет булган ресторанда 10 кешелек өстәл броньла .
+# intent: BookRestaurant
+# slots: 1:8:facility, 17:26:restaurant_type, 28:29:party_size_number
+1	Интернет	BookRestaurant	B-facility
+2	булган	BookRestaurant	O
+3	ресторанда	BookRestaurant	B-restaurant_type
+4	10	BookRestaurant	B-party_size_number
+5	кешелек	BookRestaurant	O
+6	өстәл	BookRestaurant	O
+7	броньла	BookRestaurant	O
+8	.	BookRestaurant	O
+
+# id: valid_186
+# annotator: Alsu
+# text EN: give five points to The Tenor Wore Tapshoes
+# text TAT: The Tenor Wore Tapshoes-ка биш балл бир
+# intent: RateBook
+# slots: 1:26:object_name, 28:30:rating_value, 32:35:rating_unit
+1	to	RateBook	O
+2	The	RateBook	B-object_name
+3	Tenor	RateBook	I-object_name
+4	Wore	RateBook	I-object_name
+5	Tapshoes-ка	RateBook	I-object_name
+6	бир	RateBook	O
+7	биш	RateBook	B-rating_value
+8	балл	RateBook	B-rating_unit
+
+# id: valid_187
+# annotator: Alsu
+# text EN: Play a tune by Houston on Spotify
+# text TAT: Spotify-да Хьюстон көйен уйнат
+# intent: PlayMusic
+# slots: 1:10:service, 12:18:artist, 20:24:music_item
+1	Spotify-да	PlayMusic	B-service
+2	Хьюстон	PlayMusic	B-artist
+3	көйен	PlayMusic	B-music_item
+4	уйнат	PlayMusic	O
+
+# id: valid_188
+# annotator: Alsu
+# text EN: find a movie theatre with Life and Death
+# text TAT: Life and Death белән кинотеатр таб
+# intent: SearchScreeningEvent
+# slots: 1:14:movie_name, 22:30:object_location_type
+1	Life	SearchScreeningEvent	B-movie_name
+2	and	SearchScreeningEvent	I-movie_name
+3	Death	SearchScreeningEvent	I-movie_name
+4	белән	SearchScreeningEvent	O
+5	кинотеатр	SearchScreeningEvent	B-object_location_type
+6	таб	SearchScreeningEvent	O
+
+# id: valid_189
+# annotator: Alsu
+# text EN: Play music from the playlist Get Your Mind Right
+# text TAT: Get Your Mind Right плейлистыннан музыка уйнат
+# intent: PlayMusic
+# slots: 1:19:playlist
+1	Get	PlayMusic	B-playlist
+2	Your	PlayMusic	I-playlist
+3	Mind	PlayMusic	I-playlist
+4	Right	PlayMusic	I-playlist
+5	плейлистыннан	PlayMusic	O
+6	музыка	PlayMusic	O
+7	уйнат	PlayMusic	O
+
+# id: valid_190
+# annotator: Alsu
+# text EN: book a table today at a steakhouse for eight that serves sashimi
+# text TAT: бүген стейк-хауста кайда сашими бар сигез кешелек өстәл броньла
+# intent: BookRestaurant
+# slots: 1:5:datetime, 7:18:restaurant_type, 26:31:served_dish, 37:41:party_size_number
+1	бүген	BookRestaurant	B-datetime
+2	стейк-хауста	BookRestaurant	B-restaurant_type
+3	кайда	BookRestaurant	O
+4	сашими	BookRestaurant	B-served_dish
+5	бар	BookRestaurant	O
+6	сигез	BookRestaurant	B-party_size_number
+7	кешелек	BookRestaurant	O
+8	өстәл	BookRestaurant	O
+9	броньла	BookRestaurant	O
+
+# id: valid_191
+# annotator: Alsu
+# text EN: find animated movies at Caribbean Cinemas
+# text TAT: Caribbean Cinemas-та анимация фильмнарын таб
+# intent: SearchScreeningEvent
+# slots: 1:20:location, 22:40:movie_type
+1	Caribbean	SearchScreeningEvent	B-location
+2	Cinemas-та	SearchScreeningEvent	I-location
+3	анимация	SearchScreeningEvent	B-movie_type
+4	фильмнарын	SearchScreeningEvent	I-movie_type
+5	таб	SearchScreeningEvent	O
+
+# id: valid_192
+# annotator: Alsu
+# text EN: Will there be a storm nearby
+# text TAT: Якында давыл булырмы
+# intent: weather/find
+# slots: 1:6:location, 8:12:condition_description
+1	Якында	weather/find	B-location
+2	давыл	weather/find	B-condition_description
+3	булырмы	weather/find	O
+
+# id: valid_193 *
+# annotator: Alsu
+# text EN: Play some melody from the eighties on Spotify
+# text TAT: Spotify-да сиксәненче еллардагы берәр көйен уйнат
+# intent: PlayMusic
+# slots: 1:10:service, 12:21:datetime, 39:43:music_item
+1	Spotify-да	PlayMusic	B-service
+2	сиксәненче	PlayMusic	B-datetime
+3	елларын	PlayMusic	O
+4	берәр	PlayMusic	O
+5	көйен	PlayMusic	B-music_item
+6	уйнат	PlayMusic	O
+
+# id: valid_194
+# annotator: Alsu
+# text EN: Where can I find The World According to Paris ?
+# text TAT: Кайда мин The World According to Paris-ны таба алам ?
+# intent: SearchCreativeWork
+# slots: 11:41:object_name
+1	Кайда	SearchCreativeWork	O
+2	мин	SearchCreativeWork	O
+3	The	SearchCreativeWork	B-object_name
+4	World	SearchCreativeWork	I-object_name
+5	According	SearchCreativeWork	I-object_name
+6	to	SearchCreativeWork	I-object_name
+7	Paris-ны	SearchCreativeWork	I-object_name
+8	таба	SearchCreativeWork	O
+9	алам	SearchCreativeWork	O
+10	?	SearchCreativeWork	O
+
+# id: valid_195
+# annotator: Alsu
+# text EN: Tell me when it will be hotter in China
+# text TAT: Кытайда кайчан эссерәк булачак әйт
+# intent: weather/find
+# slots: 1:7:location, 16:22:condition_temperature
+1	Кытайда	weather/find	B-location
+2	кайчан	weather/find	O
+3	эссерәк	weather/find	B-condition_temperature
+4	булачак	weather/find	O
+5	әйт	weather/find	O
+
+# id: valid_196
+# annotator: Alsu
+# text EN: What are the movie times for the Caribbean Cinemas ?
+# text TAT: Caribbean Cinemas-та кино вакытлары нинди ?
+# intent: SearchScreeningEvent
+# slots: 1:20:location, 22:35:object_type
+1	Caribbean	SearchScreeningEvent	B-location
+2	Cinemas-та	SearchScreeningEvent	I-location
+3	кино	SearchScreeningEvent	B-object_type
+4	вакытлары	SearchScreeningEvent	I-object_type
+5	нинди	SearchScreeningEvent	O
+6	?	SearchScreeningEvent	O
+
+# id: valid_197
+# annotator: Alsu
+# text EN: Will the wind die down at my current location by supper time?
+# text TAT: Кичке ашка минем хәзерге урынымда җил басылырмы?
+# intent: weather/find
+# slots: 1:10:datetime, 18:33:location, 35:37:condition_description
+1	Кичке	weather/find	B-datetime
+2	ашка	weather/find	I-datetime
+3	минем	weather/find	O
+4	хәзерге	weather/find	B-location
+5	урынымда	weather/find	I-location
+6	җил	weather/find	B-condition_description
+7	басылырмы	weather/find	O
+8	?	weather/find	O
+
+# id: valid_198 *
+# annotator: Alsu
+# text EN: Find me The Twinkler playing at National Amusements in 2 minutes
+# text TAT: Миңа National Amusements-енда ике минуттан башлана торган The Twinkler фильмны эзләп таб
+# intent: SearchScreeningEvent
+# slots: 31:5:datetime, 6:29:location, 59:10:movie_name
+1	Миңа	SearchScreeningEvent	O
+2	ике	SearchScreeningEvent	B-datetime
+3	минут	SearchScreeningEvent	I-datetime
+4	эчендә	SearchScreeningEvent	I-datetime
+5	National	SearchScreeningEvent	B-location
+6	Amusements-енда	SearchScreeningEvent	I-location
+7	The	SearchScreeningEvent	B-movie_name
+8	Twinkler-ны	SearchScreeningEvent	I-movie_name
+9	таб	SearchScreeningEvent	O
+
+# id: valid_199
+# annotator: Alsu
+# text EN: I give Hadon of Ancient Opar two out of 6 points
+# text TAT: Hadon of Ancient Opar-га 6-дан ике балл бирәм
+# intent: RateBook
+# slots: 1:24:object_name, 26:30:best_rating, 32:34:rating_value, 36:39:rating_unit
+1	Hadon	RateBook	B-object_name
+2	of	RateBook	I-object_name
+3	Ancient	RateBook	I-object_name
+4	Opar-га	RateBook	I-object_name
+5	6-дан	RateBook	B-best_rating
+6	ике	RateBook	B-rating_value
+7	балл	RateBook	B-rating_unit
+8	бирәм	RateBook	O
+
+# id: valid_200
+# annotator: Alsu
+# text EN: I'm looking to bring shawn, marguerite and della to a place to eat at near Rwanda .
+# text TAT: Мин шонны, маргаританы һәм делланы Руандадан ерак түгел җиргә ашарга алып килергә җыенам .
+# intent: BookRestaurant
+# slots: 5:34:party_size_description, 36:44:location, 46:55:location
+1	Мин	BookRestaurant	O
+2	шонны	BookRestaurant	B-party_size_description
+3	,	BookRestaurant	I-party_size_description
+4	маргаританы	BookRestaurant	I-party_size_description
+5	һәм	BookRestaurant	I-party_size_description
+6	делланы	BookRestaurant	I-party_size_description
+7	Руандадан	BookRestaurant	B-location
+8	ерак	BookRestaurant	B-location
+9	түгел	BookRestaurant	I-location
+10	җиргә	BookRestaurant	O
+11	ашарга	BookRestaurant	O
+12	алып	BookRestaurant	O
+13	килергә	BookRestaurant	O
+14	җыенам	BookRestaurant	O
+15	.	BookRestaurant	O
