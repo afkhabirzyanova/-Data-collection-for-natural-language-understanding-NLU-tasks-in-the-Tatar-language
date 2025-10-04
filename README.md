@@ -14,6 +14,8 @@
 
 `soyle_results_<w/m>_<age>.txt`
 
+**Где модель совершила ошибки можно посмотреть в [гугл папке по ссылке](https://drive.google.com/drive/folders/1-1UDtFa5L1_Tp_D-WfhWJIE0XvL4rrh0?usp=sharing)
+
 # Основные файлы
 
 1) `en.train.conll` - обучающая выборка.
