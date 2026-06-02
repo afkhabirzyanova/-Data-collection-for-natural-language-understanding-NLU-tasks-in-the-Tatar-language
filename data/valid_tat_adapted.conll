@@ -1,0 +1,3207 @@
+# id: valid_1
+# text: Бүген яңгыр явырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	яңгыр	weather/find	B-weather/attribute
+3	явырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_2
+# text: Бүген никадәр эссе булачак
+# intent: weather/find
+# slots: 1:5:datetime, 15:18:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	никадәр	weather/find	O
+3	эссе	weather/find	B-weather/attribute
+4	булачак	weather/find	O
+
+# id: valid_3
+# text: Бүген никадәр эссе ?
+# intent: weather/find
+# slots: 15:18:weather/attribute
+1	Бүген	weather/find	O
+2	никадәр	weather/find	O
+3	эссе	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: valid_4
+# text: Бүген кояшлы булырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:12:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	кояшлы	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_5
+# text: бүген болытлымы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:15:weather/attribute
+1	бүген	weather/find	B-datetime
+2	болытлымы	weather/find	B-weather/attribute
+3	?	weather/find	O
+
+# id: valid_6
+# text: Минем бөтен искә төшерүләремне бетер .
+# intent: reminder/cancel_reminder
+# slots: 1:11:reference
+1	Минем	reminder/cancel_reminder	B-reference
+2	бөтен	reminder/cancel_reminder	I-reference
+3	искә	reminder/cancel_reminder	O
+4	төшерүләремне	reminder/cancel_reminder	O
+5	бетер	reminder/cancel_reminder	O
+6	.	reminder/cancel_reminder	O
+
+# id: valid_7
+# text: Нинди будильниклар куелган ?
+# intent: alarm/show_alarms
+# slots:
+1	Нинди	alarm/show_alarms	O
+2	будильниклар	alarm/show_alarms	O
+3	куелган	alarm/show_alarms	O
+4	?	alarm/show_alarms	O
+
+# id: valid_8
+# text: Миңа дару эчәргә искә төшерер өчен кичке бишкә будильник кирәк
+# intent: alarm/set_alarm
+# slots: 6:16:reminder/todo, 36:46:datetime
+1	Миңа	alarm/set_alarm	O
+2	дару	alarm/set_alarm	B-reminder/todo
+3	эчәргә	alarm/set_alarm	I-reminder/todo
+4	искә	alarm/set_alarm	O
+5	төшерер	alarm/set_alarm	O
+6	өчен	alarm/set_alarm	O
+7	кичке	alarm/set_alarm	B-datetime
+8	бишкә	alarm/set_alarm	I-datetime
+9	будильник	alarm/set_alarm	O
+10	кирәк	alarm/set_alarm	O
+
+# id: valid_9
+# text: Будильникны 3 минут саен куй
+# intent: alarm/set_alarm
+# slots: 13:24:recurring_datetime
+1	Будильникны	alarm/set_alarm	O
+2	3	alarm/set_alarm	B-recurring_datetime
+3	минут	alarm/set_alarm	I-recurring_datetime
+4	саен	alarm/set_alarm	I-recurring_datetime
+5	куй	alarm/set_alarm	O
+
+# id: valid_10
+# text: Бүген буран булырмы
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	буран	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+
+# id: valid_11
+# text: Бүгенге көндезге будильникны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:16:datetime
+1	Бүгенге	alarm/cancel_alarm	B-datetime
+2	көндезге	alarm/cancel_alarm	I-datetime
+3	будильникны	alarm/cancel_alarm	O
+4	бетер	alarm/cancel_alarm	O
+
+# id: valid_12
+# text: киләсе атнада яңгыр булырмы
+# intent: weather/find
+# slots: 1:13:datetime, 15:19:weather/attribute
+1	киләсе	weather/find	B-datetime
+2	атнада	weather/find	I-datetime
+3	яңгыр	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+
+# id: valid_13
+# text: Киләсе атнага һава торышы нинди ?
+# intent: weather/find
+# slots: 1:13:datetime
+1	Киләсе	weather/find	B-datetime
+2	атнага	weather/find	I-datetime
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	нинди	weather/find	O
+6	?	weather/find	O
+
+# id: valid_14
+# text: Минем искә төшерүләремне укып чык .
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	искә	reminder/show_reminders	O
+3	төшерүләремне	reminder/show_reminders	O
+4	укып	reminder/show_reminders	O
+5	чык	reminder/show_reminders	O
+6	.	reminder/show_reminders	O
+
+# id: valid_15
+# text: Бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	Бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_16
+# text: Зинһар , 20 минутка биш минут саен будильник куй
+# intent: alarm/set_alarm
+# slots: 12:43:recurring_datetime
+1	Зинһар	alarm/set_alarm	O
+2	,	alarm/set_alarm	O
+3	20	alarm/set_alarm	B-recurring_datetime
+4	минутка	alarm/set_alarm	I-recurring_datetime
+5	биш	alarm/set_alarm	I-recurring_datetime
+6	минут	alarm/set_alarm	I-recurring_datetime
+7	саен	alarm/set_alarm	I-recurring_datetime
+8	будильник	alarm/set_alarm	O
+9	куй	alarm/set_alarm	O
+
+# id: valid_17
+# text: Иртәгәге будильникны иртәнге алтыга күчер .
+# intent: alarm/modify_alarm
+# slots: 1:8:datetime, 22:35:datetime
+1	Иртәгәге	alarm/modify_alarm	B-datetime
+2	будильникны	alarm/modify_alarm	O
+3	иртәнге	alarm/modify_alarm	B-datetime
+4	алтыга	alarm/modify_alarm	I-datetime
+5	күчер	alarm/modify_alarm	O
+6	.	alarm/modify_alarm	O
+
+# id: valid_18
+# text: Бөтен искәртүләремне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference
+1	Бөтен	reminder/cancel_reminder	B-reference
+2	искәртүләремне	reminder/cancel_reminder	O
+3	бетер	reminder/cancel_reminder	O
+
+# id: valid_19
+# text: минем будильникларымны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	минем	alarm/show_alarms	B-reference
+2	будильникларымны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_20
+# text: Будильникларны бетер
+# intent: alarm/cancel_alarm
+# slots:
+1	Будильникларны	alarm/cancel_alarm	O
+2	бетер	alarm/cancel_alarm	O
+
+# id: valid_21
+# text: будильникны иртәгә иртәнге 6 куй
+# intent: alarm/set_alarm
+# slots: 13:28:datetime
+1	будильникны	alarm/set_alarm	O
+2	иртәгә	alarm/set_alarm	B-datetime
+3	иртәнге	alarm/set_alarm	I-datetime
+4	6	alarm/set_alarm	I-datetime
+5	куй	alarm/set_alarm	O
+
+# id: valid_22
+# text: будильникны иртәгә иртәнге 7 куй
+# intent: alarm/set_alarm
+# slots: 13:28:datetime
+1	будильникны	alarm/set_alarm	O
+2	иртәгә	alarm/set_alarm	B-datetime
+3	иртәнге	alarm/set_alarm	I-datetime
+4	7	alarm/set_alarm	I-datetime
+5	куй	alarm/set_alarm	O
+
+# id: valid_23
+# text: Будильникны иртәнге алтыга куй
+# intent: alarm/set_alarm
+# slots: 13:26:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	алтыга	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_24
+# text: Миңа Лизаны алу турында искәртү кирәк
+# intent: reminder/set_reminder
+# slots: 6:15:reminder/todo
+1	Миңа	reminder/set_reminder	O
+2	Лизаны	reminder/set_reminder	B-reminder/todo
+3	алу	reminder/set_reminder	I-reminder/todo
+4	турында	reminder/set_reminder	O
+5	искәртү	reminder/set_reminder	O
+6	кирәк	reminder/set_reminder	O
+
+# id: valid_25
+# text: Бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	Бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_26
+# text: Бөтен будильникларны сүндер
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	Бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	сүндер	alarm/cancel_alarm	O
+
+# id: valid_27
+# text: Минем нинди искә төшерүләрем бар ?
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	нинди	reminder/show_reminders	O
+3	искә	reminder/show_reminders	O
+4	төшерүләрем	reminder/show_reminders	O
+5	бар	reminder/show_reminders	O
+6	?	reminder/show_reminders	O
+
+# id: valid_28
+# text: урамда эссе мы
+# intent: weather/find
+# slots: 1:6:location, 8:11:weather/attribute
+1	урамда	weather/find	B-location
+2	эссе	weather/find	B-weather/attribute
+3	мы	weather/find	O
+
+# id: valid_29
+# text: Будильникны күчер
+# intent: alarm/snooze_alarm
+# slots:
+1	Будильникны	alarm/snooze_alarm	O
+2	күчер	alarm/snooze_alarm	O
+
+# id: valid_30
+# text: будильникны кабыз
+# intent: alarm/set_alarm
+# slots:
+1	будильникны	alarm/set_alarm	O
+2	кабыз	alarm/set_alarm	O
+
+# id: valid_31
+# text: Будильникны чәршәмбе көнне иртәнге 6 куй
+# intent: alarm/set_alarm
+# slots: 13:36:datetime
+1	Будильникны	alarm/set_alarm	O
+2	чәршәмбе	alarm/set_alarm	B-datetime
+3	көнне	alarm/set_alarm	I-datetime
+4	иртәнге	alarm/set_alarm	I-datetime
+5	6	alarm/set_alarm	I-datetime
+6	куй	alarm/set_alarm	O
+
+# id: valid_32
+# text: миңа һәр дүшәмбе көн ахырында дәрес планнарымны җибәрергә исемә төшер
+# intent: reminder/set_reminder
+# slots: 6:29:recurring_datetime, 31:57:reminder/todo
+1	миңа	reminder/set_reminder	O
+2	һәр	reminder/set_reminder	B-recurring_datetime
+3	дүшәмбе	reminder/set_reminder	I-recurring_datetime
+4	көн	reminder/set_reminder	I-recurring_datetime
+5	ахырында	reminder/set_reminder	I-recurring_datetime
+6	дәрес	reminder/set_reminder	B-reminder/todo
+7	планнарымны	reminder/set_reminder	I-reminder/todo
+8	җибәрергә	reminder/set_reminder	I-reminder/todo
+9	исемә	reminder/set_reminder	O
+10	төшер	reminder/set_reminder	O
+
+# id: valid_33
+# text: Бүген никадәр эссе булачак ?
+# intent: weather/find
+# slots: 1:5:datetime, 15:18:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	никадәр	weather/find	O
+3	эссе	weather/find	B-weather/attribute
+4	булачак	weather/find	O
+5	?	weather/find	O
+
+# id: valid_34
+# text: Барлык билгеләнгән будильникларны бетер .
+# intent: alarm/cancel_alarm
+# slots: 1:6:reference
+1	Барлык	alarm/cancel_alarm	B-reference
+2	билгеләнгән	alarm/cancel_alarm	O
+3	будильникларны	alarm/cancel_alarm	O
+4	бетер	alarm/cancel_alarm	O
+5	.	alarm/cancel_alarm	O
+
+# id: valid_35
+# text: Бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	Бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_36
+# text: Бүген кояшлы булырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:12:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	кояшлы	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_37
+# text: Бүген һаваның дымлылыгы нинди ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:23:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	һаваның	weather/find	B-weather/attribute
+3	дымлылыгы	weather/find	I-weather/attribute
+4	нинди	weather/find	O
+5	?	weather/find	O
+
+# id: valid_38
+# text: Бөтен искәртүләремне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference
+1	Бөтен	reminder/cancel_reminder	B-reference
+2	искәртүләремне	reminder/cancel_reminder	O
+3	бетер	reminder/cancel_reminder	O
+
+# id: valid_39
+# text: будильникны унбиш минутка куй
+# intent: alarm/set_alarm
+# slots: 13:25:datetime
+1	будильникны	alarm/set_alarm	O
+2	унбиш	alarm/set_alarm	B-datetime
+3	минутка	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_40
+# text: Зинһар , бу шимбә көнне иртәнге 4-кә минем будильнигымны куй .
+# intent: alarm/set_alarm
+# slots: 10:36:datetime, 38:42:reference
+1	Зинһар	alarm/set_alarm	O
+2	,	alarm/set_alarm	O
+3	бу	alarm/set_alarm	B-datetime
+4	шимбә	alarm/set_alarm	I-datetime
+5	көнне	alarm/set_alarm	I-datetime
+6	иртәнге	alarm/set_alarm	I-datetime
+7	4-кә	alarm/set_alarm	I-datetime
+8	минем	alarm/set_alarm	B-reference
+9	будильнигымны	alarm/set_alarm	O
+10	куй	alarm/set_alarm	O
+11	.	alarm/set_alarm	O
+
+# id: valid_41
+# text: Иртәгә иртәнге 10-да бина ябылганнын хакында исемә төшер .
+# intent: reminder/set_reminder
+# slots: 1:20:datetime, 22:36:reminder/todo
+1	Иртәгә	reminder/set_reminder	B-datetime
+2	иртәнге	reminder/set_reminder	I-datetime
+3	10-да	reminder/set_reminder	I-datetime
+4	бина	reminder/set_reminder	B-reminder/todo
+5	ябылганнын	reminder/set_reminder	I-reminder/todo
+6	хакында	reminder/set_reminder	O
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+9	.	reminder/set_reminder	O
+
+# id: valid_42
+# text: бөтен будильникларны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	бетер	alarm/cancel_alarm	O
+
+# id: valid_43
+# text: Якшәмбегә мин ничә будильник куйдым ?
+# intent: alarm/show_alarms
+# slots: 1:9:datetime
+1	Якшәмбегә	alarm/show_alarms	B-datetime
+2	мин	alarm/show_alarms	O
+3	ничә	alarm/show_alarms	O
+4	будильник	alarm/show_alarms	O
+5	куйдым	alarm/show_alarms	O
+6	?	alarm/show_alarms	O
+
+# id: valid_44
+# text: Бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	Бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_45
+# text: Бүген кояшлы булырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:12:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	кояшлы	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_46
+# text: Будильникны иртәнге алтыга куй
+# intent: alarm/set_alarm
+# slots: 13:26:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	алтыга	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_47
+# text: Иртәгәге иртәгә ике будильник куй
+# intent: alarm/set_alarm
+# slots: 1:15:datetime
+1	Иртәгәге	alarm/set_alarm	B-datetime
+2	иртәгә	alarm/set_alarm	I-datetime
+3	ике	alarm/set_alarm	O
+4	будильник	alarm/set_alarm	O
+5	куй	alarm/set_alarm	O
+
+# id: valid_48
+# text: Бөтен будильникларны сүндер
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	Бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	сүндер	alarm/cancel_alarm	O
+
+# id: valid_49
+# text: Хәзер Лаештә нинди температура ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:14:location, 22:32:weather/attribute
+1	Хәзер	weather/find	B-datetime
+2	Лаештә	weather/find	B-location
+3	нинди	weather/find	O
+4	температура	weather/find	B-weather/attribute
+5	?	weather/find	O
+
+# id: valid_50
+# text: Минем соңгы хәтерләтүне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:11:reference
+1	Минем	reminder/cancel_reminder	B-reference
+2	соңгы	reminder/cancel_reminder	I-reference
+3	хәтерләтүне	reminder/cancel_reminder	O
+4	бетер	reminder/cancel_reminder	O
+
+# id: valid_51
+# text: Соңрак кибеткә бару турында искә төшер
+# intent: reminder/set_reminder
+# slots: 1:6:datetime, 8:19:reminder/todo
+1	Соңрак	reminder/set_reminder	B-datetime
+2	кибеткә	reminder/set_reminder	B-reminder/todo
+3	бару	reminder/set_reminder	I-reminder/todo
+4	турында	reminder/set_reminder	O
+5	искә	reminder/set_reminder	O
+6	төшер	reminder/set_reminder	O
+
+# id: valid_52
+# text: Бүген җылылык индексы нинди булачак ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:21:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	җылылык	weather/find	B-weather/attribute
+3	индексы	weather/find	I-weather/attribute
+4	нинди	weather/find	O
+5	булачак	weather/find	O
+6	?	weather/find	O
+
+# id: valid_53
+# text: Бүген никадәр салкын булачак ?
+# intent: weather/find
+# slots: 1:5:datetime, 15:20:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	никадәр	weather/find	O
+3	салкын	weather/find	B-weather/attribute
+4	булачак	weather/find	O
+5	?	weather/find	O
+
+# id: valid_54
+# text: бүген кар яуырмы
+# intent: weather/find
+# slots: 1:5:datetime, 7:9:weather/attribute
+1	бүген	weather/find	B-datetime
+2	кар	weather/find	B-weather/attribute
+3	яуырмы	weather/find	O
+
+# id: valid_55
+# text: Будильникны иртәнге бишкә куй
+# intent: alarm/set_alarm
+# slots: 13:25:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	бишкә	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_56
+# text: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots:
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_57
+# text: барлык будильникларны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:6:reference
+1	барлык	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	бетер	alarm/cancel_alarm	O
+
+# id: valid_58
+# text: Иртәгә иртәнге 11-дә йөзәргә исемә төшер
+# intent: reminder/set_reminder
+# slots: 1:20:datetime, 22:28:reminder/todo
+1	Иртәгә	reminder/set_reminder	B-datetime
+2	иртәнге	reminder/set_reminder	I-datetime
+3	11-дә	reminder/set_reminder	I-datetime
+4	йөзәргә	reminder/set_reminder	B-reminder/todo
+5	исемә	reminder/set_reminder	O
+6	төшер	reminder/set_reminder	O
+
+# id: valid_59
+# text: Минем хәтерләтүне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	хәтерләтүне	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_60
+# text: Шимбә көнне минем будильнигымны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:11:datetime, 13:17:reference
+1	Шимбә	alarm/cancel_alarm	B-datetime
+2	көнне	alarm/cancel_alarm	I-datetime
+3	минем	alarm/cancel_alarm	B-reference
+4	будильнигымны	alarm/cancel_alarm	O
+5	бетер	alarm/cancel_alarm	O
+
+# id: valid_61
+# text: урамда салкынмы ?
+# intent: weather/find
+# slots: 1:6:location, 8:15:weather/attribute
+1	урамда	weather/find	B-location
+2	салкынмы	weather/find	B-weather/attribute
+3	?	weather/find	O
+
+# id: valid_62
+# text: Бүген дымлымы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:14:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	дымлымы	weather/find	B-weather/attribute
+3	?	weather/find	O
+
+# id: valid_63
+# text: Будильникны һәр минутта 11 минутка куй
+# intent: alarm/set_alarm
+# slots: 13:34:recurring_datetime
+1	Будильникны	alarm/set_alarm	O
+2	һәр	alarm/set_alarm	B-recurring_datetime
+3	минутта	alarm/set_alarm	I-recurring_datetime
+4	11	alarm/set_alarm	I-recurring_datetime
+5	минутка	alarm/set_alarm	I-recurring_datetime
+6	куй	alarm/set_alarm	O
+
+# id: valid_64
+# text: Минем хәтерләтүне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	хәтерләтүне	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_65
+# text: Бүген җилле булырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	җилле	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_66
+# text: Иртәгәге искәртмәләрне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:8:datetime
+1	Иртәгәге	reminder/cancel_reminder	B-datetime
+2	искәртмәләрне	reminder/cancel_reminder	O
+3	бетер	reminder/cancel_reminder	O
+
+# id: valid_67
+# text: миңа 3 көнлек фаразны әйт
+# intent: weather/find
+# slots: 6:13:datetime
+1	миңа	weather/find	O
+2	3	weather/find	B-datetime
+3	көнлек	weather/find	I-datetime
+4	фаразны	weather/find	O
+5	әйт	weather/find	O
+
+# id: valid_68
+# text: иртәгә бездә ничә сантиметр яңгыр явар ?
+# intent: weather/find
+# slots: 1:6:datetime, 19:28:weather/attribute
+1	иртәгә	weather/find	B-datetime
+2	бездә	weather/find	O
+3	ничә	weather/find	O
+4	сантиметр	weather/find	B-weather/attribute
+5	яңгыр	weather/find	I-weather/attribute
+6	явар	weather/find	O
+7	?	weather/find	O
+
+# id: valid_69
+# text: миңа туй турында искә төшер
+# intent: reminder/set_reminder
+# slots: 6:8:reminder/todo
+1	миңа	reminder/set_reminder	O
+2	туй	reminder/set_reminder	B-reminder/todo
+3	турында	reminder/set_reminder	O
+4	искә	reminder/set_reminder	O
+5	төшер	reminder/set_reminder	O
+
+# id: valid_70
+# text: Бөтен будильникны күчер
+# intent: alarm/snooze_alarm
+# slots: 1:5:reference
+1	Бөтен	alarm/snooze_alarm	B-reference
+2	будильникны	alarm/snooze_alarm	O
+3	күчер	alarm/snooze_alarm	O
+
+# id: valid_71
+# text: Бүген кайчан яңгыр явар ?
+# intent: weather/find
+# slots: 1:5:datetime, 14:18:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	кайчан	weather/find	O
+3	яңгыр	weather/find	B-weather/attribute
+4	явар	weather/find	O
+5	?	weather/find	O
+
+# id: valid_72
+# text: Бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	Бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_73
+# text: Бөтен будильникларны сүндер
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	Бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	сүндер	alarm/cancel_alarm	O
+
+# id: valid_74
+# text: Бүген яңгыр явырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	яңгыр	weather/find	B-weather/attribute
+3	явырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_75
+# text: Иртәгәгә барлык искәртүләремне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:8:datetime, 10:15:reference
+1	Иртәгәгә	reminder/show_reminders	B-datetime
+2	барлык	reminder/show_reminders	B-reference
+3	искәртүләремне	reminder/show_reminders	O
+4	күрсәт	reminder/show_reminders	O
+
+# id: valid_76
+# text: иртәгә минем иртәнге будильникны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:6:datetime, 8:12:reference, 14:20:datetime
+1	иртәгә	alarm/cancel_alarm	B-datetime
+2	минем	alarm/cancel_alarm	B-reference
+3	иртәнге	alarm/cancel_alarm	B-datetime
+4	будильникны	alarm/cancel_alarm	O
+5	бетер	alarm/cancel_alarm	O
+
+# id: valid_77
+# text: Бүген никадәр эссе ?
+# intent: weather/find
+# slots: 15:18:weather/attribute
+1	Бүген	weather/find	O
+2	никадәр	weather/find	O
+3	эссе	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: valid_78
+# text: бүген кич сөт сатып алырга искә төшер
+# intent: reminder/set_reminder
+# slots: 1:9:datetime, 11:26:reminder/todo
+1	бүген	reminder/set_reminder	B-datetime
+2	кич	reminder/set_reminder	I-datetime
+3	сөт	reminder/set_reminder	B-reminder/todo
+4	сатып	reminder/set_reminder	I-reminder/todo
+5	алырга	reminder/set_reminder	I-reminder/todo
+6	искә	reminder/set_reminder	O
+7	төшер	reminder/set_reminder	O
+
+# id: valid_79
+# text: Бөтен искәртүләремне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference
+1	Бөтен	reminder/cancel_reminder	B-reference
+2	искәртүләремне	reminder/cancel_reminder	O
+3	бетер	reminder/cancel_reminder	O
+
+# id: valid_80
+# text: Бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	Бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_81
+# text: иртәгә минем иртәнге будильникны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:6:datetime, 8:12:reference, 14:20:datetime
+1	иртәгә	alarm/cancel_alarm	B-datetime
+2	минем	alarm/cancel_alarm	B-reference
+3	иртәнге	alarm/cancel_alarm	B-datetime
+4	будильникны	alarm/cancel_alarm	O
+5	бетер	alarm/cancel_alarm	O
+
+# id: valid_82
+# text: Иртәгә кояшлы булырмы ?
+# intent: weather/find
+# slots: 1:6:datetime, 8:13:weather/attribute
+1	Иртәгә	weather/find	B-datetime
+2	кояшлы	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_83
+# text: Иртәгә иртәнге будильникны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:14:datetime
+1	Иртәгә	alarm/cancel_alarm	B-datetime
+2	иртәнге	alarm/cancel_alarm	I-datetime
+3	будильникны	alarm/cancel_alarm	O
+4	бетер	alarm/cancel_alarm	O
+
+# id: valid_84
+# text: иртәгә бөтен иртәнге искәртүләремне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:6:datetime, 8:12:reference, 14:20:datetime
+1	иртәгә	reminder/show_reminders	B-datetime
+2	бөтен	reminder/show_reminders	B-reference
+3	иртәнге	reminder/show_reminders	B-datetime
+4	искәртүләремне	reminder/show_reminders	O
+5	күрсәт	reminder/show_reminders	O
+
+# id: valid_85
+# text: Бүген һаваның дымлылыгы нинди ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:23:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	һаваның	weather/find	B-weather/attribute
+3	дымлылыгы	weather/find	I-weather/attribute
+4	нинди	weather/find	O
+5	?	weather/find	O
+
+# id: valid_86
+# text: Кайчан яңгыр явыр ?
+# intent: weather/find
+# slots: 8:12:weather/attribute
+1	Кайчан	weather/find	O
+2	яңгыр	weather/find	B-weather/attribute
+3	явыр	weather/find	O
+4	?	weather/find	O
+
+# id: valid_87
+# text: Бүген никадәр эссе
+# intent: weather/find
+# slots: 15:18:weather/attribute
+1	Бүген	weather/find	O
+2	никадәр	weather/find	O
+3	эссе	weather/find	B-weather/attribute
+
+# id: valid_88
+# text: миңа искәртүләремне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:4:reference
+1	миңа	reminder/show_reminders	B-reference
+2	искәртүләремне	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_89
+# text: 5 көнгә һава торышы фаразы нинди ?
+# intent: weather/find
+# slots: 1:7:datetime
+1	5	weather/find	B-datetime
+2	көнгә	weather/find	I-datetime
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	фаразы	weather/find	O
+6	нинди	weather/find	O
+7	?	weather/find	O
+
+# id: valid_90
+# text: Будильникны иртәнге алтыга куй
+# intent: alarm/set_alarm
+# slots: 13:26:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	алтыга	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_91
+# text: Бүген салкынмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:14:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	салкынмы	weather/find	B-weather/attribute
+3	?	weather/find	O
+
+# id: valid_92
+# text: Дүшәмбе көнне 16:00 сәгатьтә минем мәктәпкә шалтыратырга хәтерләтү куй
+# intent: reminder/set_reminder
+# slots: 1:28:datetime, 30:56:reminder/todo
+1	Дүшәмбе	reminder/set_reminder	B-datetime
+2	көнне	reminder/set_reminder	I-datetime
+3	16:00	reminder/set_reminder	I-datetime
+4	сәгатьтә	reminder/set_reminder	I-datetime
+5	минем	reminder/set_reminder	B-reminder/todo
+6	мәктәпкә	reminder/set_reminder	I-reminder/todo
+7	шалтыратырга	reminder/set_reminder	I-reminder/todo
+8	хәтерләтү	reminder/set_reminder	O
+9	куй	reminder/set_reminder	O
+
+# id: valid_93
+# text: Иртәгә Патрикны мәктәптән алырга минем искә төшерүдән алып бетер .
+# intent: reminder/cancel_reminder
+# slots: 1:6:datetime, 8:32:reminder/todo, 34:38:reference
+1	Иртәгә	reminder/cancel_reminder	B-datetime
+2	Патрикны	reminder/cancel_reminder	B-reminder/todo
+3	мәктәптән	reminder/cancel_reminder	I-reminder/todo
+4	алырга	reminder/cancel_reminder	I-reminder/todo
+5	минем	reminder/cancel_reminder	B-reference
+6	искә	reminder/cancel_reminder	O
+7	төшерүдән	reminder/cancel_reminder	O
+8	алып	reminder/cancel_reminder	O
+9	бетер	reminder/cancel_reminder	O
+10	.	reminder/cancel_reminder	O
+
+# id: valid_94
+# text: Иртә белән никадәр салкын булачак ?
+# intent: weather/find
+# slots: 1:10:datetime, 20:25:weather/attribute
+1	Иртә	weather/find	B-datetime
+2	белән	weather/find	I-datetime
+3	никадәр	weather/find	O
+4	салкын	weather/find	B-weather/attribute
+5	булачак	weather/find	O
+6	?	weather/find	O
+
+# id: valid_95
+# text: иртәгә миңа зонтик кирәкме ?
+# intent: weather/find
+# slots: 1:6:datetime, 13:18:weather/attribute
+1	иртәгә	weather/find	B-datetime
+2	миңа	weather/find	O
+3	зонтик	weather/find	B-weather/attribute
+4	кирәкме	weather/find	O
+5	?	weather/find	O
+
+# id: valid_96
+# text: Минем хәтерләтүне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	хәтерләтүне	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_97
+# text: иртәнге алтыда будильникны туктат
+# intent: alarm/cancel_alarm
+# slots: 1:14:datetime
+1	иртәнге	alarm/cancel_alarm	B-datetime
+2	алтыда	alarm/cancel_alarm	I-datetime
+3	будильникны	alarm/cancel_alarm	O
+4	туктат	alarm/cancel_alarm	O
+
+# id: valid_98
+# text: барлык будильникларны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:6:reference
+1	барлык	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	бетер	alarm/cancel_alarm	O
+
+# id: valid_99
+# text: Бүген кояшлы булырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:12:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	кояшлы	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_100
+# text: Лениногорскта нинди һава торышы ?
+# intent: weather/find
+# slots: 1:8:location
+1	Лениногорскта	weather/find	B-location
+2	нинди	weather/find	O
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_101
+# text: Минем нинди искә төшерүләрем бар ?
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	Минем	reminder/show_reminders	B-reference
+2	нинди	reminder/show_reminders	O
+3	искә	reminder/show_reminders	O
+4	төшерүләрем	reminder/show_reminders	O
+5	бар	reminder/show_reminders	O
+6	?	reminder/show_reminders	O
+
+# id: valid_102
+# text: Минем әтиге язу турында хәтерләтүемне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference, 7:15:reminder/todo
+1	Минем	reminder/cancel_reminder	B-reference
+2	әтиге	reminder/cancel_reminder	B-reminder/todo
+3	язу	reminder/cancel_reminder	I-reminder/todo
+4	турында	reminder/cancel_reminder	O
+5	хәтерләтүемне	reminder/cancel_reminder	O
+6	бетер	reminder/cancel_reminder	O
+
+# id: valid_103
+# text: Будильникны иртәнге алтыга куй
+# intent: alarm/set_alarm
+# slots: 13:26:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	алтыга	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_104
+# text: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_105
+# text: будильникны бетер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	бетер	alarm/cancel_alarm	O
+
+# id: valid_106
+# text: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_107
+# text: Бүген көндезге сәгать икедә әнигә шалтыратырга миңа искә төшер
+# intent: reminder/set_reminder
+# slots: 1:27:datetime, 29:46:reminder/todo
+1	Бүген	reminder/set_reminder	B-datetime
+2	көндезге	reminder/set_reminder	I-datetime
+3	сәгать	reminder/set_reminder	I-datetime
+4	икедә	reminder/set_reminder	I-datetime
+5	әнигә	reminder/set_reminder	B-reminder/todo
+6	шалтыратырга	reminder/set_reminder	I-reminder/todo
+7	миңа	reminder/set_reminder	O
+8	искә	reminder/set_reminder	O
+9	төшер	reminder/set_reminder	O
+
+# id: valid_108
+# text: бөтен будильникларны бетер
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	бетер	alarm/cancel_alarm	O
+
+# id: valid_109
+# text: иртәгә эссе булырмы
+# intent: weather/find
+# slots: 1:6:datetime, 8:11:weather/attribute
+1	иртәгә	weather/find	B-datetime
+2	эссе	weather/find	B-weather/attribute
+3	булырмы	weather/find	O
+
+# id: valid_110
+# text: бүген урамда салкынмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:12:location, 14:21:weather/attribute
+1	бүген	weather/find	B-datetime
+2	урамда	weather/find	B-location
+3	салкынмы	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: valid_111
+# text: Будильникны бүген кичке бишкә куй
+# intent: alarm/set_alarm
+# slots: 13:29:datetime
+1	Будильникны	alarm/set_alarm	O
+2	бүген	alarm/set_alarm	B-datetime
+3	кичке	alarm/set_alarm	I-datetime
+4	бишкә	alarm/set_alarm	I-datetime
+5	куй	alarm/set_alarm	O
+
+# id: valid_112
+# text: Бу ял көннәрендә яңгыр булырмы ?
+# intent: weather/find
+# slots: 1:16:datetime, 18:22:weather/attribute
+1	Бу	weather/find	B-datetime
+2	ял	weather/find	I-datetime
+3	көннәрендә	weather/find	I-datetime
+4	яңгыр	weather/find	B-weather/attribute
+5	булырмы	weather/find	O
+6	?	weather/find	O
+
+# id: valid_113
+# text: бүген яңгыр явырмы
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	бүген	weather/find	B-datetime
+2	яңгыр	weather/find	B-weather/attribute
+3	явырмы	weather/find	O
+
+# id: valid_114
+# text: будильникны дүшәмбе көнне төнге сәгать 3-тә куй
+# intent: alarm/set_alarm
+# slots: 13:3:datetime
+1	будильникны	alarm/set_alarm	O
+2	дүшәмбе	alarm/set_alarm	B-datetime
+3	көнне	alarm/set_alarm	I-datetime
+4	төнге	alarm/set_alarm	I-datetime
+5	сәгать	alarm/set_alarm	I-datetime
+6	3-тә	alarm/set_alarm	I-datetime
+7	куй	alarm/set_alarm	O
+
+# id: valid_115
+# text: будильник кабызылган
+# intent: alarm/set_alarm
+# slots: 
+1	будильник	alarm/set_alarm	O
+2	кабызылган	alarm/set_alarm	O
+
+# id: valid_116
+# text: Шимбә көнне яңгыр булырмы ?
+# intent: weather/find
+# slots: 1:11:datetime, 13:17:weather/attribute
+1	Шимбә	weather/find	B-datetime
+2	көнне	weather/find	I-datetime
+3	яңгыр	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_117
+# text: Будильникны иртәнге бишкә куй
+# intent: alarm/set_alarm
+# slots: 13:25:datetime
+1	Будильникны	alarm/set_alarm	O
+2	иртәнге	alarm/set_alarm	B-datetime
+3	бишкә	alarm/set_alarm	I-datetime
+4	куй	alarm/set_alarm	O
+
+# id: valid_118
+# text: Бүген миңа пәлтә кирәкме ?
+# intent: weather/find
+# slots: 1:5:datetime, 12:16:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	миңа	weather/find	O
+3	пәлтә	weather/find	B-weather/attribute
+4	кирәкме	weather/find	O
+5	?	weather/find	O
+
+# id: valid_119
+# text: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_120
+# text: Минем һава торышы турында нинди кисәтүләр бар ?
+# intent: weather/find
+# slots: 33:41:weather/attribute
+1	Минем	weather/find	O
+2	һава	weather/find	O
+3	торышы	weather/find	O
+4	турында	weather/find	O
+5	нинди	weather/find	O
+6	кисәтүләр	weather/find	B-weather/attribute
+7	бар	weather/find	O
+8	?	weather/find	O
+
+# id: valid_121
+# text: Лоджада очрашу турында хәтерләтүне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:14:reminder/todo
+1	Лоджада	reminder/cancel_reminder	B-reminder/todo
+2	очрашу	reminder/cancel_reminder	I-reminder/todo
+3	турында	reminder/cancel_reminder	O
+4	хәтерләтүне	reminder/cancel_reminder	O
+5	бетер	reminder/cancel_reminder	O
+
+# id: valid_122
+# text: Бүген миңа пәлтә кияргә кирәкме
+# intent: weather/find
+# slots: 1:5:datetime, 12:16:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	миңа	weather/find	O
+3	пәлтә	weather/find	B-weather/attribute
+4	кияргә	weather/find	O
+5	кирәкме	weather/find	O
+
+# id: valid_123
+# text: Бөтен будильникларны сүндер .
+# intent: alarm/cancel_alarm
+# slots: 1:5:reference
+1	Бөтен	alarm/cancel_alarm	B-reference
+2	будильникларны	alarm/cancel_alarm	O
+3	сүндер	alarm/cancel_alarm	O
+4	.	alarm/cancel_alarm	O
+
+# id: valid_124
+# text: бөтен будильникларны күрсәт
+# intent: alarm/show_alarms
+# slots: 1:5:reference
+1	бөтен	alarm/show_alarms	B-reference
+2	будильникларны	alarm/show_alarms	O
+3	күрсәт	alarm/show_alarms	O
+
+# id: valid_125
+# text: Пәнҗешәмбе көнне сәгать бердә яңы будильникны куй .
+# intent: alarm/set_alarm
+# slots: 1:29:datetime
+1	Пәнҗешәмбе	alarm/set_alarm	B-datetime
+2	көнне	alarm/set_alarm	I-datetime
+3	сәгать	alarm/set_alarm	I-datetime
+4	бердә	alarm/set_alarm	I-datetime
+5	яңы	alarm/set_alarm	O
+6	будильникны	alarm/set_alarm	O
+7	куй	alarm/set_alarm	O
+8	.	alarm/set_alarm	O
+
+# id: valid_126
+# text: Киләсе дүшәмбе көнне теш табибына барырга исемә төшер .
+# intent: reminder/set_reminder
+# slots: 1:20:datetime, 22:41:reminder/todo
+1	Киләсе	reminder/set_reminder	B-datetime
+2	дүшәмбе	reminder/set_reminder	I-datetime
+3	көнне	reminder/set_reminder	I-datetime
+4	теш	reminder/set_reminder	B-reminder/todo
+5	табибына	reminder/set_reminder	I-reminder/todo
+6	барырга	reminder/set_reminder	I-reminder/todo
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+9	.	reminder/set_reminder	O
+
+# id: valid_127
+# text: мин кул чатырны бүген алыйммы
+# intent: weather/find
+# slots: 5:15:weather/attribute, 17:21:datetime
+1	мин	weather/find	O
+2	кул	weather/find	B-weather/attribute
+3	чатырны	weather/find	I-weather/attribute
+4	бүген	weather/find	B-datetime
+5	алыйммы	weather/find	O
+
+# id: valid_128
+# text: бу атнада һава торышы нинди ?
+# intent: weather/find
+# slots: 1:9:datetime
+1	бу	weather/find	B-datetime
+2	атнада	weather/find	I-datetime
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	нинди	weather/find	O
+6	?	weather/find	O
+
+# id: valid_129
+# text: бүген температура нульдән түбәнме ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:33:weather/attribute
+1	бүген	weather/find	B-datetime
+2	температура	weather/find	B-weather/attribute
+3	нульдән	weather/find	I-weather/attribute
+4	түбәнме	weather/find	I-weather/attribute
+5	?	weather/find	O
+
+# id: valid_130
+# text: Бөтен хәтерләтүләрне бетер
+# intent: reminder/cancel_reminder
+# slots: 1:5:reference
+1	Бөтен	reminder/cancel_reminder	B-reference
+2	хәтерләтүләрне	reminder/cancel_reminder	O
+3	бетер	reminder/cancel_reminder	O
+
+# id: valid_131
+# text: Бүген яңгыр явырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 7:11:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	яңгыр	weather/find	B-weather/attribute
+3	явырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_132
+# text: Бу ял көннәрендә яңгыр булырмы ?
+# intent: weather/find
+# slots: 1:16:datetime, 18:22:weather/attribute
+1	Бу	weather/find	B-datetime
+2	ял	weather/find	I-datetime
+3	көннәрендә	weather/find	I-datetime
+4	яңгыр	weather/find	B-weather/attribute
+5	булырмы	weather/find	O
+6	?	weather/find	O
+
+# id: valid_133
+# text: Киләсе атнада әни килүен искә төшер
+# intent: reminder/set_reminder
+# slots: 1:13:datetime, 15:24:reminder/todo
+1	Киләсе	reminder/set_reminder	B-datetime
+2	атнада	reminder/set_reminder	I-datetime
+3	әни	reminder/set_reminder	B-reminder/todo
+4	килүен	reminder/set_reminder	I-reminder/todo
+5	искә	reminder/set_reminder	O
+6	төшер	reminder/set_reminder	O
+
+# id: valid_134
+# text: Иртәгә кар явармы ?
+# intent: weather/find
+# slots: 1:6:datetime, 8:10:weather/attribute
+1	Иртәгә	weather/find	B-datetime
+2	кар	weather/find	B-weather/attribute
+3	явармы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_135
+# text: бөтен хәтерләтүләрне күрсәт
+# intent: reminder/show_reminders
+# slots: 1:5:reference
+1	бөтен	reminder/show_reminders	B-reference
+2	хәтерләтүләрне	reminder/show_reminders	O
+3	күрсәт	reminder/show_reminders	O
+
+# id: valid_136
+# text: Миңа бүген пәлтә кирәкме ?
+# intent: weather/find
+# slots: 6:10:datetime, 12:16:weather/attribute
+1	Миңа	weather/find	O
+2	бүген	weather/find	B-datetime
+3	пәлтә	weather/find	B-weather/attribute
+4	кирәкме	weather/find	O
+5	?	weather/find	O
+
+# id: valid_137
+# text: пәнҗешәмбе көнне кар булырмы
+# intent: weather/find
+# slots: 1:16:datetime, 18:20:weather/attribute
+1	пәнҗешәмбе	weather/find	B-datetime
+2	көнне	weather/find	I-datetime
+3	кар	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+
+# id: valid_138
+# text: Бүген көндез Starbucks-та кофе сатып алырга исемә төшер
+# intent: reminder/set_reminder
+# slots: 1:12:datetime, 14:43:reminder/todo
+1	Бүген	reminder/set_reminder	B-datetime
+2	көндез	reminder/set_reminder	I-datetime
+3	Starbucks-та	reminder/set_reminder	B-reminder/todo
+4	кофе	reminder/set_reminder	I-reminder/todo
+5	сатып	reminder/set_reminder	I-reminder/todo
+6	алырга	reminder/set_reminder	I-reminder/todo
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+
+# id: valid_139
+# text: Будильникны 5:30-дан башлап иртәнге 6-га кадәр ун минут саен куй .
+# intent: alarm/set_alarm
+# slots: 0:3:recurring_datetime
+1	Будильникны	alarm/set_alarm	O
+2	5:30-дан	alarm/set_alarm	B-recurring_datetime
+3	башлап	alarm/set_alarm	I-recurring_datetime
+4	иртәнге	alarm/set_alarm	I-recurring_datetime
+5	6-га	alarm/set_alarm	I-recurring_datetime
+6	кадәр	alarm/set_alarm	I-recurring_datetime
+7	ун	alarm/set_alarm	I-recurring_datetime
+8	минут	alarm/set_alarm	I-recurring_datetime
+9	саен	alarm/set_alarm	I-recurring_datetime
+10	куй	alarm/set_alarm	O
+11	.	alarm/set_alarm	O
+
+# id: valid_140
+# text: Шимбә көнне яңгыр булырмы ?
+# intent: weather/find
+# slots: 1:5:datetime, 13:17:weather/attribute
+1	Шимбә	weather/find	B-datetime
+2	көнне	weather/find	O
+3	яңгыр	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_141
+# text: Аяк киеме җитештерү өчен иртәнге 7:20 сәгатькә будильникны куй .
+# intent: alarm/set_alarm
+# slots: 1:19:reminder/todo, 26:7:datetime
+1	Аяк	alarm/set_alarm	B-reminder/todo
+2	киеме	alarm/set_alarm	I-reminder/todo
+3	җитештерү	alarm/set_alarm	I-reminder/todo
+4	өчен	alarm/set_alarm	O
+5	иртәнге	alarm/set_alarm	B-datetime
+6	7:20	alarm/set_alarm	I-datetime
+7	сәгатькә	alarm/set_alarm	I-datetime
+8	будильникны	alarm/set_alarm	O
+9	куй	alarm/set_alarm	O
+10	.	alarm/set_alarm	O
+
+# id: valid_142
+# text: Бүген Лаештә бураннар булырмы
+# intent: weather/find
+# slots: 1:5:datetime, 7:18:location, 20:27:weather/attribute
+1	Бүген	weather/find	B-datetime
+2	Лаештә	weather/find	B-location
+3	бураннар	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+
+# id: valid_143
+# text: хәзер температура нинди
+# intent: weather/find
+# slots: 1:5:datetime, 7:17:weather/attribute
+1	хәзер	weather/find	B-datetime
+2	температура	weather/find	B-weather/attribute
+3	нинди	weather/find	O
+
+# id: valid_144
+# text: иртәгә иртәнге 7:30-да Данга төш әзерләгә исемә төшер .
+# intent: reminder/set_reminder
+# slots: 1:6:datetime, 0:7:reminder/todo
+1	иртәгә	reminder/set_reminder	B-datetime
+2	иртәнге	reminder/set_reminder	I-datetime
+3	7:30-да	reminder/set_reminder	I-datetime
+4	Данга	reminder/set_reminder	B-reminder/todo
+5	төш	reminder/set_reminder	I-reminder/todo
+6	әзерләгә	reminder/set_reminder	I-reminder/todo
+7	исемә	reminder/set_reminder	O
+8	төшер	reminder/set_reminder	O
+9	.	reminder/set_reminder	O
+
+# id: valid_145
+# text: Иртәгә иртәнге 6:30-да будильникны куй .
+# intent: alarm/set_alarm
+# slots: 1:6:datetime
+1	Иртәгә	alarm/set_alarm	B-datetime
+2	иртәнге	alarm/set_alarm	I-datetime
+3	6:30-да	alarm/set_alarm	I-datetime
+4	будильникны	alarm/set_alarm	O
+5	куй	alarm/set_alarm	O
+6	.	alarm/set_alarm	O
+
+# id: valid_146
+# text: Минем хәтерләтүләрем бармы ?
+# intent: reminder/show_reminders
+# slots: 
+1	Минем	reminder/show_reminders	O
+2	хәтерләтүләрем	reminder/show_reminders	O
+3	бармы	reminder/show_reminders	O
+4	?	reminder/show_reminders	O
+
+# id: valid_147
+# text: Минем хәтерләтүне теш табибыма бару турында язма бармы ?
+# intent: reminder/show_reminders
+# slots: 1:5:reference, 19:35:reminder/todo
+1	Минем	reminder/show_reminders	B-reference
+2	хәтерләтүне	reminder/show_reminders	O
+3	теш	reminder/show_reminders	B-reminder/todo
+4	табибыма	reminder/show_reminders	I-reminder/todo
+5	бару	reminder/show_reminders	I-reminder/todo
+6	турында	reminder/show_reminders	O
+7	язма	reminder/show_reminders	O
+8	бармы	reminder/show_reminders	O
+9	?	reminder/show_reminders	O
+
+# id: valid_148
+# text: Яңгыр кайчан туктар ?
+# intent: weather/find
+# slots: 1:5:weather/attribute
+1	Яңгыр	weather/find	B-weather/attribute
+2	кайчан	weather/find	O
+3	туктар	weather/find	O
+4	?	weather/find	O
+
+# id: valid_149
+# text: Бу атнада кар булырмы ?
+# intent: weather/find
+# slots: 1:9:datetime, 11:13:weather/attribute
+1	Бу	weather/find	B-datetime
+2	атнада	weather/find	I-datetime
+3	кар	weather/find	B-weather/attribute
+4	булырмы	weather/find	O
+5	?	weather/find	O
+
+# id: valid_150
+# text: будильникны сүндер
+# intent: alarm/cancel_alarm
+# slots: 
+1	будильникны	alarm/cancel_alarm	O
+2	сүндер	alarm/cancel_alarm	O
+
+# id: valid_151
+# text: Мин Шигырьләр 6-дан 3 куяр идем
+# intent: RateBook
+# slots: 5:18:object_name, 0:4:best_rating, 0:0:rating_value
+1	Мин	RateBook	O
+2	Шигырьләр	RateBook	B-object_name
+3	6-дан	RateBook	B-best_rating
+4	3	RateBook	B-rating_value
+5	куяр	RateBook	O
+6	идем	RateBook	O
+
+# id: valid_152
+# text: VK Музыка алтмышынчы еллардагы уйнат some Рифат Зарипов from the .
+# intent: PlayMusic
+# slots: 1:10:service, 12:31:datetime, 33:42:artist
+1	VK	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	алтмышынчы	PlayMusic	B-datetime
+4	еллардагы	PlayMusic	I-datetime
+5	уйнат	PlayMusic	O
+6	some	PlayMusic	O
+7	Рифат	PlayMusic	B-artist
+8	Зарипов	PlayMusic	I-artist
+9	from	PlayMusic	O
+10	the	PlayMusic	O
+11	.	PlayMusic	O
+
+# id: valid_153
+# text: Сабантуй бәйрәме телесериалны таб .
+# intent: SearchCreativeWork
+# slots: 1:15:object_name, 17:28:object_type
+1	Сабантуй	SearchCreativeWork	B-object_name
+2	бәйрәме	SearchCreativeWork	I-object_name
+3	телесериалны	SearchCreativeWork	B-object_type
+4	таб	SearchCreativeWork	O
+5	.	SearchCreativeWork	O
+
+# id: valid_154
+# text: МТС Музыка Ильмира Нәгыймова shadowplay-ны уйнат .
+# intent: PlayMusic
+# slots: 1:9:service, 11:18:artist, 20:32:track
+1	МТС	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	Ильмира	PlayMusic	B-artist
+4	Нәгыймова	PlayMusic	I-artist
+5	shadowplay-ны	PlayMusic	B-track
+6	уйнат	PlayMusic	O
+7	.	PlayMusic	O
+
+# id: valid_155
+# text: мин һәм имельда өстәлне иртәнге җидегә Әгерҗедә броньларга телибез
+# intent: BookRestaurant
+# slots: 1:15:party_size_description, 25:38:datetime, 40:48:location
+1	мин	BookRestaurant	B-party_size_description
+2	һәм	BookRestaurant	I-party_size_description
+3	имельда	BookRestaurant	I-party_size_description
+4	өстәлне	BookRestaurant	O
+5	иртәнге	BookRestaurant	B-datetime
+6	җидегә	BookRestaurant	I-datetime
+7	Әгерҗедә	BookRestaurant	B-location
+8	броньларга	BookRestaurant	O
+9	телибез	BookRestaurant	O
+
+# id: valid_156
+# text: Мунир Рахмаев Яраткан party җырлар плейлистка өстә
+# intent: AddToPlaylist
+# slots: 1:12:artist, 14:48:playlist
+1	Мунир	AddToPlaylist	B-artist
+2	Рахмаев	AddToPlaylist	I-artist
+3	Яраткан	AddToPlaylist	B-playlist
+4	party	AddToPlaylist	I-playlist
+5	җырлар	AddToPlaylist	I-playlist
+6	плейлистка	AddToPlaylist	I-playlist
+7	өстә	AddToPlaylist	O
+
+# id: valid_157
+# text: 1995-енче елгы Ләйсән Гимаева уйнат
+# intent: PlayMusic
+# slots: 1:9:datetime, 16:38:artist
+1	1995-енче	PlayMusic	B-datetime
+2	елгы	PlayMusic	O
+3	Ләйсән	PlayMusic	B-artist
+4	Гимаева	PlayMusic	I-artist
+5	уйнат	PlayMusic	O
+
+# id: valid_158
+# text: Унбер ел ярымнан соң Болгарда һава торышы нинди булыр
+# intent: weather/find
+# slots: 1:20:datetime, 22:28:location
+1	Унбер	weather/find	B-datetime
+2	ел	weather/find	I-datetime
+3	ярымнан	weather/find	I-datetime
+4	соң	weather/find	I-datetime
+5	Болгарда	weather/find	B-location
+6	һава	weather/find	O
+7	торышы	weather/find	O
+8	нинди	weather/find	O
+9	булыр	weather/find	O
+
+# id: valid_159
+# text: 3-енче октябрьдә Минзәләдә һава торышы нинди булыр
+# intent: weather/find
+# slots: 0:16:datetime, 18:26:location
+1	3-енче	weather/find	B-datetime
+2	октябрьдә	weather/find	I-datetime
+3	Минзәләдә	weather/find	B-location
+4	һава	weather/find	O
+5	торышы	weather/find	O
+6	нинди	weather/find	O
+7	булыр	weather/find	O
+
+# id: valid_160
+# text: VK Музыка opera музыкасын уйнат
+# intent: PlayMusic
+# slots: 1:15:service, 17:21:genre
+1	VK	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	opera	PlayMusic	B-genre
+4	музыкасын	PlayMusic	O
+5	уйнат	PlayMusic	O
+
+# id: valid_161
+# text: көндез сәгать уникедән башлап Байгал таб
+# intent: SearchScreeningEvent
+# slots: 1:29:datetime, 31:42:movie_name
+1	көндез	SearchScreeningEvent	B-datetime
+2	сәгать	SearchScreeningEvent	I-datetime
+3	уникедән	SearchScreeningEvent	I-datetime
+4	башлап	SearchScreeningEvent	I-datetime
+5	Байгал	SearchScreeningEvent	B-movie_name
+6	таб	SearchScreeningEvent	O
+
+# id: valid_162
+# text: Хәзерге романга 6-дан 3 балл бир
+# intent: RateBook
+# slots: 1:7:object_select, 9:15:object_type, 0:4:best_rating, 0:0:rating_value
+1	Хәзерге	RateBook	B-object_select
+2	романга	RateBook	B-object_type
+3	6-дан	RateBook	B-best_rating
+4	3	RateBook	B-rating_value
+5	балл	RateBook	O
+6	бир	RateBook	O
+
+# id: valid_163
+# text: Мин бу альбомны Яраткан музыкам плейлистка өстәргә телим .
+# intent: AddToPlaylist
+# slots: 8:15:music_item, 17:26:playlist
+1	Мин	AddToPlaylist	O
+2	бу	AddToPlaylist	O
+3	альбомны	AddToPlaylist	B-music_item
+4	Яраткан	AddToPlaylist	B-playlist
+5	музыкам	AddToPlaylist	I-playlist
+6	плейлистка	AddToPlaylist	I-playlist
+7	өстәргә	AddToPlaylist	O
+8	телим	AddToPlaylist	O
+9	.	AddToPlaylist	O
+
+# id: valid_164
+# text: Миңа төнге нульдә тирәсендә ресторанда дүрт кешелек өстәл кирәк .
+# intent: BookRestaurant
+# slots: 6:17:datetime, 29:38:restaurant_type, 40:43:party_size_number
+1	Миңа	BookRestaurant	O
+2	төнге	BookRestaurant	B-datetime
+3	нульдә	BookRestaurant	I-datetime
+4	тирәсендә	BookRestaurant	O
+5	ресторанда	BookRestaurant	B-restaurant_type
+6	дүрт	BookRestaurant	B-party_size_number
+7	кешелек	BookRestaurant	O
+8	өстәл	BookRestaurant	O
+9	кирәк	BookRestaurant	O
+10	.	BookRestaurant	O
+
+# id: valid_165
+# text: Болгар рәсемен таб
+# intent: SearchCreativeWork
+# slots: 1:17:object_name, 19:25:object_type
+1	Болгар	SearchCreativeWork	B-object_name
+2	рәсемен	SearchCreativeWork	B-object_type
+3	таб	SearchCreativeWork	O
+
+# id: valid_166
+# text: Башмагым 6 баллдан 2 бир
+# intent: RateBook
+# slots: 1:22:object_name, 24:24:best_rating, 26:32:rating_unit, 34:34:rating_value
+1	Башмагым	RateBook	B-object_name
+2	6	RateBook	B-best_rating
+3	баллдан	RateBook	B-rating_unit
+4	2	RateBook	B-rating_value
+5	бир	RateBook	O
+
+# id: valid_167
+# text: бу хәзерге китапка биш йолдыз өстә
+# intent: RateBook
+# slots: 4:10:object_select, 12:18:object_type, 20:22:rating_value, 24:29:rating_unit
+1	бу	RateBook	O
+2	хәзерге	RateBook	B-object_select
+3	китапка	RateBook	B-object_type
+4	биш	RateBook	B-rating_value
+5	йолдыз	RateBook	B-rating_unit
+6	өстә	RateBook	O
+
+# id: valid_168
+# text: Татар хитлары плейлистка трегын миңа өстә
+# intent: AddToPlaylist
+# slots: 1:14:playlist, 16:21:music_item, 23:26:reference
+1	Татар	AddToPlaylist	B-playlist
+2	хитлары	AddToPlaylist	I-playlist
+3	плейлистка	AddToPlaylist	I-playlist
+4	трегын	AddToPlaylist	B-music_item
+5	миңа	AddToPlaylist	B-reference
+6	өстә	AddToPlaylist	O
+
+# id: valid_169
+# text: сишәмбе көнне Яр Чаллы Казанында югары бәяләнгән шри ланка аш-суы ресторанында 6 кешелек өстәл заказать ит .
+# intent: BookRestaurant
+# slots: 1:13:datetime, 15:21:location, 23:28:location, 30:44:sort, 46:54:cuisine, 63:74:restaurant_type, 76:76:party_size_number
+1	сишәмбе	BookRestaurant	B-datetime
+2	көнне	BookRestaurant	I-datetime
+3	Яр	BookRestaurant	B-location
+4	Чаллы	BookRestaurant	I-location
+5	Казанында	BookRestaurant	B-location
+6	югары	BookRestaurant	B-sort
+7	бәяләнгән	BookRestaurant	I-sort
+8	шри	BookRestaurant	B-cuisine
+9	ланка	BookRestaurant	I-cuisine
+10	аш-суы	BookRestaurant	O
+11	ресторанында	BookRestaurant	B-restaurant_type
+12	6	BookRestaurant	B-party_size_number
+13	кешелек	BookRestaurant	O
+14	өстәл	BookRestaurant	O
+15	заказать	BookRestaurant	O
+16	ит	BookRestaurant	O
+17	.	BookRestaurant	O
+
+# id: valid_170
+# text: Миңа Пир 8 кешедән торган кичәгә төшке аш заказ ит
+# intent: BookRestaurant
+# slots: 6:15:restaurant_name, 17:17:party_size_number, 41:48:datetime
+1	Миңа	BookRestaurant	O
+2	Пир	BookRestaurant	B-restaurant_name
+3	8	BookRestaurant	B-party_size_number
+4	кешедән	BookRestaurant	O
+5	торган	BookRestaurant	O
+6	кичәгә	BookRestaurant	O
+7	төшке	BookRestaurant	B-datetime
+8	аш	BookRestaurant	I-datetime
+9	заказ	BookRestaurant	O
+10	ит	BookRestaurant	O
+
+# id: valid_171
+# text: Зинһар , Җәйге кичә плейлистында бүтән көй кабыз .
+# intent: AddToPlaylist
+# slots: 9:15:playlist, 36:38:music_item
+1	Зинһар	AddToPlaylist	O
+2	,	AddToPlaylist	O
+3	Җәйге	AddToPlaylist	B-playlist
+4	кичә	AddToPlaylist	I-playlist
+5	плейлистында	AddToPlaylist	O
+6	бүтән	AddToPlaylist	O
+7	көй	AddToPlaylist	B-music_item
+8	кабыз	AddToPlaylist	O
+9	.	AddToPlaylist	O
+
+# id: valid_172
+# text: давыллы һава торышы өчен Әлмәт фаразы нинди
+# intent: weather/find
+# slots: 1:7:condition_description, 26:27:location
+1	давыллы	weather/find	B-condition_description
+2	һава	weather/find	O
+3	торышы	weather/find	O
+4	өчен	weather/find	O
+5	Әлмәт	weather/find	B-location
+6	фаразы	weather/find	O
+7	нинди	weather/find	O
+
+# id: valid_173
+# text: Киләсе айда минем Зәйымда һава торышы нинди ?
+# intent: weather/find
+# slots: 1:11:datetime, 19:34:location
+1	Киләсе	weather/find	B-datetime
+2	айда	weather/find	I-datetime
+3	минем	weather/find	O
+4	Зәйымда	weather/find	B-location
+5	һава	weather/find	O
+6	торышы	weather/find	O
+7	нинди	weather/find	O
+8	?	weather/find	O
+
+# id: valid_174
+# text: 17-нче мартка бер кешегә бронь яса
+# intent: BookRestaurant
+# slots: 1:9:datetime, 11:13:party_size_number
+1	17-нче	BookRestaurant	B-datetime
+2	мартка	BookRestaurant	I-datetime
+3	бер	BookRestaurant	B-party_size_number
+4	кешегә	BookRestaurant	O
+5	бронь	BookRestaurant	O
+6	яса	BookRestaurant	O
+
+# id: valid_175
+# text: Хәзерге альбом 6 баллдан өч алды
+# intent: RateBook
+# slots: 1:7:object_select, 9:14:object_type, 16:16:best_rating, 18:24:rating_unit, 26:27:rating_value
+1	Хәзерге	RateBook	B-object_select
+2	альбом	RateBook	B-object_type
+3	6	RateBook	B-best_rating
+4	баллдан	RateBook	B-rating_unit
+5	өч	RateBook	B-rating_value
+6	алды	RateBook	O
+
+# id: valid_176
+# text: Зәйнәб Фәрхетдинова җырын минем Яраткан татар җырларым плейлистыма өстә .
+# intent: AddToPlaylist
+# slots: 1:18:artist, 20:24:music_item, 26:30:reference, 32:53:playlist
+1	Зәйнәб	AddToPlaylist	B-artist
+2	Фәрхетдинова	AddToPlaylist	I-artist
+3	җырын	AddToPlaylist	B-music_item
+4	минем	AddToPlaylist	B-reference
+5	Яраткан	AddToPlaylist	B-playlist
+6	татар	AddToPlaylist	I-playlist
+7	җырларым	AddToPlaylist	I-playlist
+8	плейлистыма	AddToPlaylist	O
+9	өстә	AddToPlaylist	O
+10	.	AddToPlaylist	O
+
+# id: valid_177
+# text: Кама альбомын тыңларга телим
+# intent: SearchCreativeWork
+# slots: 1:20:object_name, 22:29:object_type
+1	Кама	SearchCreativeWork	B-object_name
+2	альбомын	SearchCreativeWork	B-object_type
+3	тыңларга	SearchCreativeWork	O
+4	телим	SearchCreativeWork	O
+
+# id: valid_178
+# text: Марат Яруллин иң яхшы көйләрен кабыз
+# intent: PlayMusic
+# slots: 1:17:artist, 19:25:sort
+1	Марат	PlayMusic	B-artist
+2	Яруллин	PlayMusic	I-artist
+3	иң	PlayMusic	B-sort
+4	яхшы	PlayMusic	I-sort
+5	көйләрен	PlayMusic	O
+6	кабыз	PlayMusic	O
+
+# id: valid_179
+# text: Зөләйха күзләрен ача графигын таб .
+# intent: SearchScreeningEvent
+# slots: 1:11:movie_name, 13:20:object_type
+1	Зөләйха	SearchScreeningEvent	B-movie_name
+2	күзләрен	SearchScreeningEvent	I-movie_name
+3	ача	SearchScreeningEvent	I-movie_name
+4	графигын	SearchScreeningEvent	B-object_type
+5	таб	SearchScreeningEvent	O
+6	.	SearchScreeningEvent	O
+
+# id: valid_180
+# text: Мин Айдар Галимов концертын тыңларга телим .
+# intent: PlayMusic
+# slots: 5:18:artist, 20:28:music_item
+1	Мин	PlayMusic	O
+2	Айдар	PlayMusic	B-artist
+3	Галимов	PlayMusic	I-artist
+4	концертын	PlayMusic	B-music_item
+5	тыңларга	PlayMusic	O
+6	телим	PlayMusic	O
+7	.	PlayMusic	O
+
+# id: valid_181
+# text: Аида Гарифуллина Ярату хисе альбомын уйнат
+# intent: PlayMusic
+# slots: 1:11:artist, 13:27:album, 29:36:music_item
+1	Аида	PlayMusic	B-artist
+2	Гарифуллина	PlayMusic	I-artist
+3	Ярату	PlayMusic	B-album
+4	хисе	PlayMusic	I-album
+5	альбомын	PlayMusic	B-music_item
+6	уйнат	PlayMusic	O
+
+# id: valid_182
+# text: Татарка иң яхшы трекын уйнат
+# intent: PlayMusic
+# slots: 1:21:artist, 23:29:sort, 31:36:music_item
+1	Татарка	PlayMusic	B-artist
+2	иң	PlayMusic	B-sort
+3	яхшы	PlayMusic	I-sort
+4	трекын	PlayMusic	B-music_item
+5	уйнат	PlayMusic	O
+
+# id: valid_183
+# text: хәзерге китапка өч йолдыз куй
+# intent: RateBook
+# slots: 1:7:object_select, 9:15:object_type, 17:18:rating_value, 20:25:rating_unit
+1	хәзерге	RateBook	B-object_select
+2	китапка	RateBook	B-object_type
+3	өч	RateBook	B-rating_value
+4	йолдыз	RateBook	B-rating_unit
+5	куй	RateBook	O
+
+# id: valid_184
+# text: Көндезге 12-де Мамадышта нинди һава торышы булачак ?
+# intent: weather/find
+# slots: 1:14:datetime, 16:28:location
+1	Көндезге	weather/find	B-datetime
+2	12-де	weather/find	I-datetime
+3	Мамадышта	weather/find	B-location
+4	нинди	weather/find	O
+5	һава	weather/find	O
+6	торышы	weather/find	O
+7	булачак	weather/find	O
+8	?	weather/find	O
+
+# id: valid_185
+# text: Интернет булган ресторанда 10 кешелек өстәл броньла .
+# intent: BookRestaurant
+# slots: 1:8:facility, 17:26:restaurant_type, 28:29:party_size_number
+1	Интернет	BookRestaurant	B-facility
+2	булган	BookRestaurant	O
+3	ресторанда	BookRestaurant	B-restaurant_type
+4	10	BookRestaurant	B-party_size_number
+5	кешелек	BookRestaurant	O
+6	өстәл	BookRestaurant	O
+7	броньла	BookRestaurant	O
+8	.	BookRestaurant	O
+
+# id: valid_186
+# text: to Шагыйрь бир биш балл
+# intent: RateBook
+# slots: 1:26:object_name, 28:30:rating_value, 32:35:rating_unit
+1	to	RateBook	O
+2	Шагыйрь	RateBook	B-object_name
+3	бир	RateBook	O
+4	биш	RateBook	B-rating_value
+5	балл	RateBook	B-rating_unit
+
+# id: valid_187
+# text: Яндекс Музыка Элвин Грей көйен уйнат
+# intent: PlayMusic
+# slots: 1:10:service, 12:18:artist, 20:24:music_item
+1	Яндекс	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	Элвин	PlayMusic	B-artist
+4	Грей	PlayMusic	I-artist
+5	көйен	PlayMusic	B-music_item
+6	уйнат	PlayMusic	O
+
+# id: valid_188
+# text: Бибинур белән кинотеатр таб
+# intent: SearchScreeningEvent
+# slots: 1:14:movie_name, 22:30:object_location_type
+1	Бибинур	SearchScreeningEvent	B-movie_name
+2	белән	SearchScreeningEvent	O
+3	кинотеатр	SearchScreeningEvent	B-object_location_type
+4	таб	SearchScreeningEvent	O
+
+# id: valid_189
+# text: Күңелем өчен плейлистыннан музыка уйнат
+# intent: PlayMusic
+# slots: 1:19:playlist
+1	Күңелем	PlayMusic	B-playlist
+2	өчен	PlayMusic	I-playlist
+3	плейлистыннан	PlayMusic	O
+4	музыка	PlayMusic	O
+5	уйнат	PlayMusic	O
+
+# id: valid_190
+# text: бүген стейк-хауста кайда сашими бар сигез кешелек өстәл броньла
+# intent: BookRestaurant
+# slots: 1:5:datetime, 7:18:restaurant_type, 26:31:served_dish, 37:41:party_size_number
+1	бүген	BookRestaurant	B-datetime
+2	стейк-хауста	BookRestaurant	B-restaurant_type
+3	кайда	BookRestaurant	O
+4	сашими	BookRestaurant	B-served_dish
+5	бар	BookRestaurant	O
+6	сигез	BookRestaurant	B-party_size_number
+7	кешелек	BookRestaurant	O
+8	өстәл	BookRestaurant	O
+9	броньла	BookRestaurant	O
+
+# id: valid_191
+# text: Юностьда анимация фильмнарын таб
+# intent: SearchScreeningEvent
+# slots: 1:20:location, 22:40:movie_type
+1	Юностьда	SearchScreeningEvent	B-location
+2	анимация	SearchScreeningEvent	B-movie_type
+3	фильмнарын	SearchScreeningEvent	I-movie_type
+4	таб	SearchScreeningEvent	O
+
+# id: valid_192
+# text: Арчаында давыл булырмы
+# intent: weather/find
+# slots: 1:6:location, 8:12:condition_description
+1	Арчаында	weather/find	B-location
+2	давыл	weather/find	B-condition_description
+3	булырмы	weather/find	O
+
+# id: valid_193
+# text: МТС Музыка сиксәненче елларын берәр көйен уйнат
+# intent: PlayMusic
+# slots: 1:10:service, 12:21:datetime, 39:43:music_item
+1	МТС	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	сиксәненче	PlayMusic	B-datetime
+4	елларын	PlayMusic	O
+5	берәр	PlayMusic	O
+6	көйен	PlayMusic	B-music_item
+7	уйнат	PlayMusic	O
+
+# id: valid_194
+# text: Кайда мин Татар авылы таба алам ?
+# intent: SearchCreativeWork
+# slots: 11:41:object_name
+1	Кайда	SearchCreativeWork	O
+2	мин	SearchCreativeWork	O
+3	Татар	SearchCreativeWork	B-object_name
+4	авылы	SearchCreativeWork	I-object_name
+5	таба	SearchCreativeWork	O
+6	алам	SearchCreativeWork	O
+7	?	SearchCreativeWork	O
+
+# id: valid_195
+# text: Төмәндә кайчан эссерәк булачак әйт
+# intent: weather/find
+# slots: 1:7:location, 16:22:condition_temperature
+1	Төмәндә	weather/find	B-location
+2	кайчан	weather/find	O
+3	эссерәк	weather/find	B-condition_temperature
+4	булачак	weather/find	O
+5	әйт	weather/find	O
+
+# id: valid_196
+# text: Сан Ситидә кино вакытлары нинди ?
+# intent: SearchScreeningEvent
+# slots: 1:20:location, 22:35:object_type
+1	Сан	SearchScreeningEvent	B-location
+2	Ситидә	SearchScreeningEvent	I-location
+3	кино	SearchScreeningEvent	B-object_type
+4	вакытлары	SearchScreeningEvent	I-object_type
+5	нинди	SearchScreeningEvent	O
+6	?	SearchScreeningEvent	O
+
+# id: valid_197
+# text: Кичке ашка минем Менделеевскымда җил басылырмы ?
+# intent: weather/find
+# slots: 1:10:datetime, 18:33:location, 35:37:condition_description
+1	Кичке	weather/find	B-datetime
+2	ашка	weather/find	I-datetime
+3	минем	weather/find	O
+4	Менделеевскымда	weather/find	B-location
+5	җил	weather/find	B-condition_description
+6	басылырмы	weather/find	O
+7	?	weather/find	O
+
+# id: valid_198
+# text: Миңа ике минут эчендә Сан Ситидә Серле шәһәр таб
+# intent: SearchScreeningEvent
+# slots: 31:5:datetime, 6:29:location, 59:10:movie_name
+1	Миңа	SearchScreeningEvent	O
+2	ике	SearchScreeningEvent	B-datetime
+3	минут	SearchScreeningEvent	I-datetime
+4	эчендә	SearchScreeningEvent	I-datetime
+5	Сан	SearchScreeningEvent	B-location
+6	Ситидә	SearchScreeningEvent	I-location
+7	Серле	SearchScreeningEvent	B-movie_name
+8	шәһәр	SearchScreeningEvent	I-movie_name
+9	таб	SearchScreeningEvent	O
+
+# id: valid_199
+# text: Эш беткәч уйнарга ярый 6-дан ике балл бирәм
+# intent: RateBook
+# slots: 1:24:object_name, 26:30:best_rating, 32:34:rating_value, 36:39:rating_unit
+1	Эш	RateBook	B-object_name
+2	беткәч	RateBook	I-object_name
+3	уйнарга	RateBook	I-object_name
+4	ярый	RateBook	I-object_name
+5	6-дан	RateBook	B-best_rating
+6	ике	RateBook	B-rating_value
+7	балл	RateBook	B-rating_unit
+8	бирәм	RateBook	O
+
+# id: valid_200
+# text: Мин шонны , маргаританы һәм делланы Иннополистәдән Кукмара җиргә ашарга алып килергә җыенам .
+# intent: BookRestaurant
+# slots: 5:34:party_size_description, 36:44:location, 46:55:location
+1	Мин	BookRestaurant	O
+2	шонны	BookRestaurant	B-party_size_description
+3	,	BookRestaurant	I-party_size_description
+4	маргаританы	BookRestaurant	I-party_size_description
+5	һәм	BookRestaurant	I-party_size_description
+6	делланы	BookRestaurant	I-party_size_description
+7	Иннополистәдән	BookRestaurant	B-location
+8	Кукмара	BookRestaurant	B-location
+9	җиргә	BookRestaurant	O
+10	ашарга	BookRestaurant	O
+11	алып	BookRestaurant	O
+12	килергә	BookRestaurant	O
+13	җыенам	BookRestaurant	O
+14	.	BookRestaurant	O
+
+# id: valid_201
+# text: Звук музыканы уйнат
+# intent: PlayMusic
+# slots: 1:9:service
+1	Звук	PlayMusic	B-service
+2	музыканы	PlayMusic	O
+3	уйнат	PlayMusic	O
+
+# id: valid_202
+# text: 3 мартта Казанда кар булырмы ?
+# intent: weather/find
+# slots: 1:8:datetime, 10:17:location, 19:21:condition_description
+1	3	weather/find	B-datetime
+2	мартта	weather/find	I-datetime
+3	Казанда	weather/find	B-location
+4	кар	weather/find	B-condition_description
+5	булырмы	weather/find	O
+6	?	weather/find	O
+
+# id: valid_203
+# text: миңа тугыз атнадан соң Арчада 8 кешегә өстәл тап
+# intent: BookRestaurant
+# slots: 6:22:datetime, 24:35:location, 37:44:party_size_number
+1	миңа	BookRestaurant	O
+2	тугыз	BookRestaurant	B-datetime
+3	атнадан	BookRestaurant	I-datetime
+4	соң	BookRestaurant	I-datetime
+5	Арчада	BookRestaurant	B-location
+6	8	BookRestaurant	B-party_size_number
+7	кешегә	BookRestaurant	I-party_size_number
+8	өстәл	BookRestaurant	O
+9	тап	BookRestaurant	O
+
+# id: valid_204
+# text: 2004 елның трегын уйнат
+# intent: PlayMusic
+# slots: 1:4:datetime, 12:17:music_item
+1	2004	PlayMusic	B-datetime
+2	елның	PlayMusic	O
+3	трегын	PlayMusic	B-music_item
+4	уйнат	PlayMusic	O
+
+# id: valid_205
+# text: Хәзер Иллюзионында нинди фильмнар бара миңа әйт
+# intent: SearchScreeningEvent
+# slots: 7:26:location, 34:41:movie_type
+1	Хәзер	SearchScreeningEvent	O
+2	Иллюзионында	SearchScreeningEvent	B-location
+3	нинди	SearchScreeningEvent	O
+4	фильмнар	SearchScreeningEvent	B-movie_type
+5	бара	SearchScreeningEvent	O
+6	миңа	SearchScreeningEvent	O
+7	әйт	SearchScreeningEvent	O
+
+# id: valid_206
+# text: Татар гаиләсе сериалын миӊа күрсәт
+# intent: SearchCreativeWork
+# slots: 1:22:object_name, 24:31:object_type
+1	Татар	SearchCreativeWork	B-object_name
+2	гаиләсе	SearchCreativeWork	I-object_name
+3	сериалын	SearchCreativeWork	B-object_type
+4	миӊа	SearchCreativeWork	O
+5	күрсәт	SearchCreativeWork	O
+
+# id: valid_207
+# text: Миңа Идел фотографияны күрсәт
+# intent: SearchCreativeWork
+# slots: 6:18:object_name, 20:31:object_type
+1	Миңа	SearchCreativeWork	O
+2	Идел	SearchCreativeWork	B-object_name
+3	фотографияны	SearchCreativeWork	B-object_type
+4	күрсәт	SearchCreativeWork	O
+
+# id: valid_208
+# text: Сан Ситиында Сөю барамы
+# intent: SearchScreeningEvent
+# slots: 1:17:location, 19:36:movie_name
+1	Сан	SearchScreeningEvent	B-location
+2	Ситиында	SearchScreeningEvent	I-location
+3	Сөю	SearchScreeningEvent	B-movie_name
+4	барамы	SearchScreeningEvent	O
+
+# id: valid_209
+# text: Земфира Минем татар җырлар плейлистка өстә
+# intent: AddToPlaylist
+# slots: 1:12:artist, 14:34:playlist
+1	Земфира	AddToPlaylist	B-artist
+2	Минем	AddToPlaylist	B-playlist
+3	татар	AddToPlaylist	I-playlist
+4	җырлар	AddToPlaylist	I-playlist
+5	плейлистка	AddToPlaylist	I-playlist
+6	өстә	AddToPlaylist	O
+
+# id: valid_210
+# text: Алабугаымда буран булырмы
+# intent: weather/find
+# slots: 1:16:location, 18:22:condition_description
+1	Алабугаымда	weather/find	B-location
+2	буран	weather/find	B-condition_description
+3	булырмы	weather/find	O
+
+# id: valid_211
+# text: Менделеевсктәдагы кафетериядә минем һәм үги абыем өчен өстәлгә заказ бир
+# intent: BookRestaurant
+# slots: 1:10:location, 12:22:restaurant_type, 24:42:party_size_description
+1	Менделеевсктәдагы	BookRestaurant	B-location
+2	кафетериядә	BookRestaurant	B-restaurant_type
+3	минем	BookRestaurant	B-party_size_description
+4	һәм	BookRestaurant	I-party_size_description
+5	үги	BookRestaurant	I-party_size_description
+6	абыем	BookRestaurant	I-party_size_description
+7	өчен	BookRestaurant	O
+8	өстәлгә	BookRestaurant	O
+9	заказ	BookRestaurant	O
+10	бир	BookRestaurant	O
+
+# id: valid_212
+# text: Алсу егерменче еллардагы иң популяр җырын уйнат
+# intent: PlayMusic
+# slots: 37:46:artist, 1:15:datetime, 17:35:sort, 37:38:music_item
+1	Алсу	PlayMusic	B-artist
+2	егерменче	PlayMusic	B-datetime
+3	еллардагы	PlayMusic	I-datetime
+4	иң	PlayMusic	B-sort
+5	популяр	PlayMusic	I-sort
+6	җырын	PlayMusic	B-music_item
+7	уйнат	PlayMusic	O
+
+# id: valid_213
+# text: Миңа Чистайдагы һава торышы фаразын күрсәт
+# intent: weather/find
+# slots: 6:18:location
+1	Миңа	weather/find	O
+2	Чистайдагы	weather/find	B-location
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	фаразын	weather/find	O
+6	күрсәт	weather/find	O
+
+# id: valid_214
+# text: Сабантуй фотографиясен тап
+# intent: SearchCreativeWork
+# slots: 1:16:object_name, 18:30:object_type
+1	Сабантуй	SearchCreativeWork	B-object_name
+2	фотографиясен	SearchCreativeWork	B-object_type
+3	тап	SearchCreativeWork	O
+
+# id: valid_215
+# text: 17 октябрьгә Азу броньла
+# intent: BookRestaurant
+# slots: 1:12:datetime, 14:30:restaurant_name
+1	17	BookRestaurant	B-datetime
+2	октябрьгә	BookRestaurant	I-datetime
+3	Азу	BookRestaurant	B-restaurant_name
+4	броньла	BookRestaurant	O
+
+# id: valid_216
+# text: Зинһар , миңа Иннополистә һава торышы фаразын әйт
+# intent: weather/find
+# slots: 15:28:location
+1	Зинһар	weather/find	O
+2	,	weather/find	O
+3	миңа	weather/find	O
+4	Иннополистә	weather/find	B-location
+5	һава	weather/find	O
+6	торышы	weather/find	O
+7	фаразын	weather/find	O
+8	әйт	weather/find	O
+
+# id: valid_217
+# text: бу җырны минем Ретро татар җырлары плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 4:8:music_item, 10:14:reference, 16:41:playlist
+1	бу	AddToPlaylist	O
+2	җырны	AddToPlaylist	B-music_item
+3	минем	AddToPlaylist	B-reference
+4	Ретро	AddToPlaylist	B-playlist
+5	татар	AddToPlaylist	I-playlist
+6	җырлары	AddToPlaylist	I-playlist
+7	плейлистыма	AddToPlaylist	O
+8	өстә	AddToPlaylist	O
+
+# id: valid_218
+# text: Баулыга Мәскәүдә һава торышы
+# intent: weather/find
+# slots: 1:5:location, 7:16:location
+1	Баулыга	weather/find	B-location
+2	Мәскәүдә	weather/find	B-location
+3	һава	weather/find	O
+4	торышы	weather/find	O
+
+# id: valid_219
+# text: Минем Кырлай тыңлыйсым килә
+# intent: SearchCreativeWork
+# slots: 7:54:object_name
+1	Минем	SearchCreativeWork	O
+2	Кырлай	SearchCreativeWork	B-object_name
+3	тыңлыйсым	SearchCreativeWork	O
+4	килә	SearchCreativeWork	O
+
+# id: valid_220
+# text: Миңа Авыл күренеше күрсәт .
+# intent: SearchCreativeWork
+# slots: 6:22:object_name
+1	Миңа	SearchCreativeWork	O
+2	Авыл	SearchCreativeWork	B-object_name
+3	күренеше	SearchCreativeWork	I-object_name
+4	күрсәт	SearchCreativeWork	O
+5	.	SearchCreativeWork	O
+
+# id: valid_221
+# text: Минем Яр Чаллыым Буаында сәгать 0-да яңгыр явар микән ?
+# intent: weather/find
+# slots: 7:20:location, 22:27:location, 29:39:datetime, 41:45:condition_description
+1	Минем	weather/find	O
+2	Яр	weather/find	B-location
+3	Чаллыым	weather/find	I-location
+4	Буаында	weather/find	B-location
+5	сәгать	weather/find	B-datetime
+6	0-да	weather/find	I-datetime
+7	яңгыр	weather/find	B-condition_description
+8	явар	weather/find	O
+9	микән	weather/find	O
+10	?	weather/find	O
+
+# id: valid_222
+# text: бу райондагы Бөгелмә ресторанында өстәл броньла
+# intent: BookRestaurant
+# slots: 4:12:location, 14:33:location
+1	бу	BookRestaurant	O
+2	райондагы	BookRestaurant	B-location
+3	Бөгелмә	BookRestaurant	B-location
+4	ресторанында	BookRestaurant	O
+5	өстәл	BookRestaurant	O
+6	броньла	BookRestaurant	O
+
+# id: valid_223
+# text: Түбән Камада Төмәндә болытлы булу сәбәпле 15:04 һава торышы фаразы нинди
+# intent: weather/find
+# slots: 1:10:location, 12:22:location, 24:30:condition_description, 45:49:datetime
+1	Түбән	weather/find	B-location
+2	Камада	weather/find	I-location
+3	Төмәндә	weather/find	B-location
+4	болытлы	weather/find	B-condition_description
+5	булу	weather/find	O
+6	сәбәпле	weather/find	O
+7	15:04	weather/find	B-datetime
+8	һава	weather/find	O
+9	торышы	weather/find	O
+10	фаразы	weather/find	O
+11	нинди	weather/find	O
+
+# id: valid_224
+# text: Мин сеанслар расписаниесен карый аламмы ?
+# intent: SearchScreeningEvent
+# slots: 5:26:object_type
+1	Мин	SearchScreeningEvent	O
+2	сеанслар	SearchScreeningEvent	B-object_type
+3	расписаниесен	SearchScreeningEvent	I-object_type
+4	карый	SearchScreeningEvent	O
+5	аламмы	SearchScreeningEvent	O
+6	?	SearchScreeningEvent	O
+
+# id: valid_225
+# text: Азнакайда Мулла күрсәтә торган кинотеатрын тап
+# intent: SearchScreeningEvent
+# slots: 1:8:location, 10:26:movie_name, 43:53:object_location_type
+1	Азнакайда	SearchScreeningEvent	B-location
+2	Мулла	SearchScreeningEvent	B-movie_name
+3	күрсәтә	SearchScreeningEvent	O
+4	торган	SearchScreeningEvent	O
+5	кинотеатрын	SearchScreeningEvent	B-object_location_type
+6	тап	SearchScreeningEvent	O
+
+# id: valid_226
+# text: Сабантуй бәйрәме трейлерын тап
+# intent: SearchCreativeWork
+# slots: 1:12:object_name, 14:22:object_type
+1	Сабантуй	SearchCreativeWork	B-object_name
+2	бәйрәме	SearchCreativeWork	I-object_name
+3	трейлерын	SearchCreativeWork	B-object_type
+4	тап	SearchCreativeWork	O
+
+# id: valid_227
+# text: бу альбомны минем Күңел моңнары плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 4:11:music_item, 13:17:reference, 19:39:playlist
+1	бу	AddToPlaylist	O
+2	альбомны	AddToPlaylist	B-music_item
+3	минем	AddToPlaylist	B-reference
+4	Күңел	AddToPlaylist	B-playlist
+5	моңнары	AddToPlaylist	I-playlist
+6	плейлистыма	AddToPlaylist	O
+7	өстә	AddToPlaylist	O
+
+# id: valid_228
+# text: сеанслар расписаниелары нинди
+# intent: SearchScreeningEvent
+# slots: 1:23:object_type
+1	сеанслар	SearchScreeningEvent	B-object_type
+2	расписаниелары	SearchScreeningEvent	I-object_type
+3	нинди	SearchScreeningEvent	O
+
+# id: valid_229
+# text: Элвин Грей җырын МТС Музыка уйнат
+# intent: PlayMusic
+# slots: 1:9:artist, 11:15:music_item, 17:26:service
+1	Элвин	PlayMusic	B-artist
+2	Грей	PlayMusic	I-artist
+3	җырын	PlayMusic	B-music_item
+4	МТС	PlayMusic	B-service
+5	Музыка	PlayMusic	I-service
+6	уйнат	PlayMusic	O
+
+# id: valid_230
+# text: Тапшырылмаган хатлар 6 баллдан 0 бир
+# intent: RateBook
+# slots: 1:18:object_name, 20:20:best_rating, 22:28:rating_unit, 30:30:rating_value
+1	Тапшырылмаган	RateBook	B-object_name
+2	хатлар	RateBook	I-object_name
+3	6	RateBook	B-best_rating
+4	баллдан	RateBook	B-rating_unit
+5	0	RateBook	B-rating_value
+6	бир	RateBook	O
+
+# id: valid_231
+# text: Зәйнәб Фәрхетдинова СберЗвук уйнат
+# intent: PlayMusic
+# slots: 1:15:artist, 17:26:service
+1	Зәйнәб	PlayMusic	B-artist
+2	Фәрхетдинова	PlayMusic	I-artist
+3	СберЗвук	PlayMusic	B-service
+4	уйнат	PlayMusic	O
+
+# id: valid_232
+# text: миӊа фильм вакытларын тап
+# intent: SearchScreeningEvent
+# slots: 6:21:object_type
+1	миӊа	SearchScreeningEvent	O
+2	фильм	SearchScreeningEvent	B-object_type
+3	вакытларын	SearchScreeningEvent	I-object_type
+4	тап	SearchScreeningEvent	O
+
+# id: valid_233
+# text: Кичке 4 Минзәләдә җилле булачакмы ?
+# intent: weather/find
+# slots: 1:7:datetime, 9:18:location, 20:24:condition_description
+1	Кичке	weather/find	B-datetime
+2	4	weather/find	I-datetime
+3	Минзәләдә	weather/find	B-location
+4	җилле	weather/find	B-condition_description
+5	булачакмы	weather/find	O
+6	?	weather/find	O
+
+# id: valid_234
+# text: Миңа Мамадышта тугыз кешегә ресторан броньла
+# intent: BookRestaurant
+# slots: 6:14:location, 16:27:party_size_number, 29:36:restaurant_type
+1	Миңа	BookRestaurant	O
+2	Мамадышта	BookRestaurant	B-location
+3	тугыз	BookRestaurant	B-party_size_number
+4	кешегә	BookRestaurant	I-party_size_number
+5	ресторан	BookRestaurant	B-restaurant_type
+6	броньла	BookRestaurant	O
+
+# id: valid_235
+# text: Болгар шәһәре дип аталган видеоуен тап
+# intent: SearchCreativeWork
+# slots: 1:25:object_name, 39:46:object_type
+1	Болгар	SearchCreativeWork	B-object_name
+2	шәһәре	SearchCreativeWork	I-object_name
+3	дип	SearchCreativeWork	O
+4	аталган	SearchCreativeWork	O
+5	видеоуен	SearchCreativeWork	B-object_type
+6	тап	SearchCreativeWork	O
+
+# id: valid_236
+# text: Популяр чураскария ресторанында өч атна алдан бер өстәл броньла
+# intent: BookRestaurant
+# slots: 1:7:sort, 9:33:restaurant_type, 35:47:datetime, 49:51:party_size_number
+1	Популяр	BookRestaurant	B-sort
+2	чураскария	BookRestaurant	B-restaurant_type
+3	ресторанында	BookRestaurant	I-restaurant_type
+4	өч	BookRestaurant	B-datetime
+5	атна	BookRestaurant	I-datetime
+6	алдан	BookRestaurant	I-datetime
+7	бер	BookRestaurant	B-party_size_number
+8	өстәл	BookRestaurant	O
+9	броньла	BookRestaurant	O
+
+# id: valid_237
+# text: Тәрәзәләр өч йолдыз куям
+# intent: RateBook
+# slots: 1:15:object_name, 17:18:rating_value, 20:25:rating_unit
+1	Тәрәзәләр	RateBook	B-object_name
+2	өч	RateBook	B-rating_value
+3	йолдыз	RateBook	B-rating_unit
+4	куям	RateBook	O
+
+# id: valid_238
+# text: Тәтешендә , Азнакайда , аньолотти бирелә торган ресторанда өстәл броньла .
+# intent: BookRestaurant
+# slots: 1:18:location, 22:29:location, 33:41:served_dish, 57:66:restaurant_type
+1	Тәтешендә	BookRestaurant	B-location
+2	,	BookRestaurant	O
+3	Азнакайда	BookRestaurant	B-location
+4	,	BookRestaurant	O
+5	аньолотти	BookRestaurant	B-served_dish
+6	бирелә	BookRestaurant	O
+7	торган	BookRestaurant	O
+8	ресторанда	BookRestaurant	B-restaurant_type
+9	өстәл	BookRestaurant	O
+10	броньла	BookRestaurant	O
+11	.	BookRestaurant	O
+
+# id: valid_239
+# text: Керим әле урманнарга минем Сабантуй җырлары плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 1:17:entity_name, 19:23:reference, 25:42:playlist
+1	Керим	AddToPlaylist	B-entity_name
+2	әле	AddToPlaylist	I-entity_name
+3	урманнарга	AddToPlaylist	I-entity_name
+4	минем	AddToPlaylist	B-reference
+5	Сабантуй	AddToPlaylist	B-playlist
+6	җырлары	AddToPlaylist	I-playlist
+7	плейлистыма	AddToPlaylist	O
+8	өстә	AddToPlaylist	O
+
+# id: valid_240
+# text: Миңа Әлмәтдагы һава торышы турында сөйли алмассынмы
+# intent: weather/find
+# slots: 6:12:location
+1	Миңа	weather/find	O
+2	Әлмәтдагы	weather/find	B-location
+3	һава	weather/find	O
+4	торышы	weather/find	O
+5	турында	weather/find	O
+6	сөйли	weather/find	O
+7	алмассынмы	weather/find	O
+
+# id: valid_241
+# text: Ильмира Нәгыймова минем Татар рок җырлары плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 1:14:artist, 16:20:reference, 22:39:playlist
+1	Ильмира	AddToPlaylist	B-artist
+2	Нәгыймова	AddToPlaylist	I-artist
+3	минем	AddToPlaylist	B-reference
+4	Татар	AddToPlaylist	B-playlist
+5	рок	AddToPlaylist	I-playlist
+6	җырлары	AddToPlaylist	I-playlist
+7	плейлистыма	AddToPlaylist	O
+8	өстә	AddToPlaylist	O
+
+# id: valid_242
+# text: Мин Су анасы сагасын карарга теләр идем
+# intent: SearchCreativeWork
+# slots: 5:34:object_name, 36:42:object_type
+1	Мин	SearchCreativeWork	O
+2	Су	SearchCreativeWork	B-object_name
+3	анасы	SearchCreativeWork	I-object_name
+4	сагасын	SearchCreativeWork	B-object_type
+5	карарга	SearchCreativeWork	O
+6	теләр	SearchCreativeWork	O
+7	идем	SearchCreativeWork	O
+
+# id: valid_243
+# text: Миңа Яшел Үзән 10 кеше өчен кичке алтыда өстәл броньларга кирәк
+# intent: BookRestaurant
+# slots: 6:14:location, 16:22:party_size_number, 29:40:datetime
+1	Миңа	BookRestaurant	O
+2	Яшел	BookRestaurant	B-location
+3	Үзән	BookRestaurant	I-location
+4	10	BookRestaurant	B-party_size_number
+5	кеше	BookRestaurant	I-party_size_number
+6	өчен	BookRestaurant	O
+7	кичке	BookRestaurant	B-datetime
+8	алтыда	BookRestaurant	I-datetime
+9	өстәл	BookRestaurant	O
+10	броньларга	BookRestaurant	O
+11	кирәк	BookRestaurant	O
+
+# id: valid_244
+# text: Сиксәненче еллар музыкасын башкару өчен VK Музыка куллан
+# intent: PlayMusic
+# slots: 1:16:datetime, 41:52:service
+1	Сиксәненче	PlayMusic	B-datetime
+2	еллар	PlayMusic	I-datetime
+3	музыкасын	PlayMusic	O
+4	башкару	PlayMusic	O
+5	өчен	PlayMusic	O
+6	VK	PlayMusic	B-service
+7	Музыка	PlayMusic	I-service
+8	куллан	PlayMusic	O
+
+# id: valid_245
+# text: Су анасы исемле саундтрек тап
+# intent: SearchCreativeWork
+# slots: 1:30:object_name, 39:47:object_type
+1	Су	SearchCreativeWork	B-object_name
+2	анасы	SearchCreativeWork	I-object_name
+3	исемле	SearchCreativeWork	O
+4	саундтрек	SearchCreativeWork	B-object_type
+5	тап	SearchCreativeWork	O
+
+# id: valid_246
+# text: Унтугыз секундтан соң башлана торган фильмнарны кайсы Сан Ситидагы кинотеатрда күрсәтәләр ?
+# intent: SearchScreeningEvent
+# slots: 1:17:datetime, 38:47:movie_type, 55:62:location, 64:74:object_location_type
+1	Унтугыз	SearchScreeningEvent	B-datetime
+2	секундтан	SearchScreeningEvent	I-datetime
+3	соң	SearchScreeningEvent	O
+4	башлана	SearchScreeningEvent	O
+5	торган	SearchScreeningEvent	O
+6	фильмнарны	SearchScreeningEvent	B-movie_type
+7	кайсы	SearchScreeningEvent	O
+8	Сан	SearchScreeningEvent	B-location
+9	Ситидагы	SearchScreeningEvent	I-location
+10	кинотеатрда	SearchScreeningEvent	B-object_location_type
+11	күрсәтәләр	SearchScreeningEvent	O
+12	?	SearchScreeningEvent	O
+
+# id: valid_247
+# text: Бу Пуччини плейлистына Марат Яруллин өстә
+# intent: AddToPlaylist
+# slots: 1:10:playlist, 24:38:artist
+1	Бу	AddToPlaylist	B-playlist
+2	Пуччини	AddToPlaylist	I-playlist
+3	плейлистына	AddToPlaylist	O
+4	Марат	AddToPlaylist	B-artist
+5	Яруллин	AddToPlaylist	I-artist
+6	өстә	AddToPlaylist	O
+
+# id: valid_248
+# text: МТС Музыка ач һәм егерменче еллардан Рифат Зарипов җырын кабыз
+# intent: PlayMusic
+# slots: 1:10:service, 19:36:datetime, 38:49:artist, 51:55:music_item
+1	МТС	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	ач	PlayMusic	O
+4	һәм	PlayMusic	O
+5	егерменче	PlayMusic	B-datetime
+6	еллардан	PlayMusic	I-datetime
+7	Рифат	PlayMusic	B-artist
+8	Зарипов	PlayMusic	I-artist
+9	җырын	PlayMusic	B-music_item
+10	кабыз	PlayMusic	O
+
+# id: valid_249
+# text: Мин ресторан броньларга телим
+# intent: BookRestaurant
+# slots: 5:12:restaurant_type
+1	Мин	BookRestaurant	O
+2	ресторан	BookRestaurant	B-restaurant_type
+3	броньларга	BookRestaurant	O
+4	телим	BookRestaurant	O
+
+# id: valid_250
+# text: Иркә Күңел альбомын уйна
+# intent: PlayMusic
+# slots: 1:22:artist, 24:33:album, 35:42:music_item
+1	Иркә	PlayMusic	B-artist
+2	Күңел	PlayMusic	B-album
+3	альбомын	PlayMusic	B-music_item
+4	уйна	PlayMusic	O
+
+# id: valid_251
+# text: бу башкаручыны минем Джаз плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 4:14:music_item, 16:20:reference, 22:25:playlist
+1	бу	AddToPlaylist	O
+2	башкаручыны	AddToPlaylist	B-music_item
+3	минем	AddToPlaylist	B-reference
+4	Джаз	AddToPlaylist	B-playlist
+5	плейлистыма	AddToPlaylist	O
+6	өстә	AddToPlaylist	O
+
+# id: valid_252
+# text: Мин Татар гаиләсе сериалын табарга телим .
+# intent: SearchCreativeWork
+# slots: 5:26:object_name, 28:35:object_type
+1	Мин	SearchCreativeWork	O
+2	Татар	SearchCreativeWork	B-object_name
+3	гаиләсе	SearchCreativeWork	I-object_name
+4	сериалын	SearchCreativeWork	B-object_type
+5	табарга	SearchCreativeWork	O
+6	телим	SearchCreativeWork	O
+7	.	SearchCreativeWork	O
+
+# id: valid_253
+# text: VK Музыка Зуля Камалова иң яхшы егерме җырларны кабыз
+# intent: PlayMusic
+# slots: 1:10:service, 12:28:artist, 30:52:sort
+1	VK	PlayMusic	B-service
+2	Музыка	PlayMusic	I-service
+3	Зуля	PlayMusic	B-artist
+4	Камалова	PlayMusic	I-artist
+5	иң	PlayMusic	B-sort
+6	яхшы	PlayMusic	I-sort
+7	егерме	PlayMusic	I-sort
+8	җырларны	PlayMusic	I-sort
+9	кабыз	PlayMusic	O
+
+# id: valid_254
+# text: Алты минуттан соң Зәй Норлатында нинди һава торышы булачак
+# intent: weather/find
+# slots: 1:17:datetime, 19:23:location, 25:30:location
+1	Алты	weather/find	B-datetime
+2	минуттан	weather/find	I-datetime
+3	соң	weather/find	I-datetime
+4	Зәй	weather/find	B-location
+5	Норлатында	weather/find	B-location
+6	нинди	weather/find	O
+7	һава	weather/find	O
+8	торышы	weather/find	O
+9	булачак	weather/find	O
+
+# id: valid_255
+# text: Мин илленче еллар музыкасыннан берәр нәрсә тыңларга телим .
+# intent: PlayMusic
+# slots: 5:17:datetime
+1	Мин	PlayMusic	O
+2	илленче	PlayMusic	B-datetime
+3	еллар	PlayMusic	I-datetime
+4	музыкасыннан	PlayMusic	O
+5	берәр	PlayMusic	O
+6	нәрсә	PlayMusic	O
+7	тыңларга	PlayMusic	O
+8	телим	PlayMusic	O
+9	.	PlayMusic	O
+
+# id: valid_256
+# text: Юностьында Күкчәчәк ничәдә башлана
+# intent: SearchScreeningEvent
+# slots: 1:30:location, 32:57:movie_name
+1	Юностьында	SearchScreeningEvent	B-location
+2	Күкчәчәк	SearchScreeningEvent	B-movie_name
+3	ничәдә	SearchScreeningEvent	O
+4	башлана	SearchScreeningEvent	O
+
+# id: valid_257
+# text: Кыр эшләре фотографиясын тап
+# intent: SearchCreativeWork
+# slots: 1:50:object_name, 52:64:object_type
+1	Кыр	SearchCreativeWork	B-object_name
+2	эшләре	SearchCreativeWork	I-object_name
+3	фотографиясын	SearchCreativeWork	B-object_type
+4	тап	SearchCreativeWork	O
+
+# id: valid_258
+# text: Буламы соң җырын минем акустик соул плейлистыма керт
+# intent: AddToPlaylist
+# slots: 1:14:entity_name, 22:26:reference, 28:39:playlist
+1	Буламы	AddToPlaylist	B-entity_name
+2	соң	AddToPlaylist	I-entity_name
+3	җырын	AddToPlaylist	O
+4	минем	AddToPlaylist	B-reference
+5	акустик	AddToPlaylist	B-playlist
+6	соул	AddToPlaylist	I-playlist
+7	плейлистыма	AddToPlaylist	O
+8	керт	AddToPlaylist	O
+
+# id: valid_259
+# text: Марат Яруллин иң яхшы җырын уйна
+# intent: PlayMusic
+# slots: 1:16:artist, 18:24:sort, 26:30:music_item
+1	Марат	PlayMusic	B-artist
+2	Яруллин	PlayMusic	I-artist
+3	иң	PlayMusic	B-sort
+4	яхшы	PlayMusic	I-sort
+5	җырын	PlayMusic	B-music_item
+6	уйна	PlayMusic	O
+
+# id: valid_260
+# text: 2037 елның унөченче маенда Болгарның Әгерҗе шәһәре нәрсәгә охшаячак
+# intent: weather/find
+# slots: 1:26:datetime, 28:40:location, 42:52:location
+1	2037	weather/find	B-datetime
+2	елның	weather/find	I-datetime
+3	унөченче	weather/find	I-datetime
+4	маенда	weather/find	I-datetime
+5	Болгарның	weather/find	B-location
+6	Әгерҗе	weather/find	B-location
+7	шәһәре	weather/find	O
+8	нәрсәгә	weather/find	O
+9	охшаячак	weather/find	O
+
+# id: valid_261
+# text: Мирдә сеанслар расписаниесен тап .
+# intent: SearchScreeningEvent
+# slots: 1:21:location, 23:44:object_type
+1	Мирдә	SearchScreeningEvent	B-location
+2	сеанслар	SearchScreeningEvent	B-object_type
+3	расписаниесен	SearchScreeningEvent	I-object_type
+4	тап	SearchScreeningEvent	O
+5	.	SearchScreeningEvent	O
+
+# id: valid_262
+# text: Иген җыю дип исемләнгән телесериал тап .
+# intent: SearchCreativeWork
+# slots: 1:26:object_name, 43:52:object_type
+1	Иген	SearchCreativeWork	B-object_name
+2	җыю	SearchCreativeWork	I-object_name
+3	дип	SearchCreativeWork	O
+4	исемләнгән	SearchCreativeWork	O
+5	телесериал	SearchCreativeWork	B-object_type
+6	тап	SearchCreativeWork	O
+7	.	SearchCreativeWork	O
+
+# id: valid_263
+# text: суыту сәбәпле , якындагы унсигез минутка Кукмарада һава торышы фаразы нинди
+# intent: weather/find
+# slots: 1:5:condition_temperature, 17:40:datetime, 42:46:location
+1	суыту	weather/find	B-condition_temperature
+2	сәбәпле	weather/find	O
+3	,	weather/find	O
+4	якындагы	weather/find	B-datetime
+5	унсигез	weather/find	I-datetime
+6	минутка	weather/find	I-datetime
+7	Кукмарада	weather/find	B-location
+8	һава	weather/find	O
+9	торышы	weather/find	O
+10	фаразы	weather/find	O
+11	нинди	weather/find	O
+
+# id: valid_264
+# text: Уналты сәгатькә Арчадагы ресторанны броньла
+# intent: BookRestaurant
+# slots: 1:15:datetime, 17:35:location, 37:46:restaurant_type
+1	Уналты	BookRestaurant	B-datetime
+2	сәгатькә	BookRestaurant	I-datetime
+3	Арчадагы	BookRestaurant	B-location
+4	ресторанны	BookRestaurant	B-restaurant_type
+5	броньла	BookRestaurant	O
+
+# id: valid_265
+# text: Стейси Уотсон һәм Адриана бүген көндез Алабугадәге иң яхшы остериягә барырга телиләр
+# intent: BookRestaurant
+# slots: 1:25:party_size_description, 27:38:datetime, 40:79:location, 81:87:sort, 89:97:restaurant_type
+1	Стейси	BookRestaurant	B-party_size_description
+2	Уотсон	BookRestaurant	I-party_size_description
+3	һәм	BookRestaurant	I-party_size_description
+4	Адриана	BookRestaurant	I-party_size_description
+5	бүген	BookRestaurant	B-datetime
+6	көндез	BookRestaurant	I-datetime
+7	Алабугадәге	BookRestaurant	B-location
+8	иң	BookRestaurant	B-sort
+9	яхшы	BookRestaurant	I-sort
+10	остериягә	BookRestaurant	B-restaurant_type
+11	барырга	BookRestaurant	O
+12	телиләр	BookRestaurant	O
+
+# id: valid_266
+# text: Түбән Камада 13 сәгатьтән соң салкын булырмы
+# intent: weather/find
+# slots: 1:17:location, 19:34:datetime, 36:41:condition_temperature
+1	Түбән	weather/find	B-location
+2	Камада	weather/find	I-location
+3	13	weather/find	B-datetime
+4	сәгатьтән	weather/find	I-datetime
+5	соң	weather/find	I-datetime
+6	салкын	weather/find	B-condition_temperature
+7	булырмы	weather/find	O
+
+# id: valid_267
+# text: Земфира Халык җырлары плейлистына өстә
+# intent: AddToPlaylist
+# slots: 1:16:artist, 18:31:playlist
+1	Земфира	AddToPlaylist	B-artist
+2	Халык	AddToPlaylist	B-playlist
+3	җырлары	AddToPlaylist	I-playlist
+4	плейлистына	AddToPlaylist	O
+5	өстә	AddToPlaylist	O
+
+# id: valid_268
+# text: Бу хәзерге эссены алты йолдыздан өчкә бәялә
+# intent: RateBook
+# slots: 4:10:object_select, 12:17:object_type, 19:22:best_rating, 24:32:rating_unit, 34:37:rating_value
+1	Бу	RateBook	O
+2	хәзерге	RateBook	B-object_select
+3	эссены	RateBook	B-object_type
+4	алты	RateBook	B-best_rating
+5	йолдыздан	RateBook	B-rating_unit
+6	өчкә	RateBook	B-rating_value
+7	бәялә	RateBook	O
+
+# id: valid_269
+# text: Югары бәяләнгән ресторанда өч кешелек өстәлгә заказ бир
+# intent: BookRestaurant
+# slots: 1:15:sort, 17:26:restaurant_type, 28:37:party_size_number
+1	Югары	BookRestaurant	B-sort
+2	бәяләнгән	BookRestaurant	I-sort
+3	ресторанда	BookRestaurant	B-restaurant_type
+4	өч	BookRestaurant	B-party_size_number
+5	кешелек	BookRestaurant	I-party_size_number
+6	өстәлгә	BookRestaurant	O
+7	заказ	BookRestaurant	O
+8	бир	BookRestaurant	O
+
+# id: valid_270
+# text: бу романны алтыдан 0-гә бәялә
+# intent: RateBook
+# slots: 1:2:object_select, 4:10:object_type, 12:18:best_rating, 20:23:rating_value
+1	бу	RateBook	B-object_select
+2	романны	RateBook	B-object_type
+3	алтыдан	RateBook	B-best_rating
+4	0-гә	RateBook	B-rating_value
+5	бәялә	RateBook	O
+
+# id: valid_271
+# text: Мин кинотеатрда Казан серләре күрсәтү расписаниесен карарга теләр идем
+# intent: SearchScreeningEvent
+# slots: 5:15:object_location_type, 17:31:movie_name
+1	Мин	SearchScreeningEvent	O
+2	кинотеатрда	SearchScreeningEvent	B-object_location_type
+3	Казан	SearchScreeningEvent	B-movie_name
+4	серләре	SearchScreeningEvent	I-movie_name
+5	күрсәтү	SearchScreeningEvent	O
+6	расписаниесен	SearchScreeningEvent	O
+7	карарга	SearchScreeningEvent	O
+8	теләр	SearchScreeningEvent	O
+9	идем	SearchScreeningEvent	O
+
+# id: valid_272
+# text: Норлатта 8 сәгатьтән салкынрак булырмы
+# intent: weather/find
+# slots: 1:9:location, 11:21:datetime, 23:31:condition_temperature
+1	Норлатта	weather/find	B-location
+2	8	weather/find	B-datetime
+3	сәгатьтән	weather/find	I-datetime
+4	салкынрак	weather/find	B-condition_temperature
+5	булырмы	weather/find	O
+
+# id: valid_273
+# text: бу музыканы минем Кофе өчен музыка плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 4:11:music_item, 13:17:reference, 19:40:playlist
+1	бу	AddToPlaylist	O
+2	музыканы	AddToPlaylist	B-music_item
+3	минем	AddToPlaylist	B-reference
+4	Кофе	AddToPlaylist	B-playlist
+5	өчен	AddToPlaylist	I-playlist
+6	музыка	AddToPlaylist	I-playlist
+7	плейлистыма	AddToPlaylist	O
+8	өстә	AddToPlaylist	O
+
+# id: valid_274
+# text: Казанында 3 кешегә номерны броньла
+# intent: BookRestaurant
+# slots: 1:23:location, 25:32:party_size_number
+1	Казанында	BookRestaurant	B-location
+2	3	BookRestaurant	B-party_size_number
+3	кешегә	BookRestaurant	I-party_size_number
+4	номерны	BookRestaurant	O
+5	броньла	BookRestaurant	O
+
+# id: valid_275
+# text: Менделеевсктә салкынрак булырмы ?
+# intent: weather/find
+# slots: 1:2:location, 4:9:condition_temperature
+1	Менделеевсктә	weather/find	B-location
+2	салкынрак	weather/find	B-condition_temperature
+3	булырмы	weather/find	O
+4	?	weather/find	O
+
+# id: valid_276
+# text: Бу эссене алты йолдыздан икегә бәялә
+# intent: RateBook
+# slots: 1:2:object_select, 4:9:object_type, 11:14:best_rating, 16:24:rating_unit, 26:30:rating_value
+1	Бу	RateBook	B-object_select
+2	эссене	RateBook	B-object_type
+3	алты	RateBook	B-best_rating
+4	йолдыздан	RateBook	B-rating_unit
+5	икегә	RateBook	B-rating_value
+6	бәялә	RateBook	O
+
+# id: valid_277
+# text: Әни килде алтыдан өч йолдыз бир
+# intent: RateBook
+# slots: 1:21:object_name, 23:29:best_rating, 31:32:rating_value, 34:39:rating_unit
+1	Әни	RateBook	B-object_name
+2	килде	RateBook	I-object_name
+3	алтыдан	RateBook	B-best_rating
+4	өч	RateBook	B-rating_value
+5	йолдыз	RateBook	B-rating_unit
+6	бир	RateBook	O
+
+# id: valid_278
+# text: Сан Ситисендә фильмнарын күрсәтү расписаниесен тап .
+# intent: SearchScreeningEvent
+# slots: 1:22:location, 24:55:object_type
+1	Сан	SearchScreeningEvent	B-location
+2	Ситисендә	SearchScreeningEvent	I-location
+3	фильмнарын	SearchScreeningEvent	B-object_type
+4	күрсәтү	SearchScreeningEvent	I-object_type
+5	расписаниесен	SearchScreeningEvent	I-object_type
+6	тап	SearchScreeningEvent	O
+7	.	SearchScreeningEvent	O
+
+# id: valid_279
+# text: Сити районда нинди фильмнар планлаштырылган ?
+# intent: SearchScreeningEvent
+# slots: 1:10:location, 18:25:movie_type
+1	Сити	SearchScreeningEvent	B-location
+2	районда	SearchScreeningEvent	I-location
+3	нинди	SearchScreeningEvent	O
+4	фильмнар	SearchScreeningEvent	B-movie_type
+5	планлаштырылган	SearchScreeningEvent	O
+6	?	SearchScreeningEvent	O
+
+# id: valid_280
+# text: Ком бураны җырын Топ җырлар плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 1:17:entity_name, 25:39:playlist
+1	Ком	AddToPlaylist	B-entity_name
+2	бураны	AddToPlaylist	I-entity_name
+3	җырын	AddToPlaylist	O
+4	Топ	AddToPlaylist	B-playlist
+5	җырлар	AddToPlaylist	I-playlist
+6	плейлистыма	AddToPlaylist	O
+7	өстә	AddToPlaylist	O
+
+# id: valid_281
+# text: 6 кешелек компаниягә пицца бирә торган тавернада өстәл броньла
+# intent: BookRestaurant
+# slots: 1:9:party_size_number, 22:26:served_dish, 40:48:restaurant_type
+1	6	BookRestaurant	B-party_size_number
+2	кешелек	BookRestaurant	I-party_size_number
+3	компаниягә	BookRestaurant	O
+4	пицца	BookRestaurant	B-served_dish
+5	бирә	BookRestaurant	O
+6	торган	BookRestaurant	O
+7	тавернада	BookRestaurant	B-restaurant_type
+8	өстәл	BookRestaurant	O
+9	броньла	BookRestaurant	O
+
+# id: valid_282
+# text: Китап 5 баллга бәялә
+# intent: RateBook
+# slots: 1:16:object_name, 18:18:rating_value, 20:25:rating_unit
+1	Китап	RateBook	B-object_name
+2	5	RateBook	B-rating_value
+3	баллга	RateBook	B-rating_unit
+4	бәялә	RateBook	O
+
+# id: valid_283
+# text: Минем эш башы плейлистыма Алсу Абульханова өстә
+# intent: AddToPlaylist
+# slots: 1:5:reference, 7:13:playlist, 27:43:artist
+1	Минем	AddToPlaylist	B-reference
+2	эш	AddToPlaylist	B-playlist
+3	башы	AddToPlaylist	I-playlist
+4	плейлистыма	AddToPlaylist	O
+5	Алсу	AddToPlaylist	B-artist
+6	Абульханова	AddToPlaylist	I-artist
+7	өстә	AddToPlaylist	O
+
+# id: valid_284
+# text: Сан Сити районда фильмнарның сеанс вакытлары исемлеген бир .
+# intent: SearchScreeningEvent
+# slots: 1:10:location, 12:22:movie_type, 24:38:object_type
+1	Сан	SearchScreeningEvent	B-location
+2	Сити	SearchScreeningEvent	I-location
+3	районда	SearchScreeningEvent	I-location
+4	фильмнарның	SearchScreeningEvent	B-movie_type
+5	сеанс	SearchScreeningEvent	B-object_type
+6	вакытлары	SearchScreeningEvent	I-object_type
+7	исемлеген	SearchScreeningEvent	O
+8	бир	SearchScreeningEvent	O
+9	.	SearchScreeningEvent	O
+
+# id: valid_285
+# text: Башваткыч шоуын тап
+# intent: SearchCreativeWork
+# slots: 1:17:object_name, 19:34:object_type
+1	Башваткыч	SearchCreativeWork	B-object_name
+2	шоуын	SearchCreativeWork	B-object_type
+3	тап	SearchCreativeWork	O
+
+# id: valid_286
+# text: Яр Чаллы Бөгелмәсендә һава торышы нинди
+# intent: weather/find
+# slots: 1:6:location, 8:16:location
+1	Яр	weather/find	B-location
+2	Чаллы	weather/find	I-location
+3	Бөгелмәсендә	weather/find	B-location
+4	һава	weather/find	Oа
+5	торышы	weather/find	O
+6	нинди	weather/find	O
+
+# id: valid_287
+# text: мин кинотеатрда Язмыш кайчан карый алам
+# intent: SearchScreeningEvent
+# slots: 5:15:object_location_type, 17:36:movie_name
+1	мин	SearchScreeningEvent	O
+2	кинотеатрда	SearchScreeningEvent	B-object_location_type
+3	Язмыш	SearchScreeningEvent	B-movie_name
+4	кайчан	SearchScreeningEvent	O
+5	карый	SearchScreeningEvent	O
+6	алам	SearchScreeningEvent	O
+
+# id: valid_288
+# text: Зинһар , Алсу альбомын минем Яңа хитлар плейлистыма керт
+# intent: AddToPlaylist
+# slots: 10:24:artist, 26:33:music_item, 35:39:reference, 41:56:playlist
+1	Зинһар	AddToPlaylist	O
+2	,	AddToPlaylist	O
+3	Алсу	AddToPlaylist	B-artist
+4	альбомын	AddToPlaylist	B-music_item
+5	минем	AddToPlaylist	B-reference
+6	Яңа	AddToPlaylist	B-playlist
+7	хитлар	AddToPlaylist	I-playlist
+8	плейлистыма	AddToPlaylist	O
+9	керт	AddToPlaylist	O
+
+# id: valid_289
+# text: Кыр күренеше шоуы
+# intent: SearchCreativeWork
+# slots: 1:35:object_name, 37:40:object_type
+1	Кыр	SearchCreativeWork	B-object_name
+2	күренеше	SearchCreativeWork	I-object_name
+3	шоуы	SearchCreativeWork	B-object_type
+
+# id: valid_290
+# text: җиде атнадан соң иң югары рейтинглы остерияны броньла
+# intent: BookRestaurant
+# slots: 1:16:datetime, 18:35:sort, 37:45:restaurant_type
+1	җиде	BookRestaurant	B-datetime
+2	атнадан	BookRestaurant	I-datetime
+3	соң	BookRestaurant	I-datetime
+4	иң	BookRestaurant	B-sort
+5	югары	BookRestaurant	I-sort
+6	рейтинглы	BookRestaurant	I-sort
+7	остерияны	BookRestaurant	B-restaurant_type
+8	броньла	BookRestaurant	O
+
+# id: valid_291
+# text: 08:56:29-да Беренче мәхәббәт кайсы кинотеатрда күрсәтәләр ?
+# intent: SearchScreeningEvent
+# slots: 1:11:datetime, 13:28:movie_name, 36:46:object_location_type
+1	08:56:29-да	SearchScreeningEvent	B-datetime
+2	Беренче	SearchScreeningEvent	B-movie_name
+3	мәхәббәт	SearchScreeningEvent	I-movie_name
+4	кайсы	SearchScreeningEvent	O
+5	кинотеатрда	SearchScreeningEvent	B-object_location_type
+6	күрсәтәләр	SearchScreeningEvent	O
+7	?	SearchScreeningEvent	O
+
+# id: valid_292
+# text: Иннополистә киш тәкъдим итә торган ресторан тап
+# intent: BookRestaurant
+# slots: 1:5:location, 7:9:served_dish, 30:37:restaurant_type
+1	Иннополистә	BookRestaurant	B-location
+2	киш	BookRestaurant	B-served_dish
+3	тәкъдим	BookRestaurant	O
+4	итә	BookRestaurant	O
+5	торган	BookRestaurant	O
+6	ресторан	BookRestaurant	B-restaurant_type
+7	тап	BookRestaurant	O
+
+# id: valid_293
+# text: 2029 елның 8 июнендә Алан аш 7 кешегә өстәл броньла
+# intent: BookRestaurant
+# slots: 1:20:datetime, 22:42:restaurant_name, 44:44:party_size_number
+1	2029	BookRestaurant	B-datetime
+2	елның	BookRestaurant	I-datetime
+3	8	BookRestaurant	I-datetime
+4	июнендә	BookRestaurant	I-datetime
+5	Алан	BookRestaurant	B-restaurant_name
+6	аш	BookRestaurant	I-restaurant_name
+7	7	BookRestaurant	B-party_size_number
+8	кешегә	BookRestaurant	O
+9	өстәл	BookRestaurant	O
+10	броньла	BookRestaurant	O
+
+# id: valid_294
+# text: кырыгынчы еллар көйләрен уйнат
+# intent: PlayMusic
+# slots: 1:9:datetime
+1	кырыгынчы	PlayMusic	B-datetime
+2	еллар	PlayMusic	O
+3	көйләрен	PlayMusic	O
+4	уйнат	PlayMusic	O
+
+# id: valid_295
+# text: Киномаксында анимацион фильмнар күрсәтү кайчан башланачак
+# intent: SearchScreeningEvent
+# slots: 1:25:location, 27:44:movie_type
+1	Киномаксында	SearchScreeningEvent	B-location
+2	анимацион	SearchScreeningEvent	B-movie_type
+3	фильмнар	SearchScreeningEvent	I-movie_type
+4	күрсәтү	SearchScreeningEvent	O
+5	кайчан	SearchScreeningEvent	O
+6	башланачак	SearchScreeningEvent	O
+
+# id: valid_296
+# text: Звук музыка уйнат
+# intent: PlayMusic
+# slots: 1:9:service
+1	Звук	PlayMusic	B-service
+2	музыка	PlayMusic	O
+3	уйнат	PlayMusic	O
+
+# id: valid_297
+# text: Авыл күренеше китабының исемен күрсәт
+# intent: SearchCreativeWork
+# slots: 1:17:object_name, 19:27:object_type
+1	Авыл	SearchCreativeWork	B-object_name
+2	күренеше	SearchCreativeWork	I-object_name
+3	китабының	SearchCreativeWork	B-object_type
+4	исемен	SearchCreativeWork	O
+5	күрсәт	SearchCreativeWork	O
+
+# id: valid_298
+# text: Киномакстагы фильмнар расписаниесен күрсәт
+# intent: SearchScreeningEvent
+# slots: 1:11:location, 13:20:movie_type, 22:34:object_type
+1	Киномакстагы	SearchScreeningEvent	B-location
+2	фильмнар	SearchScreeningEvent	B-movie_type
+3	расписаниесен	SearchScreeningEvent	B-object_type
+4	күрсәт	SearchScreeningEvent	O
+
+# id: valid_299
+# text: бу кыш Мередит , Бетти һәм Эрика Әгерҗе райондагы гастропабта ашарга телиләр .
+# intent: BookRestaurant
+# slots: 1:6:datetime, 8:32:party_size_description, 34:62:location, 64:74:restaurant_type
+1	бу	BookRestaurant	B-datetime
+2	кыш	BookRestaurant	I-datetime
+3	Мередит	BookRestaurant	B-party_size_description
+4	,	BookRestaurant	I-party_size_description
+5	Бетти	BookRestaurant	I-party_size_description
+6	һәм	BookRestaurant	I-party_size_description
+7	Эрика	BookRestaurant	I-party_size_description
+8	Әгерҗе	BookRestaurant	B-location
+9	райондагы	BookRestaurant	I-location
+10	гастропабта	BookRestaurant	B-restaurant_type
+11	ашарга	BookRestaurant	O
+12	телиләр	BookRestaurant	O
+13	.	BookRestaurant	O
+
+# id: valid_300
+# text: Көйне минем Көзге кичә плейлистыма өстә
+# intent: AddToPlaylist
+# slots: 1:5:music_item, 7:11:reference, 13:22:playlist
+1	Көйне	AddToPlaylist	B-music_item
+2	минем	AddToPlaylist	B-reference
+3	Көзге	AddToPlaylist	B-playlist
+4	кичә	AddToPlaylist	I-playlist
+5	плейлистыма	AddToPlaylist	O
+6	өстә	AddToPlaylist	O
