@@ -1,6 +1,6 @@
 # Data collection for natural language understanding NLU tasks in the Tatar language
 
-Аудио записи можно послушать [по ссылке в гугл диск](https://drive.google.com/drive/folders/1ZNAoliEhEgSu4WaKN8yGY2GxW4bth9DE?usp=drive_link).
+Аудио записи `/data/audio'`
 
 **Аудиофайлы разделены по папкам, которые обозначают возраст и пол говорящего:**
 
