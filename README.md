@@ -1,31 +1,20 @@
 # Data collection for natural language understanding NLU tasks in the Tatar language
 
-Аудио записи `/data/audio'`
+Аудио записи `/data/audio`. Аудиофайлы разделены по папкам, которые обозначают возраст и пол говорящего: `<Woman/Man>_<age>`.
 
-**Аудиофайлы разделены по папкам, которые обозначают возраст и пол говорящего:**
+Датасеты `/data/text`.
 
-`<Woman/Man>_<age>`
+Коды `/data/scripts`.
 
-Распознанные тексты моделью Söyle можно посмотреть [по ссылке в гугл диск](https://drive.google.com/drive/folders/1u8EeoMah1fYDgtYevZ8KhRAmHE9OBAJs?usp=sharing). 
 
-`soyle_results_full.txt` - файл, в котором распознаны все аудиофайлы с помощью библиотеки Söyle.
-
-**Остальные файлы разделены по спикерам, чтобы проверить как модель распознает разные голоса. Формат файлов такой:**
-
-`soyle_results_<w/m>_<age>.txt`
-
-**Где модель совершила ошибки можно посмотреть в [гугл папке по ссылке](https://drive.google.com/drive/folders/1-1UDtFa5L1_Tp_D-WfhWJIE0XvL4rrh0?usp=sharing).
 
 # Основные файлы
 
-1) `en.train.conll` - обучающая выборка.
-2) `final_not_full_tat.valid.conll` - валидационная выборка.
-3) `tt.test_final.conll` - оригинальная тестовая выборка с адаптацией под татарскую культуру.
-4) `soyle_results_full.txt` - распознанные аудиофайлы моделью Söyle
-5) `tt.test_final.replaced.conll` - тестовая выборка, в которую вставили предложения, распознанные моделью Söyle.
-6) `söyle.py` - код для распознавания аудиофайлов.
-7) `xSID_tat.ipynb` - код для обучения модели.
-8) `wer_and_cer.py` - код для подсчета метрик CER и WER.
-9) `Add_slots.ipynb` - добавление и подсчет слотов.
-10) `nlu.xsid_tat.out` - файл с презсказаниями модели.
+`soyle_results_full.txt` - распознанные аудиофайлы моделью Söyle, `soyle_results_<w/m>_<age>.txt`
+`söyle.py` - код для распознавания аудиофайлов.
+`machamp.ipynb` - код для обучения модели.
+`wer_and_cer.py` - код для подсчета метрик CER и WER.
+`add_#slots.ipynb` - добавление и подсчет слотов.
+`entities.py` - списи сущностей для каждого вида.
+`train_adopted.ipynb` - код для замены сущностей.
 
