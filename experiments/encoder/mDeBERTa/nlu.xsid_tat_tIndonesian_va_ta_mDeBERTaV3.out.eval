@@ -1,0 +1,17 @@
+{
+    "intent": {
+        "optimization_metrics": "accuracy",
+        "accuracy": {
+            "accuracy": 0.82,
+            "sum": "accuracy"
+        }
+    },
+    "slots": {
+        "optimization_metrics": "accuracy",
+        "accuracy": {
+            "accuracy": 0.6703929539295393,
+            "sum": "accuracy"
+        }
+    },
+    "sum": 1.4903929539295393
+}

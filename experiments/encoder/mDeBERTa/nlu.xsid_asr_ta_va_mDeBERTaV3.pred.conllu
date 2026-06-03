@@ -1,0 +1,3748 @@
+# intent = reminder/show_reminders
+1	бөтен	_	B-reference
+2	хәтерләтүләрне	_	O
+3	күрсәт	_	O
+
+# intent = weather/find
+1	миңа	_	O
+2	свитер	_	B-weather/attribute
+3	кирәкме	_	O
+
+# intent = reminder/set_reminder
+1	бүген	_	B-datetime
+2	сәгать	_	I-datetime
+3	ун	_	I-datetime
+4	алтыга	_	I-datetime
+5	хәтерләтүне	_	O
+6	өстә	_	O
+
+# intent = reminder/cancel_reminder
+1	минем	_	B-reference
+2	хәтерләтүне	_	O
+3	бетер	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	бензин	_	B-reminder/todo
+3	салырга	_	I-reminder/todo
+4	искә	_	O
+5	төшер	_	O
+
+# intent = weather/find
+1	чәршәмбе	_	B-datetime
+2	көнне	_	I-datetime
+3	миңа	_	O
+4	кул	_	B-weather/attribute
+5	чатыры	_	I-weather/attribute
+6	кирәкме	_	O
+
+# intent = alarm/set_alarm
+1	биш	_	B-datetime
+2	минуттан	_	I-datetime
+3	соң	_	I-datetime
+4	минем	_	B-reference
+5	будильнигымны	_	O
+6	кабатла	_	O
+
+# intent = reminder/set_reminder
+1	мәдинәнең	_	B-reminder/todo
+2	туган	_	I-reminder/todo
+3	көне	_	I-reminder/todo
+4	турында	_	O
+5	искә	_	O
+6	төшер	_	O
+
+# intent = reminder/show_reminders
+1	миңа	_	O
+2	бөтен	_	B-reference
+3	хәтерләтүләрне	_	O
+4	күрсәт	_	O
+
+# intent = SearchScreeningEvent
+1	бөтен	_	O
+2	бу	_	O
+3	дип	_	O
+4	никларны	_	O
+5	күрсәт	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = alarm/set_alarm
+1	дилникларны	_	O
+2	иртәнге	_	B-datetime
+3	сигезгә	_	I-datetime
+4	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	температура	_	B-weather/attribute
+3	нинди	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	B-reference
+2	хәтерләтүне	_	O
+3	күрсәт	_	O
+
+# intent = alarm/show_alarms
+1	барлык	_	B-reference
+2	будильникларны	_	O
+3	күрсәт	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	бен	_	B-reminder/todo
+3	белән	_	I-reminder/todo
+4	джорджия	_	I-reminder/todo
+5	турында	_	I-reminder/todo
+6	сөйләшергә	_	I-reminder/todo
+7	искә	_	O
+8	төшер	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	иртәнге	_	B-datetime
+3	бишкә	_	I-datetime
+4	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	болытлымы	_	B-weather/attribute
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	бездә	_	O
+3	ничә	_	O
+4	сантиметр	_	O
+5	кар	_	B-weather/attribute
+6	явар	_	O
+
+# intent = reminder/set_reminder
+1	иртәгә	_	B-datetime
+2	минем	_	B-reminder/todo
+3	апама	_	B-reminder/todo
+4	шалтыратырга	_	I-reminder/todo
+5	искә	_	O
+6	төшер	_	O
+
+# intent = alarm/snooze_alarm
+1	будильникны	_	O
+2	туктат	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	атнада	_	I-datetime
+3	кызу	_	B-weather/attribute
+4	булырмы	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	көндезге	_	B-datetime
+3	эчкә	_	I-datetime
+4	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	явармы	_	O
+
+# intent = alarm/cancel_alarm
+1	бөтен	_	B-reference
+2	бутинникларны	_	O
+3	бетер	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	B-reference
+2	хәтерләүләрне	_	O
+3	күрсәтә	_	O
+
+# intent = alarm/time_left_on_alarm
+1	будильникка	_	O
+2	күпме	_	O
+3	вакыт	_	O
+4	калды	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	B-reference
+2	нинди	_	O
+3	искә	_	O
+4	төшерүләрем	_	O
+5	бар	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	көн	_	B-recurring_datetime
+3	саен	_	I-recurring_datetime
+4	иртәнге	_	I-recurring_datetime
+5	сигезгә	_	I-recurring_datetime
+6	куй	_	O
+
+# intent = alarm/show_alarms
+1	син	_	O
+2	миңа	_	O
+3	будинникларны	_	O
+4	күрсәтә	_	O
+5	аласыңмы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	казанда	_	B-location
+3	буран	_	B-weather/attribute
+4	булырмы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	явырмы	_	O
+
+# intent = alarm/show_alarms
+1	барлык	_	B-reference
+2	будинникларны	_	O
+3	күрсәт	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	салкынмы	_	B-weather/attribute
+
+# intent = alarm/cancel_alarm
+1	зинһар	_	O
+2	пәнҗешәмбе	_	B-datetime
+3	иртәсеннән	_	I-datetime
+4	бу	_	O
+5	диниятны	_	O
+6	бетерә	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	ябырмы	_	O
+
+# intent = weather/find
+1	мамадышта	_	B-location
+2	кар	_	B-weather/attribute
+3	язамы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	нинди	_	O
+3	югары	_	B-weather/attribute
+4	температура	_	I-weather/attribute
+5	булачак	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	төнлә	_	I-datetime
+3	кар	_	B-weather/attribute
+4	аркасында	_	O
+5	юлда	_	O
+6	бару	_	O
+7	куркыныч	_	O
+8	булырмы	_	O
+
+# intent = reminder/show_reminders
+1	бөтен	_	B-reference
+2	хәтерләтүләрне	_	O
+3	күрсәт	_	O
+
+# intent = reminder/cancel_reminder
+1	бөтен	_	B-reference
+2	хәтерләтүләрне	_	O
+3	бетер	_	O
+
+# intent = weather/find
+1	миңа	_	O
+2	иртәгә	_	B-datetime
+3	куртка	_	B-weather/attribute
+4	кирәкме	_	O
+
+# intent = alarm/time_left_on_alarm
+1	будильникка	_	O
+2	күпме	_	O
+3	вакыт	_	O
+4	калды	_	O
+
+# intent = alarm/snooze_alarm
+1	будильникны	_	O
+2	туктат	_	O
+
+# intent = weather/find
+1	миңа	_	O
+2	бөтен	_	B-reference
+3	вулдинникларны	_	O
+4	күрсәт	_	O
+
+# intent = weather/find
+1	минзәләдә	_	B-location
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = reminder/cancel_reminder
+1	иртәгә	_	B-datetime
+2	мәктәптә	_	B-reminder/todo
+3	кызымны	_	I-reminder/todo
+4	алып	_	I-reminder/todo
+5	кайтырга	_	I-reminder/todo
+6	куелган	_	O
+7	хәтерләтүне	_	O
+8	бетер	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	иртәгә	_	B-datetime
+3	шул	_	I-datetime
+4	ук	_	I-datetime
+5	вакытта	_	I-datetime
+6	табибка	_	B-reminder/todo
+7	язылырга	_	I-reminder/todo
+8	искә	_	O
+9	төшер	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	аренданы	_	B-reminder/todo
+3	түләргә	_	I-reminder/todo
+4	искә	_	O
+5	төшер	_	O
+
+# intent = weather/find
+1	яңгыр	_	B-weather/attribute
+2	кайчан	_	O
+3	бетәчәк	_	O
+
+# intent = alarm/cancel_alarm
+1	бу	_	O
+2	дилникларны	_	O
+3	бетер	_	O
+
+# intent = reminder/set_reminder
+1	сишәмбе	_	B-datetime
+2	көнне	_	I-datetime
+3	миңа	_	O
+4	әнигә	_	B-reminder/todo
+5	шалтыратырга	_	I-reminder/todo
+6	искә	_	O
+7	төшер	_	O
+
+# intent = alarm/show_alarms
+1	бөтен	_	B-reference
+2	минем	_	B-reference
+3	уяткыч	_	O
+4	сәватьләрне	_	O
+5	күрсәт	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	никадәр	_	O
+3	эссе	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = alarm/set_alarm
+1	бүген	_	B-datetime
+2	кичке	_	I-datetime
+3	сәвәт	_	I-datetime
+4	бишкә	_	I-datetime
+5	будильникны	_	O
+6	куй	_	O
+
+# intent = reminder/set_reminder
+1	августның	_	B-datetime
+2	21	_	I-datetime
+3	көнендә	_	I-datetime
+4	искәрт	_	O
+5	көндезге	_	B-datetime
+6	эчкә	_	I-datetime
+7	табибка	_	B-reminder/todo
+8	барырга	_	I-reminder/todo
+9	кирәк	_	O
+
+# intent = reminder/cancel_reminder
+1	һәр	_	B-recurring_datetime
+2	көн	_	I-recurring_datetime
+3	иртәнге	_	I-recurring_datetime
+4	җидедә	_	I-datetime
+5	дару	_	B-reminder/todo
+6	эчәргә	_	I-reminder/todo
+7	куелганны	_	I-reminder/todo
+8	кабатлана	_	I-reminder/todo
+9	торган	_	I-reminder/todo
+10	хәтерләтүне	_	O
+11	бетерә	_	O
+
+# intent = weather/find
+1	алдагы	_	B-weather/attribute
+2	фараз	_	O
+3	кайчан	_	O
+4	яңгыр	_	B-weather/attribute
+5	булачак	_	O
+6	дип	_	O
+7	күрсәтә	_	O
+
+# intent = alarm/show_alarms
+1	иртәгә	_	B-datetime
+2	иртә	_	I-datetime
+3	белән	_	I-datetime
+4	минем	_	B-reference
+5	будильнигым	_	O
+6	нинди	_	O
+7	вакытта	_	O
+8	куелган	_	O
+
+# intent = reminder/show_reminders
+1	барлык	_	B-reference
+2	хәтерләтүне	_	O
+3	күрсәт	_	O
+
+# intent = alarm/cancel_alarm
+1	бу	_	B-datetime
+2	длиннәргә	_	I-datetime
+3	менә	_	O
+4	сүндер	_	O
+
+# intent = alarm/cancel_alarm
+1	барлык	_	B-reference
+2	бу	_	O
+3	динникларны	_	O
+4	бетер	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	продуктларны	_	B-reminder/todo
+3	сатып	_	I-reminder/todo
+4	алырга	_	I-reminder/todo
+5	искә	_	O
+6	төшер	_	O
+
+# intent = BookRestaurant
+1	миңа	_	O
+2	иртәнге	_	B-datetime
+3	сәгать	_	I-datetime
+4	тугызга	_	I-datetime
+5	иртәнге	_	I-datetime
+6	аш	_	O
+7	өчен	_	O
+8	бу	_	O
+9	димник	_	B-object_type
+10	кирәк	_	O
+
+# intent = reminder/set_reminder
+1	уен	_	B-reminder/todo
+2	башланганчы	_	I-reminder/todo
+3	бер	_	B-datetime
+4	сәгать	_	I-datetime
+5	алдан	_	O
+6	төркемнең	_	B-reminder/todo
+7	робин	_	I-reminder/todo
+8	матч	_	I-reminder/todo
+9	карау	_	I-reminder/todo
+10	турында	_	I-reminder/todo
+11	искә	_	O
+12	төшерүне	_	O
+13	куй	_	O
+
+# intent = alarm/cancel_alarm
+1	барлык	_	B-reference
+2	будильникларны	_	O
+3	бетер	_	O
+
+# intent = reminder/cancel_reminder
+1	бу	_	O
+2	исемлектән	_	O
+3	минем	_	B-reference
+4	өченче	_	O
+5	хәтерләр	_	O
+6	түне	_	O
+7	бетер	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	иртәнге	_	B-datetime
+3	алтыга	_	I-datetime
+4	куй	_	O
+
+# intent = alarm/cancel_alarm
+1	бу	_	O
+2	будильникны	_	O
+3	хәзер	_	B-datetime
+4	ташла	_	O
+5	һәм	_	O
+6	көндезге	_	B-datetime
+7	икедә	_	I-datetime
+8	башлап	_	O
+9	җибәр	_	O
+
+# intent = weather/find
+1	кар	_	B-weather/attribute
+2	булырмы	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	аренданы	_	B-reminder/todo
+3	түләргә	_	I-reminder/todo
+4	искә	_	O
+5	төшер	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	нинди	_	O
+3	иң	_	O
+4	түбән	_	O
+5	температура	_	B-weather/attribute
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кояшлы	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = reminder/show_reminders
+1	бүген	_	B-datetime
+2	минем	_	O
+3	ничә	_	O
+4	искә	_	O
+5	төшерүләрем	_	O
+6	бар	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	O
+2	иртәгә	_	B-datetime
+3	нинди	_	O
+4	искә	_	O
+5	төшерүләрем	_	O
+6	бар	_	O
+
+# intent = reminder/cancel_reminder
+1	минем	_	B-reference
+2	бөтен	_	I-reference
+3	искә	_	O
+4	төшерүләремне	_	I-reference
+5	бетер	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	иртәнге	_	B-datetime
+3	алтыга	_	I-datetime
+4	куй	_	O
+
+# intent = alarm/set_alarm
+1	бутыйникны	_	O
+2	утыз	_	B-datetime
+3	минутка	_	I-datetime
+4	куй	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	бер	_	B-datetime
+3	сәгать	_	I-datetime
+4	алга	_	I-datetime
+5	куй	_	O
+
+# intent = alarm/cancel_alarm
+1	барлык	_	B-reference
+2	бу	_	O
+3	демикларны	_	O
+4	бетер	_	O
+
+# intent = weather/find
+1	тәтештә	_	B-location
+2	һава	_	O
+3	торышы	_	O
+
+# intent = alarm/cancel_alarm
+1	бөтен	_	B-reference
+2	бу	_	O
+3	диетларны	_	O
+4	бетер	_	O
+
+# intent = reminder/show_reminders
+1	бүген	_	B-datetime
+2	минем	_	O
+3	ничек	_	O
+4	хәтерләтүләрем	_	O
+5	бар	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	иртәгә	_	B-datetime
+3	кибеттә	_	B-reminder/todo
+4	кәгазь	_	I-reminder/todo
+5	чәлгәләр	_	I-reminder/todo
+6	сатып	_	I-reminder/todo
+7	алырга	_	I-reminder/todo
+8	искә	_	O
+9	төшер	_	O
+
+# intent = reminder/show_reminders
+1	миңа	_	O
+2	бөтен	_	B-reference
+3	искә	_	O
+4	төшерүләремне	_	B-reference
+5	күрсәт	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	иртәнге	_	B-datetime
+3	алтыга	_	I-datetime
+4	куй	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	кар	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = alarm/cancel_alarm
+1	иртәгә	_	B-datetime
+2	иртән	_	I-datetime
+3	будильнигымны	_	O
+4	бетер	_	O
+
+# intent = alarm/set_alarm
+1	түшәмбе	_	B-datetime
+2	көннәрендә	_	I-datetime
+3	генә	_	O
+4	көндезге	_	I-datetime
+5	уникегә	_	I-datetime
+6	уяткыч	_	O
+7	сәгатьне	_	O
+8	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	ни	_	O
+3	хәтле	_	O
+4	эссе	_	B-weather/attribute
+5	булачак	_	O
+
+# intent = reminder/set_reminder
+1	иртәнге	_	B-datetime
+2	будильникларны	_	I-reminder/todo
+3	куярга	_	I-reminder/todo
+4	исемә	_	O
+5	төшер	_	O
+
+# intent = alarm/cancel_alarm
+1	бөтен	_	B-reference
+2	буддинникларны	_	O
+3	бетер	_	O
+
+# intent = alarm/show_alarms
+1	минем	_	B-reference
+2	уяткыч	_	O
+3	сәгатьләремне	_	O
+4	күрсәт	_	O
+
+# intent = alarm/cancel_alarm
+1	ояткыч	_	O
+2	сәгатьне	_	O
+3	сүндер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	температура	_	B-weather/attribute
+3	нинди	_	O
+
+# intent = alarm/cancel_alarm
+1	будильникны	_	O
+2	сүндер	_	O
+
+# intent = alarm/show_alarms
+1	барлык	_	B-reference
+2	будинникларны	_	O
+3	күрсәт	_	O
+
+# intent = alarm/set_alarm
+1	удильникны	_	O
+2	утыз	_	B-recurring_datetime
+3	минут	_	I-recurring_datetime
+4	саен	_	I-recurring_datetime
+5	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	нинди	_	O
+3	температура	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кызу	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = alarm/cancel_alarm
+1	чираттагы	_	O
+2	будильникны	_	O
+3	бетер	_	O
+
+# intent = reminder/set_reminder
+1	бүген	_	B-datetime
+2	кибеткә	_	B-reminder/todo
+3	барырга	_	I-reminder/todo
+4	искә	_	O
+5	төшер	_	O
+
+# intent = reminder/cancel_reminder
+1	киләсе	_	B-datetime
+2	аныңда	_	I-datetime
+3	минем	_	B-reference
+4	искә	_	O
+5	төшерүләрне	_	O
+6	бетер	_	O
+
+# intent = reminder/set_reminder
+1	сишәмбе	_	B-datetime
+2	көнне	_	I-datetime
+3	көндезгә	_	I-datetime
+4	сәгать	_	I-datetime
+5	өчте	_	I-datetime
+6	этне	_	B-reminder/todo
+7	гомергә	_	I-reminder/todo
+8	алып	_	I-reminder/todo
+9	барырга	_	I-reminder/todo
+10	исемә	_	O
+11	төшер	_	O
+
+# intent = reminder/set_reminder
+1	28	_	B-datetime
+2	нче	_	I-datetime
+3	көнне	_	I-datetime
+4	эльвира	_	B-reminder/todo
+5	гыеллыкка	_	I-reminder/todo
+6	чәчәкләр	_	I-reminder/todo
+7	алырга	_	I-reminder/todo
+8	өстәмә	_	O
+9	төшер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = reminder/set_reminder
+1	иртәгә	_	B-datetime
+2	табибка	_	B-reminder/todo
+3	язылырга	_	I-reminder/todo
+4	исеме	_	O
+5	төшер	_	O
+
+# intent = alarm/cancel_alarm
+1	бүтән	_	B-datetime
+2	буддинникларны	_	O
+3	сүндер	_	O
+
+# intent = weather/find
+1	өске	_	O
+2	киемне	_	I-weather/attribute
+3	үзем	_	O
+4	белән	_	O
+5	алыйммы	_	O
+
+# intent = weather/find
+1	көчле	_	B-weather/attribute
+2	һава	_	I-weather/attribute
+3	торышы	_	I-weather/attribute
+4	фаразы	_	O
+5	нинди	_	O
+
+# intent = reminder/set_reminder
+1	киләсе	_	B-datetime
+2	атнада	_	I-datetime
+3	табибка	_	B-reminder/todo
+4	язылуым	_	I-reminder/todo
+5	турында	_	O
+6	исемә	_	O
+7	төшер	_	O
+
+# intent = reminder/set_reminder
+1	иртәнге	_	B-datetime
+2	сигезде	_	I-datetime
+3	кибеткә	_	B-reminder/todo
+4	барырга	_	I-reminder/todo
+5	исеме	_	O
+6	төшер	_	O
+
+# intent = reminder/set_reminder
+1	химчисткага	_	B-reminder/todo
+2	бару	_	I-reminder/todo
+3	турында	_	I-reminder/todo
+4	искә	_	O
+5	төшерү	_	O
+6	куй	_	O
+
+# intent = weather/find
+1	кайчан	_	O
+2	салкынрак	_	B-weather/attribute
+3	булачак	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	атнада	_	I-datetime
+3	яңгыр	_	B-weather/attribute
+4	булырмы	_	O
+
+# intent = alarm/cancel_alarm
+1	бүтән	_	B-datetime
+2	буддинникларны	_	O
+3	бетер	_	O
+
+# intent = alarm/cancel_alarm
+1	будинникларны	_	O
+2	бетер	_	O
+
+# intent = alarm/show_alarms
+1	будинникларымны	_	B-reference
+2	күрсәт	_	O
+
+# intent = alarm/show_alarms
+1	минем	_	B-reference
+2	буддинникны	_	O
+3	кайсы	_	O
+4	вакытка	_	O
+5	куярга	_	O
+
+# intent = weather/find
+1	шимбә	_	B-datetime
+2	көне	_	I-datetime
+3	яңгыр	_	B-weather/attribute
+4	булырмы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	никадәр	_	O
+3	эссе	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = alarm/cancel_alarm
+1	барлык	_	B-reference
+2	буддинникларны	_	O
+3	бетер	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	ял	_	I-datetime
+3	көннәрендә	_	I-datetime
+4	чистай	_	B-weather/attribute
+5	да	_	O
+6	һава	_	O
+7	торышы	_	O
+
+# intent = weather/find
+1	миңа	_	O
+2	бүген	_	B-datetime
+3	пальто	_	B-weather/attribute
+4	кирәкме	_	O
+
+# intent = weather/find
+1	яңгыр	_	B-weather/attribute
+2	кайчан	_	O
+3	туктар	_	O
+
+# intent = reminder/set_reminder
+1	дүшәмбе	_	B-datetime
+2	көне	_	I-datetime
+3	16	_	I-datetime
+4	сәгатьтә	_	I-datetime
+5	минем	_	O
+6	мәктәпкә	_	I-reminder/todo
+7	шалтыратырга	_	I-reminder/todo
+8	хәтерләтү	_	O
+9	кую	_	O
+
+# intent = alarm/cancel_alarm
+1	минем	_	B-reference
+2	будильникны	_	O
+3	сүндер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кич	_	I-datetime
+3	никадәр	_	O
+4	салкын	_	B-weather/attribute
+5	булыр	_	O
+
+# intent = alarm/set_alarm
+1	бу	_	O
+2	динлекне	_	O
+3	иртәнге	_	B-datetime
+4	җидегә	_	I-datetime
+5	куй	_	O
+
+# intent = reminder/cancel_reminder
+1	айсылу	_	B-reminder/todo
+2	авыл	_	I-reminder/todo
+3	турында	_	I-reminder/todo
+4	хәтерләтүемне	_	O
+5	бетер	_	O
+
+# intent = reminder/set_reminder
+1	иртәгә	_	B-datetime
+2	сөт	_	B-reminder/todo
+3	сатып	_	I-reminder/todo
+4	алу	_	I-reminder/todo
+5	турында	_	O
+6	хәтерләтү	_	O
+7	яса	_	O
+
+# intent = alarm/set_alarm
+1	бу	_	O
+2	дилекне	_	O
+3	иртәнге	_	B-datetime
+4	алтыга	_	I-datetime
+5	куй	_	O
+
+# intent = alarm/set_alarm
+1	көндәлек	_	B-datetime
+2	будильникны	_	O
+3	аны	_	O
+4	бетергәнчә	_	O
+5	кичкә	_	B-datetime
+6	җиде	_	I-datetime
+7	сәгать	_	I-datetime
+8	утыз	_	I-datetime
+9	минутка	_	I-datetime
+10	планлаштыр	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	торыр	_	O
+3	өчен	_	O
+4	будильникны	_	I-reminder/todo
+5	куярга	_	I-reminder/todo
+6	исемә	_	O
+7	төшәр	_	O
+
+# intent = reminder/cancel_reminder
+1	минем	_	B-reference
+2	хәтерле	_	O
+3	төнне	_	O
+4	бетер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = weather/find
+1	миңа	_	O
+2	бүтән	_	O
+3	бу	_	O
+4	дин	_	O
+5	ан	_	I-entity_name
+6	күрсәт	_	O
+
+# intent = reminder/show_reminders
+1	бүтән	_	O
+2	хәтерле	_	O
+3	түләрне	_	O
+4	күрсәт	_	O
+
+# intent = alarm/time_left_on_alarm
+1	минем	_	B-reference
+2	бу	_	O
+3	дельнигымда	_	O
+4	күпме	_	O
+5	вакыт	_	O
+6	калды	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	ике	_	B-datetime
+3	сәгатькә	_	I-datetime
+4	куй	_	O
+
+# intent = reminder/set_reminder
+1	өчтән	_	B-datetime
+2	соң	_	I-datetime
+3	икмәк	_	B-reminder/todo
+4	сатып	_	I-reminder/todo
+5	алырга	_	I-reminder/todo
+6	исемә	_	O
+7	төшер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = weather/find
+1	бүгенге	_	B-datetime
+2	һава	_	O
+3	торышы	_	O
+4	фаразын	_	O
+5	укый	_	O
+
+# intent = alarm/show_alarms
+1	минем	_	B-reference
+2	будильнигым	_	O
+3	нинди	_	O
+4	вакытка	_	O
+5	куелган	_	O
+
+# intent = reminder/set_reminder
+1	иртәгә	_	B-datetime
+2	савель	_	I-datetime
+3	дүрттә	_	I-datetime
+4	миңа	_	O
+5	кибеткә	_	B-reminder/todo
+6	барырга	_	I-reminder/todo
+7	исемә	_	O
+8	төшерә	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	күл	_	B-weather/attribute
+3	чатырны	_	I-weather/attribute
+4	үзем	_	O
+5	белән	_	O
+6	алыйммы	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	B-reference
+2	хәтерләтүне	_	O
+3	күрсәт	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	B-reference
+2	бөтен	_	I-reference
+3	хәтерләүләрне	_	O
+4	күрсәт	_	O
+
+# intent = reminder/set_reminder
+1	душанбе	_	B-datetime
+2	көне	_	I-datetime
+3	эт	_	B-reminder/todo
+4	ризыгы	_	I-reminder/todo
+5	турында	_	O
+6	хәтерләтү	_	O
+7	куй	_	O
+
+# intent = reminder/set_reminder
+1	иртәгәге	_	B-datetime
+2	сейшәмбе	_	I-datetime
+3	кич	_	I-datetime
+4	паркта	_	B-reminder/todo
+5	йөгерү	_	I-reminder/todo
+6	шәгиле	_	I-reminder/todo
+7	хәтерләтүне	_	O
+8	куй	_	O
+
+# intent = reminder/cancel_reminder
+1	бүгенгегә	_	B-datetime
+2	бүтән	_	O
+3	искә	_	O
+4	төшерүләрне	_	O
+5	бетер	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	атнада	_	I-datetime
+3	әлмәттә	_	O
+4	нинди	_	O
+5	һава	_	O
+6	торышы	_	O
+7	булачак	_	O
+
+# intent = reminder/set_reminder
+1	пәндәшәмбе	_	B-datetime
+2	көнне	_	I-datetime
+3	көндезге	_	I-datetime
+4	уникедә	_	I-datetime
+5	табибка	_	B-reminder/todo
+6	баруымны	_	I-reminder/todo
+7	искә	_	O
+8	төшерегез	_	O
+
+# intent = alarm/set_alarm
+1	будинникны	_	O
+2	кичке	_	B-datetime
+3	6	_	I-datetime
+4	сәгать	_	I-datetime
+5	50	_	I-datetime
+6	минутка	_	I-datetime
+7	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = alarm/show_alarms
+1	нинди	_	O
+2	будильниклар	_	O
+3	куелган	_	O
+
+# intent = alarm/set_alarm
+1	7	_	B-datetime
+2	октябрьгә	_	I-datetime
+3	хәтерләткеч	_	O
+4	будильникны	_	O
+5	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = alarm/modify_alarm
+1	будинникны	_	O
+2	унбиш	_	B-datetime
+3	минутка	_	I-datetime
+4	күчерә	_	O
+
+# intent = weather/find
+1	күпме	_	O
+2	кар	_	B-weather/attribute
+3	булыр	_	O
+
+# intent = weather/find
+1	урамда	_	B-location
+2	кызумы	_	B-weather/attribute
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	нинди	_	O
+3	температура	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = weather/find
+1	иртә	_	B-datetime
+2	күк	_	I-datetime
+3	морада	_	I-datetime
+4	һава	_	O
+5	торышы	_	O
+6	нинди	_	O
+7	булыр	_	O
+
+# intent = reminder/show_reminders
+1	бүгенгә	_	B-datetime
+2	бөтен	_	O
+3	искәртмәләремне	_	O
+4	күрсәт	_	O
+
+# intent = reminder/set_reminder
+1	атна	_	B-recurring_datetime
+2	саен	_	I-recurring_datetime
+3	продуктлар	_	B-reminder/todo
+4	сатып	_	I-reminder/todo
+5	алу	_	I-reminder/todo
+6	турында	_	O
+7	хәтерләтүне	_	O
+8	куй	_	O
+
+# intent = weather/find
+1	һава	_	B-weather/weather_type
+2	торышы	_	I-weather/weather_type
+
+# intent = weather/find
+1	яңгыр	_	B-weather/attribute
+2	көне	_	I-weather/attribute
+3	буе	_	O
+4	явыр	_	O
+5	микән	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = reminder/set_reminder
+1	бүген	_	B-datetime
+2	кич	_	I-datetime
+3	эш	_	B-reminder/todo
+4	хатларына	_	I-reminder/todo
+5	җавап	_	I-reminder/todo
+6	бирергә	_	I-reminder/todo
+7	исемә	_	O
+8	төшер	_	O
+
+# intent = alarm/cancel_alarm
+1	бу	_	O
+2	ди	_	O
+3	никларны	_	O
+4	бетер	_	O
+
+# intent = alarm/cancel_alarm
+1	минем	_	B-reference
+2	бу	_	O
+3	длинникларны	_	O
+4	бетер	_	O
+
+# intent = weather/find
+1	мин	_	O
+2	бүген	_	B-datetime
+3	шортымны	_	B-weather/attribute
+4	кия	_	O
+5	аламмы	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = alarm/set_alarm
+1	бу	_	O
+2	дин	_	O
+3	аны	_	O
+4	иртәнге	_	B-datetime
+5	уңга	_	I-datetime
+6	куй	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	атнада	_	I-datetime
+3	яңгыр	_	B-weather/attribute
+4	булырмы	_	O
+
+# intent = reminder/show_reminders
+1	бөтен	_	B-reference
+2	хәтерлекләрне	_	O
+3	күрсәт	_	O
+
+# intent = alarm/cancel_alarm
+1	будильникларны	_	O
+2	бетер	_	O
+
+# intent = alarm/cancel_alarm
+1	бөтен	_	B-reference
+2	будильникларны	_	O
+3	сүндер	_	O
+
+# intent = alarm/show_alarms
+1	бөтен	_	B-reference
+2	будильникларны	_	O
+3	күрсәт	_	O
+
+# intent = alarm/set_alarm
+1	будильник	_	O
+2	арны	_	O
+3	егерме	_	B-recurring_datetime
+4	минут	_	I-recurring_datetime
+5	саен	_	I-recurring_datetime
+6	куй	_	O
+
+# intent = reminder/show_reminders
+1	минем	_	B-reference
+2	нинди	_	O
+3	искә	_	O
+4	төшүләрем	_	O
+5	бар	_	O
+
+# intent = reminder/cancel_reminder
+1	иртәгәгә	_	B-datetime
+2	бу	_	O
+3	диллекне	_	O
+4	бетер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	миңа	_	O
+3	зонтик	_	B-weather/attribute
+4	кирәкме	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = reminder/set_reminder
+1	бүген	_	B-datetime
+2	кич	_	I-datetime
+3	минем	_	O
+4	әнигә	_	I-reminder/todo
+5	шалтыратырга	_	I-reminder/todo
+6	искә	_	O
+7	төшер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	булырмы	_	O
+
+# intent = weather/find
+1	шимбә	_	B-datetime
+2	көне	_	I-datetime
+3	яңгыр	_	B-weather/attribute
+4	булырмы	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	һәр	_	B-recurring_datetime
+3	минут	_	I-recurring_datetime
+4	саен	_	I-recurring_datetime
+5	егерме	_	I-recurring_datetime
+6	минутка	_	I-recurring_datetime
+7	куясыңмы	_	O
+
+# intent = weather/find
+1	мамадышта	_	B-location
+2	да	_	O
+3	бул	_	O
+
+# intent = alarm/cancel_alarm
+1	барлык	_	B-reference
+2	будильникларны	_	O
+3	бетер	_	O
+
+# intent = alarm/set_alarm
+1	будинникны	_	O
+2	тугыз	_	B-recurring_datetime
+3	минут	_	I-recurring_datetime
+4	саен	_	I-recurring_datetime
+5	куй	_	O
+
+# intent = reminder/cancel_reminder
+1	минем	_	B-reference
+2	исемлектән	_	O
+3	соңгы	_	O
+4	ике	_	O
+5	хәтерле	_	O
+6	төнне	_	O
+7	бетер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = alarm/set_alarm
+1	минем	_	B-reference
+2	будильнигымның	_	O
+3	кабыз	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	һаваның	_	O
+3	дымлыгы	_	B-weather/attribute
+4	нинди	_	O
+
+# intent = alarm/set_alarm
+1	миңа	_	O
+2	торыр	_	O
+3	өчен	_	O
+4	будильникны	_	O
+5	күрүгә	_	O
+6	исеме	_	O
+7	төшер	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	ял	_	I-datetime
+3	көннәрендә	_	I-datetime
+4	кар	_	B-weather/attribute
+5	ябырмы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	никадәр	_	O
+3	эссе	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = alarm/show_alarms
+1	минем	_	B-reference
+2	будильнигым	_	O
+3	нинди	_	O
+4	вакытта	_	O
+5	куелган	_	O
+
+# intent = weather/find
+1	бөген	_	B-datetime
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	явырмы	_	O
+
+# intent = alarm/cancel_alarm
+1	сишәмбе	_	B-datetime
+2	көнне	_	I-datetime
+3	иртәнге	_	I-datetime
+4	алтынчы	_	I-datetime
+5	унбиш	_	I-datetime
+6	минут	_	I-datetime
+7	будильнигымны	_	O
+8	бетер	_	O
+
+# intent = reminder/cancel_reminder
+1	бүгенге	_	B-datetime
+2	уен	_	B-reminder/todo
+3	турындагы	_	I-reminder/todo
+4	искәртүне	_	O
+5	бетер	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	көндезге	_	B-datetime
+3	эчкә	_	I-datetime
+4	куй	_	O
+
+# intent = alarm/cancel_alarm
+1	шимбә	_	B-datetime
+2	көнгә	_	I-datetime
+3	куелган	_	O
+4	будильникларны	_	O
+5	бетер	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	айсылуны	_	B-reminder/todo
+3	алып	_	I-reminder/todo
+4	кайту	_	I-reminder/todo
+5	турында	_	I-reminder/todo
+6	искәртү	_	O
+7	кирәк	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	нинди	_	O
+3	иң	_	O
+4	югары	_	O
+5	температура	_	B-weather/attribute
+6	була	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	казанда	_	B-location
+3	болытлы	_	B-weather/attribute
+4	булачакмы	_	O
+
+# intent = reminder/set_reminder
+1	соңрак	_	B-datetime
+2	искә	_	O
+3	төшер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	казанда	_	B-location
+3	һава	_	O
+4	торышы	_	O
+5	нинди	_	O
+
+# intent = weather/find
+1	шимбә	_	B-datetime
+2	көнне	_	I-datetime
+3	бәйрәм	_	O
+4	өчен	_	O
+5	кояшлы	_	B-weather/attribute
+6	булачакмы	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	яңгыр	_	B-weather/attribute
+3	явырмы	_	O
+
+# intent = weather/find
+1	мин	_	O
+2	бүген	_	B-datetime
+3	чалбарны	_	B-weather/attribute
+4	кия	_	O
+5	аламмы	_	O
+
+# intent = reminder/show_reminders
+1	искәртүемне	_	O
+2	күрсәт	_	O
+
+# intent = weather/find
+1	сентәбәрдә	_	B-datetime
+2	уртача	_	O
+3	һава	_	O
+4	торышы	_	O
+5	нинди	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	салкынмы	_	B-weather/attribute
+
+# intent = reminder/cancel_reminder
+1	бөтен	_	B-reference
+2	искәртүләрне	_	O
+3	бетер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	эссе	_	B-weather/attribute
+3	булачакмы	_	O
+
+# intent = alarm/set_alarm
+1	ял	_	B-datetime
+2	көннәрендә	_	I-datetime
+3	көндезге	_	B-datetime
+4	икегә	_	I-datetime
+5	будильникны	_	O
+6	куй	_	O
+
+# intent = alarm/set_alarm
+1	будильникны	_	O
+2	иртәнге	_	B-datetime
+3	икегә	_	I-datetime
+4	куй	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	һаваның	_	O
+3	дымлаганын	_	I-weather/attribute
+4	ди	_	O
+
+# intent = alarm/show_alarms
+1	бөтен	_	B-reference
+2	будильникларымны	_	I-reference
+3	күрсәт	_	O
+
+# intent = reminder/show_reminders
+1	бөтен	_	B-reference
+2	искитүләремне	_	O
+3	күрсәт	_	O
+
+# intent = alarm/cancel_alarm
+1	бөтен	_	B-reference
+2	будильникларымны	_	I-reference
+3	бетер	_	O
+
+# intent = weather/find
+1	давыл	_	B-weather/attribute
+2	авылыма	_	O
+3	якынлашамы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = reminder/cancel_reminder
+1	соңгы	_	O
+2	искәртүемне	_	O
+3	бетер	_	O
+
+# intent = alarm/time_left_on_alarm
+1	бу	_	O
+2	дини	_	O
+3	шалтыратканчы	_	O
+4	күпме	_	O
+5	вакыт	_	O
+6	калды	_	O
+
+# intent = alarm/cancel_alarm
+1	якшәмбе	_	B-datetime
+2	көнгә	_	I-datetime
+3	куелган	_	O
+4	буддинникларымны	_	O
+5	бетер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	никадәр	_	O
+3	эссе	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = alarm/set_alarm
+1	минем	_	O
+2	иртәгә	_	B-datetime
+3	иртәнге	_	I-datetime
+4	тугызынчы	_	I-datetime
+5	кырык	_	I-datetime
+6	биш	_	I-datetime
+7	минутка	_	I-datetime
+8	будильникны	_	O
+9	куясым	_	O
+10	килә	_	O
+
+# intent = alarm/cancel_alarm
+1	бөтен	_	B-reference
+2	будильникларымны	_	I-reference
+3	бетер	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	кар	_	B-weather/attribute
+3	явырмы	_	O
+
+# intent = reminder/set_reminder
+1	миңа	_	O
+2	бауырсак	_	B-reminder/todo
+3	сатып	_	I-reminder/todo
+4	алу	_	I-reminder/todo
+5	турында	_	I-reminder/todo
+6	искә	_	O
+7	төшер	_	O
+
+# intent = reminder/show_reminders
+1	бөтен	_	B-reference
+2	искәртүләремне	_	O
+3	күрсәт	_	O
+
+# intent = alarm/show_alarms
+1	бөтен	_	B-reference
+2	будильникларымны	_	I-reference
+3	күрсәт	_	O
+
+# intent = weather/find
+1	казанда	_	B-location
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+
+# intent = reminder/cancel_reminder
+1	бөтен	_	B-reference
+2	искәртүләремне	_	B-reference
+3	бетер	_	O
+
+# intent = reminder/cancel_reminder
+1	бәйрәм	_	B-reminder/todo
+2	турында	_	O
+3	искәртүне	_	O
+4	бетер	_	O
+
+# intent = alarm/cancel_alarm
+1	иртәнге	_	B-datetime
+2	алтыга	_	I-datetime
+3	куелган	_	O
+4	будильникны	_	O
+5	бетер	_	O
+
+# intent = weather/find
+1	бу	_	B-datetime
+2	атнада	_	I-datetime
+3	яңгыр	_	B-weather/attribute
+4	явырмы	_	O
+
+# intent = weather/find
+1	чәшәмбе	_	B-datetime
+2	көнне	_	I-datetime
+3	куш	_	O
+4	уйнау	_	O
+5	өчен	_	O
+6	һава	_	O
+7	торышы	_	O
+8	килешәме	_	O
+
+# intent = alarm/show_alarms
+1	бөтен	_	B-reference
+2	будильникларымны	_	I-reference
+3	күрсәт	_	O
+
+# intent = alarm/cancel_alarm
+1	иртәгә	_	B-datetime
+2	куелган	_	O
+3	будильникларымны	_	O
+4	сүндер	_	O
+
+# intent = alarm/set_alarm
+1	будильнигымны	_	O
+2	бүген	_	B-datetime
+3	кичке	_	I-datetime
+4	бишкә	_	I-datetime
+5	куй	_	O
+
+# intent = alarm/set_alarm
+1	будильнигымны	_	B-reference
+2	иртәнге	_	B-datetime
+3	җидегә	_	I-datetime
+4	куй	_	O
+
+# intent = weather/find
+1	иртәгә	_	B-datetime
+2	кояшлы	_	B-weather/attribute
+3	көн	_	O
+4	булачакмы	_	O
+
+# intent = weather/find
+1	бүген	_	B-datetime
+2	никадәр	_	O
+3	эссе	_	B-weather/attribute
+4	булачак	_	O
+
+# intent = RateBook
+1	рөстәм	_	B-object_name
+2	маҗаралары	_	I-object_name
+3	диелгән	_	O
+4	әсәргә	_	B-object_type
+5	биш	_	B-rating_value
+6	йолдыз	_	B-rating_unit
+7	куй	_	O
+
+# intent = PlayMusic
+1	салават	_	B-artist
+2	фәтхутдинов	_	I-artist
+3	музыкасын	_	O
+4	кабас	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	миңа	_	O
+3	бабинур	_	B-object_name
+4	дип	_	O
+5	атаулы	_	O
+6	видеouinны	_	B-object_type
+7	тап	_	O
+
+# intent = PlayMusic
+1	мин	_	O
+2	төзегән	_	O
+3	плейлистымны	_	O
+4	уйнат	_	O
+
+# intent = BookRestaurant
+1	казанда	_	B-restaurant_type
+2	тугыз	_	B-party_size_number
+3	кешегә	_	I-party_size_number
+4	урын	_	O
+5	борынлы	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	көйне	_	B-music_item
+3	мәйсәләнең	_	B-reference
+4	сексәнче	_	I-playlist
+5	еллар	_	I-playlist
+6	ветчинкасы	_	I-playlist
+7	плейлистына	_	I-playlist
+8	өстә	_	O
+
+# intent = PlayMusic
+1	авторадиода	_	O
+2	гүзәл	_	B-artist
+3	аскаровнаның	_	O
+4	иң	_	B-sort
+5	яңа	_	I-sort
+6	көен	_	B-music_item
+7	кабыз	_	O
+
+# intent = weather/find
+1	түбән	_	B-weather/attribute
+2	каманың	_	I-weather/attribute
+3	һава	_	O
+4	торышын	_	O
+5	тикшер	_	O
+
+# intent = weather/find
+1	түбән	_	O
+2	камада	_	O
+3	хәзер	_	B-datetime
+4	давыл	_	B-weather/attribute
+5	бармы	_	O
+
+# intent = PlayMusic
+1	1998	_	B-datetime
+2	елгы	_	I-sort
+3	җырны	_	B-music_item
+4	тыңлыйсым	_	O
+5	килә	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	карао	_	B-location
+3	театрларында	_	O
+4	мулла	_	B-movie_name
+5	күрсәтү	_	O
+6	вакытлары	_	O
+7	кирәк	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	дәреслеккә	_	B-object_type
+3	алтыдан	_	B-best_rating
+4	бер	_	B-rating_value
+5	балл	_	B-rating_unit
+6	бир	_	O
+
+# intent = AddToPlaylist
+1	илһам	_	B-artist
+2	гыйльмутдиновичның	_	B-reference
+3	көен	_	B-music_item
+4	татар	_	B-playlist
+5	җырлары	_	I-playlist
+6	плейлистына	_	O
+7	өстә	_	O
+
+# intent = BookRestaurant
+1	минем	_	O
+2	2015	_	B-datetime
+3	елның	_	I-datetime
+4	20	_	I-datetime
+5	май	_	I-datetime
+6	көненә	_	I-datetime
+7	өч	_	B-party_size_number
+8	кешегә	_	I-party_size_number
+9	агрос	_	B-served_dish
+10	янындагы	_	O
+11	татар	_	B-cuisine
+12	ресторанга	_	B-restaurant_type
+13	брон	_	O
+14	ясыйсым	_	O
+15	килә	_	O
+
+# intent = SearchCreativeWork
+1	син	_	O
+2	татар	_	B-object_name
+3	рамазан	_	I-object_name
+4	телесериалын	_	B-object_type
+5	таба	_	O
+6	алмассыңмы	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	хроникага	_	B-object_part_of_series_type
+3	ике	_	B-rating_value
+4	балл	_	B-rating_unit
+5	бир	_	O
+
+# intent = RateBook
+1	сине	_	B-object_name
+2	сөям	_	I-object_name
+3	дисең	_	I-object_name
+4	китабына	_	O
+5	алты	_	B-best_rating
+6	йолдыздан	_	I-best_rating
+7	икене	_	B-rating_value
+8	куй	_	O
+
+# intent = AddToPlaylist
+1	татар	_	B-playlist
+2	җырлары	_	I-playlist
+3	поэлистымы	_	O
+4	зулья	_	B-artist
+5	камалованың	_	B-reference
+6	өстә	_	O
+
+# intent = BookRestaurant
+1	яшел	_	B-cuisine
+2	үзәндә	_	I-datetime
+3	яһүд	_	B-cuisine
+4	ресторанына	_	B-restaurant_type
+5	бронь	_	O
+6	ясыйсым	_	O
+7	килә	_	O
+
+# intent = BookRestaurant
+1	чирәм	_	B-cuisine
+2	ресторанында	_	B-restaurant_type
+3	өстәлгә	_	O
+4	брон	_	O
+5	яса	_	O
+
+# intent = AddToPlaylist
+1	минем	_	B-reference
+2	эчтән	_	B-playlist
+3	соң	_	I-playlist
+4	җыр	_	I-playlist
+5	җентегемә	_	I-playlist
+6	матур	_	B-playlist
+7	көн	_	I-playlist
+8	җырын	_	O
+9	өстә	_	O
+
+# intent = weather/find
+1	2026	_	B-datetime
+2	елның	_	I-datetime
+3	19	_	I-datetime
+4	октябрендә	_	I-datetime
+5	моннан	_	B-datetime
+6	ерак	_	I-datetime
+7	түгел	_	O
+8	һава	_	O
+9	торышы	_	O
+10	нинди	_	O
+11	булачак	_	O
+
+# intent = weather/find
+1	болгар	_	B-location
+2	шәһәрендә	_	O
+3	2018	_	B-datetime
+4	елның	_	I-datetime
+5	26	_	I-datetime
+6	декабрендә	_	I-datetime
+7	булган	_	O
+8	һава	_	O
+9	торышы	_	O
+
+# intent = BookRestaurant
+1	кайнатам	_	B-party_size_description
+2	һәм	_	I-party_size_description
+3	үзем	_	I-party_size_description
+4	өчен	_	I-party_size_description
+5	малабарда	_	B-restaurant_type
+6	бер	_	B-datetime
+7	ел	_	I-datetime
+8	алдан	_	I-datetime
+9	ресторанга	_	B-restaurant_type
+10	брон	_	O
+11	ясыйсым	_	O
+12	килә	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	китапка	_	B-object_type
+3	бер	_	B-rating_value
+4	балл	_	B-rating_unit
+5	бир	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	башкаручыны	_	B-music_item
+3	казанның	_	B-playlist
+4	истәлекле	_	I-playlist
+5	урыннары	_	I-playlist
+6	җыр	_	I-playlist
+7	җыентыгына	_	O
+8	өстә	_	O
+
+# intent = SearchCreativeWork
+1	син	_	O
+2	в	_	O
+3	гости	_	I-object_name
+4	рәсемен	_	B-object_type
+5	таба	_	O
+6	алыр	_	O
+7	идеңме	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-genre
+2	музыкада	_	I-genre
+3	пыяла	_	B-genre
+4	уйнат	_	O
+
+# intent = SearchCreativeWork
+1	әкияти	_	O
+2	патруль	_	I-playlist
+3	иртәнге	_	B-datetime
+4	җидедә	_	I-datetime
+5	күрсәтеләме	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-genre
+2	музыкада	_	I-genre
+3	берәр	_	O
+4	нәрсә	_	O
+5	уйнат	_	O
+6	әле	_	O
+
+# intent = PlayMusic
+1	миңа	_	O
+2	айдар	_	B-artist
+3	галимов	_	I-artist
+4	музыкасын	_	O
+5	уйнат	_	O
+
+# intent = PlayMusic
+1	гүзәл	_	B-artist
+2	уразова	_	I-artist
+3	альбомын	_	B-music_item
+4	уйнат	_	O
+
+# intent = RateBook
+1	тапшырылмаган	_	O
+2	хатларга	_	B-object_part_of_series_type
+3	дүрт	_	B-rating_value
+4	йолдыз	_	B-rating_unit
+5	бир	_	O
+
+# intent = weather/find
+1	ленин	_	O
+2	бакчасындагы	_	O
+3	иртәнге	_	B-datetime
+4	алтыда	_	I-datetime
+5	булачак	_	O
+6	һава	_	O
+7	торышын	_	O
+8	миңа	_	O
+9	әйт	_	O
+
+# intent = BookRestaurant
+1	зинһар	_	O
+2	өчпочмак	_	B-served_dish
+3	тәкъдим	_	O
+4	итә	_	O
+5	торган	_	O
+6	бистерадан	_	B-restaurant_type
+7	миңа	_	O
+8	өстәл	_	O
+9	бурылма	_	O
+
+# intent = RateBook
+1	ак	_	B-object_name
+2	чәчәкләр	_	I-object_name
+3	китабына	_	O
+4	дүрт	_	B-rating_value
+5	йолдыз	_	B-rating_unit
+6	бир	_	O
+
+# intent = PlayMusic
+1	музыка	_	O
+2	уйнау	_	O
+3	өчен	_	O
+4	яндекс	_	B-genre
+5	музыканы	_	O
+6	куллан	_	O
+
+# intent = SearchScreeningEvent
+1	иң	_	O
+2	якын	_	O
+3	кинотеатрларда	_	B-object_location_type
+4	звонок	_	B-movie_type
+5	күрсәтү	_	O
+6	вакытларын	_	O
+7	тикшер	_	O
+
+# intent = PlayMusic
+1	зинһар	_	O
+2	яндекс	_	B-genre
+3	музыканы	_	O
+4	ач	_	O
+
+# intent = BookRestaurant
+1	казанда	_	B-restaurant_type
+2	түбәтәйдә	_	B-datetime
+3	бер	_	B-party_size_number
+4	кешелек	_	I-party_size_number
+5	урынны	_	O
+6	борынга	_	B-served_dish
+
+# intent = weather/find
+1	кичке	_	B-datetime
+2	җидедә	_	I-datetime
+3	хат	_	B-weather/attribute
+4	арманны	_	I-reminder/todo
+5	күрсәтерләрме	_	O
+
+# intent = weather/find
+1	ленин	_	O
+2	бакчасында	_	O
+3	кичке	_	B-datetime
+4	җидедә	_	I-datetime
+5	салкынрак	_	B-condition_temperature
+6	булырмы	_	O
+
+# intent = PlayMusic
+1	ютубта	_	O
+2	берәр	_	O
+3	нәрсә	_	O
+4	тыңлыйсым	_	O
+5	килә	_	O
+
+# intent = SearchCreativeWork
+1	мисайд	_	B-object_name
+2	уенын	_	B-object_type
+3	эзлә	_	O
+
+# intent = weather/find
+1	20	_	B-datetime
+2	февраль	_	I-datetime
+3	тирәсендә	_	I-datetime
+4	югыйдва	_	O
+5	националь	_	O
+6	паркында	_	I-location
+7	һава	_	O
+8	торышы	_	O
+9	нинди	_	O
+10	булачак	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	якындагы	_	O
+3	кинотеатрдагы	_	B-object_location_type
+4	исәнмесез	_	B-movie_type
+5	фильмның	_	I-movie_type
+6	күрсәтү	_	O
+7	вакытлары	_	I-object_type
+8	кирәк	_	O
+
+# intent = weather/find
+1	миңа	_	O
+2	казанда	_	B-location
+3	һава	_	O
+4	торышын	_	O
+5	әйт	_	O
+
+# intent = SearchScreeningEvent
+1	казандагы	_	B-location
+2	киноларның	_	B-movie_type
+3	вакытларын	_	I-object_type
+4	беләсем	_	O
+5	килә	_	O
+
+# intent = RateBook
+1	ак	_	B-object_name
+2	чәчәкләргә	_	I-object_name
+3	биш	_	B-rating_value
+4	балл	_	B-rating_unit
+5	бир	_	O
+
+# intent = BookRestaurant
+1	мамадышта	_	B-location
+2	татар	_	B-cuisine
+3	тавернасында	_	B-restaurant_type
+4	биш	_	B-party_size_number
+5	кешелек	_	I-party_size_number
+6	өстәл	_	O
+7	буранлы	_	O
+
+# intent = PlayMusic
+1	соңгы	_	B-sort
+2	бию	_	B-music_item
+3	җырын	_	I-music_item
+4	кабыз	_	O
+
+# intent = weather/find
+1	яшел	_	O
+2	үзәндә	_	I-weather/attribute
+3	бер	_	B-datetime
+4	сәгатьтән	_	I-datetime
+5	яңгыр	_	B-weather/attribute
+6	булырмы	_	O
+
+# intent = BookRestaurant
+1	әлмәттә	_	B-location
+2	җомга	_	B-datetime
+3	ресторанында	_	B-restaurant_type
+4	дүрт	_	B-party_size_number
+5	кешелек	_	I-party_size_number
+6	өстәл	_	O
+7	брунльла	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-genre
+2	музыкадан	_	I-genre
+3	музыканы	_	O
+4	кабыз	_	O
+
+# intent = SearchScreeningEvent
+1	мин	_	O
+2	бибинур	_	B-movie_name
+3	фильмын	_	O
+4	карарга	_	O
+5	телим	_	O
+
+# intent = SearchScreeningEvent
+1	бибинур	_	B-movie_name
+2	фильмын	_	O
+3	тап	_	O
+
+# intent = PlayMusic
+1	гүзәл	_	B-artist
+2	уразованың	_	I-artist
+3	альбомын	_	B-music_item
+4	тап	_	O
+
+# intent = SearchScreeningEvent
+1	берәр	_	O
+2	кинотеатрда	_	B-object_location_type
+3	нигез	_	O
+4	йорт	_	O
+5	барамы	_	O
+
+# intent = AddToPlaylist
+1	күбәләгем	_	B-entity_name
+2	җырын	_	O
+3	минем	_	B-reference
+4	татар	_	I-playlist
+5	хитлары	_	I-playlist
+6	җыентыгына	_	O
+7	өстә	_	O
+
+# intent = weather/find
+1	кичке	_	B-datetime
+2	танда	_	I-datetime
+3	паркында	_	O
+4	һава	_	O
+5	торышы	_	O
+6	җылы	_	B-condition_temperature
+7	булырмы	_	O
+
+# intent = BookRestaurant
+1	зинһар	_	O
+2	миңа	_	O
+3	норлатта	_	B-location
+4	парковкасы	_	B-facility
+5	булган	_	O
+6	пиццерия	_	B-restaurant_type
+7	дә	_	O
+8	өстәл	_	O
+9	борынлы	_	O
+
+# intent = PlayMusic
+1	мин	_	O
+2	җитмешенче	_	B-datetime
+3	еллар	_	I-datetime
+4	саунтрекын	_	B-music_item
+5	тыңларга	_	O
+6	телим	_	O
+
+# intent = weather/find
+1	ике	_	B-datetime
+2	сәгатьтән	_	I-datetime
+3	соң	_	I-datetime
+4	үзбәкстанда	_	B-location
+5	һава	_	O
+6	торышы	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	миңа	_	O
+3	әгерҗе	_	B-location
+4	хәбәрләре	_	O
+5	газетасын	_	O
+6	тап	_	O
+
+# intent = BookRestaurant
+1	иннополис	_	B-location
+2	янында	_	O
+3	урнашкан	_	O
+4	иң	_	B-sort
+5	яхшы	_	I-sort
+6	ресторанда	_	B-restaurant_type
+7	сигез	_	B-party_size_number
+8	кешегә	_	I-party_size_number
+9	өстәлне	_	O
+10	борынлы	_	O
+
+# intent = weather/find
+1	моннан	_	B-datetime
+2	еракта	_	I-datetime
+3	нинди	_	O
+4	һава	_	O
+5	торышы	_	O
+6	булачак	_	O
+
+# intent = AddToPlaylist
+1	фирдүстәмаевның	_	B-reference
+2	яңа	_	O
+3	җырын	_	B-music_item
+4	ялгыз	_	B-playlist
+5	торна	_	I-playlist
+6	җыентыгына	_	I-playlist
+7	өстә	_	O
+
+# intent = weather/find
+1	монда	_	B-datetime
+2	секундтан	_	B-datetime
+3	соң	_	I-datetime
+4	никадәр	_	O
+5	салкын	_	B-weather/attribute
+6	була	_	O
+
+# intent = SearchCreativeWork
+1	мәтрүшкәләр	_	B-object_name
+2	дигән	_	O
+3	картина	_	B-object_type
+4	эзлим	_	O
+
+# intent = SearchCreativeWork
+1	озын	_	O
+2	гомерле	_	I-object_name
+3	кеше	_	I-object_name
+4	исемле	_	O
+5	иҗади	_	O
+6	эшен	_	O
+7	тап	_	O
+
+# intent = weather/find
+1	ноябрьдә	_	B-datetime
+2	алабугада	_	I-datetime
+3	нинди	_	O
+4	һава	_	O
+5	торышы	_	O
+6	булачак	_	O
+
+# intent = BookRestaurant
+1	өчпочмак	_	B-served_dish
+2	тәкъдим	_	O
+3	итә	_	O
+4	торган	_	O
+5	ресторанда	_	B-restaurant_type
+6	өстәл	_	O
+7	борынлы	_	B-facility
+
+# intent = weather/find
+1	яр	_	B-weather/attribute
+2	чаллыда	_	I-weather/attribute
+3	һава	_	O
+4	торышы	_	O
+5	нинди	_	O
+
+# intent = SearchCreativeWork
+1	акчәчәкләр	_	B-movie_name
+2	сериалы	_	O
+3	барамы	_	O
+
+# intent = SearchScreeningEvent
+1	сан	_	O
+2	сити	_	B-location
+3	кинотеатрында	_	B-object_location_type
+4	нинди	_	O
+5	фильмнар	_	B-movie_type
+6	бара	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	күктау	_	B-movie_name
+3	фильмын	_	O
+4	таба	_	O
+5	алмассыңмы	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	музыканы	_	B-music_item
+3	минем	_	B-reference
+4	йокы	_	B-playlist
+5	өчен	_	I-playlist
+6	җырлар	_	I-playlist
+7	җыентыгына	_	O
+8	өстә	_	O
+
+# intent = SearchScreeningEvent
+1	акчәчәкләр	_	B-movie_name
+2	сериалы	_	O
+3	15	_	B-datetime
+4	секундтан	_	I-datetime
+5	соң	_	I-datetime
+6	буламы	_	O
+
+# intent = PlayMusic
+1	пыяла	_	B-genre
+2	җырын	_	I-music_item
+3	уйнат	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	китапка	_	B-object_type
+3	бер	_	B-rating_value
+4	йолдыз	_	B-rating_unit
+5	бир	_	O
+
+# intent = PlayMusic
+1	гүзәл	_	B-artist
+2	уразованың	_	I-artist
+3	бернигә	_	B-sort
+4	карама	_	I-album
+5	җырын	_	B-music_item
+6	уйнат	_	O
+
+# intent = SearchScreeningEvent
+1	киносеанслар	_	I-object_type
+2	расписаниесен	_	B-object_type
+3	мин	_	O
+4	кайдан	_	O
+5	таба	_	O
+6	алам	_	O
+
+# intent = weather/find
+1	линногорскта	_	B-location
+2	һәм	_	O
+3	мамадышта	_	B-location
+4	26	_	B-datetime
+5	сентябрьгә	_	I-datetime
+6	һава	_	O
+7	торышы	_	O
+8	нинди	_	O
+
+# intent = BookRestaurant
+1	әйдә	_	O
+2	17	_	B-datetime
+3	секундтан	_	I-datetime
+4	соң	_	I-datetime
+5	данлы	_	B-sort
+6	лаеш	_	B-cuisine
+7	ресторанында	_	B-restaurant_type
+8	ашыйк	_	O
+
+# intent = SearchCreativeWork
+1	миңа	_	O
+2	әбипә	_	B-object_name
+3	фильмы	_	O
+4	триллерын	_	B-object_type
+5	тап	_	O
+
+# intent = BookRestaurant
+1	мин	_	O
+2	өч	_	B-party_size_number
+3	кешегә	_	I-party_size_number
+4	зыя	_	B-datetime
+5	уртабында	_	I-datetime
+6	ресторан	_	B-restaurant_type
+7	бүрекләргә	_	O
+8	телим	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	альбомны	_	B-object_type
+3	ноль	_	B-rating_value
+4	йолдыз	_	B-rating_unit
+5	белән	_	O
+6	бәялә	_	O
+
+# intent = BookRestaurant
+1	тәтештәге	_	B-location
+2	нур	_	B-cuisine
+3	кафесын	_	B-restaurant_type
+4	да	_	O
+5	өстәл	_	O
+6	урынларга	_	O
+7	телим	_	O
+
+# intent = AddToPlaylist
+1	татар	_	B-playlist
+2	җырлары	_	I-playlist
+3	плейлистына	_	O
+4	җырчыны	_	B-music_item
+5	өстә	_	O
+
+# intent = weather/find
+1	дүрт	_	B-datetime
+2	айдан	_	I-datetime
+3	соң	_	I-datetime
+4	минзәләдә	_	B-location
+5	салкынрак	_	B-condition_temperature
+6	булырмы	_	O
+
+# intent = AddToPlaylist
+1	язгы	_	B-playlist
+2	кәеф	_	I-playlist
+3	җыентыгыма	_	I-playlist
+4	төнге	_	B-datetime
+5	урам	_	I-reminder/todo
+6	җырын	_	O
+7	өстә	_	O
+
+# intent = SearchCreativeWork
+1	син	_	O
+2	чистай	_	B-movie_name
+3	шәһәре	_	I-object_name
+4	турында	_	O
+5	мәгълүмат	_	O
+6	эзли	_	O
+7	алырсыңмы	_	O
+
+# intent = BookRestaurant
+1	мин	_	O
+2	кукмара	_	B-cuisine
+3	шәһәрендәге	_	O
+4	ресторанда	_	B-restaurant_type
+5	алты	_	B-party_size_number
+6	кешегә	_	I-party_size_number
+7	өстәл	_	O
+8	урынларга	_	O
+9	тәлим	_	O
+
+# intent = PlayMusic
+1	олсуның	_	B-playlist
+2	симфоник	_	B-genre
+3	музыкасын	_	O
+4	уйнады	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	миңа	_	O
+3	ак	_	B-movie_name
+4	чәчәкләр	_	I-movie_name
+5	сериалын	_	O
+6	тап	_	O
+
+# intent = SearchScreeningEvent
+1	мин	_	O
+2	кырыч	_	B-movie_name
+3	фильмын	_	O
+4	күрергә	_	O
+5	телим	_	O
+
+# intent = AddToPlaylist
+1	минем	_	B-reference
+2	татар	_	I-playlist
+3	җырлары	_	I-playlist
+4	плейлистында	_	O
+5	хәзерге	_	O
+6	трекны	_	B-music_item
+7	өстә	_	O
+
+# intent = PlayMusic
+1	янлекс	_	B-datetime
+2	музыкада	_	I-playlist
+3	су	_	B-playlist
+4	буенда	_	I-playlist
+5	ук	_	I-playlist
+6	чагы	_	I-playlist
+7	яна	_	I-album
+8	җырын	_	B-music_item
+9	уйнать	_	O
+
+# intent = BookRestaurant
+1	чистайда	_	B-location
+2	татар	_	B-cuisine
+3	тавернасында	_	B-restaurant_type
+4	биш	_	B-party_size_number
+5	кешелек	_	I-party_size_number
+6	өстәл	_	O
+7	борынлы	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-genre
+2	музыкада	_	I-genre
+3	фирдүстәмаевның	_	B-datetime
+4	яхшы	_	I-sort
+5	җырын	_	B-music_item
+6	кабыз	_	O
+
+# intent = AddToPlaylist
+1	тимәсен	_	B-entity_name
+2	тик	_	I-entity_name
+3	күзләрем	_	I-entity_name
+4	җырын	_	I-entity_name
+5	җәйге	_	B-playlist
+6	кәеф	_	I-playlist
+7	плейлистаны	_	I-playlist
+8	өстә	_	O
+
+# intent = PlayMusic
+1	миңа	_	O
+2	шәп	_	B-genre
+3	җырын	_	I-music_item
+4	кабыз	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-playlist
+2	музыкада	_	I-playlist
+3	90	_	B-playlist
+4	нчы	_	I-datetime
+5	еллар	_	I-datetime
+6	җырлары	_	O
+
+# intent = weather/find
+1	12	_	B-datetime
+2	сентябрьдән	_	I-datetime
+3	башлап	_	I-datetime
+4	ниженск	_	B-location
+5	шәһәрендә	_	O
+6	һава	_	O
+7	торышы	_	O
+8	ничек	_	O
+9	булачак	_	O
+
+# intent = SearchCreativeWork
+1	татар	_	B-object_name
+2	радиосында	_	O
+3	берәр	_	O
+4	нәрсә	_	O
+5	кабыз	_	O
+
+# intent = SearchCreativeWork
+1	мин	_	O
+2	шүрәле	_	B-object_name
+3	не	_	O
+4	якындагы	_	O
+5	кинотеатрда	_	B-object_location_type
+6	карарга	_	O
+7	телим	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	миңа	_	O
+3	игезлекләр	_	B-object_name
+4	йолдызлыгы	_	I-object_name
+5	китабын	_	B-object_type
+6	тап	_	O
+
+# intent = AddToPlaylist
+1	илһам	_	B-artist
+2	гыйльмутдиновичның	_	B-reference
+3	көен	_	B-music_item
+4	татар	_	B-playlist
+5	җырлары	_	I-playlist
+6	казанстанда	_	I-playlist
+7	өстә	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-genre
+2	музыканы	_	O
+3	ач	_	O
+4	һәм	_	O
+5	тыңлама	_	O
+6	җырын	_	B-music_item
+7	кабыз	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	якындагы	_	O
+3	кинотеатрдагы	_	B-object_location_type
+4	муаби	_	B-movie_name
+5	дәфтәрләре	_	I-movie_name
+6	фильмның	_	B-movie_type
+7	күрсәтү	_	I-object_type
+8	вакытлары	_	I-object_type
+9	кирәк	_	O
+
+# intent = reminder/cancel_reminder
+1	кайтыр	_	B-reminder/todo
+2	микән	_	I-object_name
+3	чибәрем	_	I-object_name
+4	дигән	_	O
+5	исемле	_	O
+6	җырны	_	O
+7	өзелим	_	O
+
+# intent = weather/find
+1	түбән	_	B-datetime
+2	камада	_	I-datetime
+3	һава	_	O
+4	торышы	_	O
+5	нинди	_	O
+
+# intent = BookRestaurant
+1	мин	_	O
+2	казандагы	_	B-location
+3	түбәтәй	_	B-cuisine
+4	кафесында	_	B-restaurant_type
+5	биш	_	B-party_size_number
+6	кешегә	_	I-party_size_number
+7	өстәл	_	O
+8	буранларга	_	B-served_dish
+9	тәлим	_	O
+
+# intent = BookRestaurant
+1	миңа	_	B-party_size_description
+2	һәм	_	I-party_size_description
+3	минем	_	I-party_size_description
+4	сөенәремә	_	I-party_size_description
+5	кафеда	_	B-restaurant_type
+6	урын	_	O
+7	бурычла	_	O
+
+# intent = weather/find
+1	15	_	B-datetime
+2	февральдә	_	I-datetime
+3	арчада	_	O
+4	әсә	_	O
+5	булачакмы	_	O
+
+# intent = AddToPlaylist
+1	мин	_	O
+2	татар	_	B-playlist
+3	җырлары	_	I-playlist
+4	җентегемә	_	O
+5	анвар	_	B-artist
+6	нургалиевны	_	B-reference
+7	өстәсем	_	O
+8	килә	_	O
+
+# intent = RateBook
+1	еланаяклы	_	B-object_name
+2	кыз	_	I-object_name
+3	сериалын	_	B-object_part_of_series_type
+4	алтыдан	_	B-best_rating
+5	дүрт	_	B-rating_value
+6	белән	_	O
+7	бәйлә	_	O
+
+# intent = BookRestaurant
+1	миңа	_	O
+2	иң	_	B-sort
+3	яхшы	_	I-sort
+4	ресторанда	_	B-restaurant_type
+5	өстәлбрунга	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	дәреслеккә	_	B-object_type
+3	алтыдан	_	B-best_rating
+4	бер	_	B-rating_value
+5	куй	_	O
+
+# intent = SearchScreeningEvent
+1	сан	_	O
+2	сити	_	B-object_type
+3	кинотеатрында	_	B-object_location_type
+4	сеанслар	_	B-movie_type
+5	графигы	_	I-object_type
+6	нинди	_	O
+
+# intent = weather/find
+1	баулыда	_	B-location
+2	һава	_	O
+3	торышы	_	O
+4	нинди	_	O
+5	булачак	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	уенчыны	_	B-music_item
+3	татар	_	B-playlist
+4	җырлары	_	I-playlist
+5	җыентыгыма	_	O
+6	өстә	_	O
+
+# intent = BookRestaurant
+1	миңа	_	B-party_size_description
+2	һәм	_	I-party_size_description
+3	минем	_	I-party_size_description
+4	балаларга	_	I-party_size_description
+5	өстәл	_	O
+6	бурычыла	_	O
+
+# intent = weather/find
+1	2030	_	B-datetime
+2	елның	_	I-datetime
+3	21	_	I-datetime
+4	августында	_	I-datetime
+5	кичке	_	B-datetime
+6	тамда	_	I-datetime
+7	һава	_	O
+8	торышы	_	O
+9	нинди	_	O
+10	булачак	_	O
+
+# intent = RateBook
+1	тимергали	_	B-object_name
+2	хәзрәт	_	I-object_name
+3	бәгазьләренә	_	I-object_name
+4	6	_	B-best_rating
+5	баллдан	_	I-best_rating
+6	5	_	B-rating_value
+7	балл	_	I-rating_value
+8	куй	_	O
+
+# intent = RateBook
+1	күктау	_	B-object_name
+2	фильмы	_	B-object_part_of_series_type
+3	бәяләгәндә	_	O
+4	6	_	B-best_rating
+5	дан	_	B-best_rating
+6	5	_	B-rating_value
+7	балл	_	B-rating_unit
+8	куй	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	сан	_	O
+3	сити	_	I-location
+4	кинотеатрындагы	_	B-object_location_type
+5	кино	_	B-object_type
+6	күрсәтү	_	I-object_type
+7	вакытларын	_	I-object_type
+8	күрсәт	_	O
+
+# intent = SearchScreeningEvent
+1	якын	_	B-datetime
+2	арада	_	I-datetime
+3	кинографикан	_	O
+4	тап	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	альбомны	_	B-music_item
+3	татар	_	B-playlist
+4	хитлары	_	I-playlist
+5	плейлистына	_	O
+6	өстә	_	O
+
+# intent = BookRestaurant
+1	күкмарадагы	_	B-datetime
+2	татар	_	B-cuisine
+3	кухнясы	_	I-cuisine
+4	ресторанында	_	B-restaurant_type
+5	6	_	B-party_size_number
+6	кешегә	_	I-party_size_number
+7	өстәле	_	O
+8	бүрелә	_	O
+
+# intent = RateBook
+1	собор	_	B-object_name
+2	сериалына	_	B-object_part_of_series_type
+3	дүрт	_	B-rating_value
+4	йолдыз	_	B-rating_unit
+5	бир	_	O
+
+# intent = AddToPlaylist
+1	минем	_	B-reference
+2	яңа	_	B-playlist
+3	җырлар	_	I-playlist
+4	җыентыгына	_	I-playlist
+5	күбәләгем	_	B-entity_name
+6	җырны	_	B-music_item
+7	өстә	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	сансидия	_	B-movie_type
+3	кинотеатрында	_	B-object_location_type
+4	мультфильмнар	_	B-movie_type
+5	гына	_	O
+6	күрсәтү	_	B-object_type
+7	графигын	_	I-object_type
+8	күрсәт	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	мәтрүшкәләр	_	B-reminder/todo
+3	картинасын	_	B-object_type
+4	тап	_	O
+
+# intent = weather/find
+1	хәзер	_	B-datetime
+2	һаваның	_	B-weather/attribute
+3	дымлыгы	_	B-weather/attribute
+4	нинди	_	O
+
+# intent = SearchScreeningEvent
+1	мин	_	O
+2	бибинур	_	B-movie_name
+3	фильмын	_	O
+4	карарга	_	O
+5	телим	_	O
+
+# intent = AddToPlaylist
+1	зөфәр	_	B-artist
+2	хәйретдиновичның	_	B-reference
+3	көен	_	B-music_item
+4	авыл	_	B-playlist
+5	кичі	_	I-playlist
+6	җыентыгымы	_	I-playlist
+7	өстә	_	O
+
+# intent = SearchCreativeWork
+1	чокырда	_	O
+2	ут	_	I-object_name
+3	дигән	_	O
+4	иҗади	_	O
+5	эшне	_	O
+6	тап	_	O
+
+# intent = BookRestaurant
+1	айдар	_	B-cuisine
+2	колледжы	_	I-cuisine
+3	янында	_	O
+4	өстәл	_	O
+5	борынла	_	O
+
+# intent = SearchScreeningEvent
+1	сумбул	_	B-movie_name
+2	фильмны	_	O
+3	сан	_	O
+4	сити	_	I-location
+5	кинотеатрында	_	B-object_location_type
+6	күрсәтәләрме	_	O
+
+# intent = PlayMusic
+1	мин	_	O
+2	спада	_	O
+3	массаж	_	I-reminder/todo
+4	сессиясен	_	I-reminder/todo
+5	борынларга	_	O
+6	телим	_	O
+
+# intent = PlayMusic
+1	мин	_	O
+2	спада	_	O
+3	массаж	_	I-reminder/todo
+4	сессиясен	_	I-music_item
+5	буранларга	_	O
+6	телим	_	O
+
+# intent = BookRestaurant
+1	түбән	_	B-facility
+2	камада	_	I-restaurant_type
+3	ундүрт	_	B-datetime
+4	сәгатьтән	_	I-datetime
+5	соң	_	I-datetime
+6	өстәл	_	O
+7	кирәк	_	O
+
+# intent = PlayMusic
+1	фирдүс	_	B-datetime
+2	тәмәевтән	_	I-datetime
+3	берәр	_	O
+4	нәрсә	_	O
+5	уйнат	_	O
+
+# intent = SearchScreeningEvent
+1	сумбул	_	B-movie_name
+2	фильмны	_	O
+3	күрсәтә	_	O
+4	торган	_	O
+5	иң	_	O
+6	якын	_	O
+7	кинотеатрны	_	B-object_location_type
+8	күрсәт	_	O
+
+# intent = PlayMusic
+1	зинһар	_	O
+2	минем	_	O
+3	татар	_	B-playlist
+4	хитлары	_	I-playlist
+5	плейлистын	_	O
+6	кабыз	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	соңгы	_	O
+3	бию	_	B-object_type
+4	җырын	_	B-object_type
+5	тап	_	O
+
+# intent = SearchScreeningEvent
+1	сан	_	O
+2	сити	_	B-object_type
+3	кинотеатрының	_	B-object_location_type
+4	графигын	_	B-object_type
+5	караг	_	O
+
+# intent = BookRestaurant
+1	миңа	_	O
+2	зөя	_	B-served_dish
+3	уртабындагы	_	I-datetime
+4	кафеда	_	B-restaurant_type
+5	өч	_	B-party_size_number
+6	кешелек	_	I-party_size_number
+7	компания	_	O
+8	өчен	_	O
+9	өстәл	_	O
+10	бруйна	_	O
+
+# intent = AddToPlaylist
+1	минем	_	B-reference
+2	татар	_	I-playlist
+3	җырлары	_	I-playlist
+4	исемлегенә	_	O
+5	фирүзә	_	B-artist
+6	хафизованың	_	B-reference
+7	әсәрләрен	_	O
+8	өстәргә	_	O
+9	кирәк	_	O
+
+# intent = AddToPlaylist
+1	минем	_	B-reference
+2	бәйрәм	_	B-playlist
+3	җыентыгына	_	I-playlist
+4	наил	_	B-entity_name
+5	сәлиманованы	_	I-entity_name
+6	өстә	_	O
+
+# intent = weather/find
+1	казан	_	B-location
+2	янында	_	O
+3	төнге	_	B-datetime
+4	өчләр	_	I-datetime
+5	тирәсендә	_	I-datetime
+6	никадәр	_	O
+7	салкын	_	B-weather/attribute
+8	булачак	_	O
+
+# intent = AddToPlaylist
+1	альбомны	_	B-music_item
+2	татар	_	B-playlist
+3	җырлары	_	I-playlist
+4	плейлистыма	_	O
+5	өстәм	_	O
+
+# intent = BookRestaurant
+1	төнге	_	B-datetime
+2	сәгать	_	I-datetime
+3	уникиде	_	I-datetime
+4	кафеда	_	B-restaurant_type
+5	татар	_	B-cuisine
+6	ризыкларын	_	I-cuisine
+7	ашарга	_	O
+8	телим	_	O
+
+# intent = PlayMusic
+1	алтмышынчы	_	B-datetime
+2	еллар	_	I-datetime
+3	җырларын	_	O
+4	уйнат	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	альбомга	_	B-object_type
+3	бер	_	B-rating_value
+4	йолдыз	_	B-rating_unit
+5	бир	_	O
+
+# intent = PlayMusic
+1	фирдүстәмәевның	_	B-datetime
+2	иң	_	B-sort
+3	яхшы	_	I-sort
+4	җырын	_	B-music_item
+5	уйнат	_	O
+
+# intent = weather/find
+1	казанда	_	B-location
+2	һәм	_	O
+3	аңа	_	O
+4	якын	_	O
+5	урыннарда	_	O
+6	һава	_	O
+7	торышы	_	O
+8	ничек	_	O
+
+# intent = SearchCreativeWork
+1	мисайд	_	B-object_name
+2	дип	_	O
+3	аталган	_	O
+4	уенны	_	B-object_type
+5	тап	_	O
+
+# intent = RateBook
+1	әбүгалисинага	_	B-object_name
+2	биш	_	B-rating_value
+3	балл	_	B-rating_unit
+4	куй	_	O
+
+# intent = RateBook
+1	әтәч	_	B-object_name
+2	менгән	_	I-object_name
+3	чит	_	I-object_name
+4	әнгә	_	I-object_name
+5	хикәясенә	_	I-object_name
+6	биш	_	B-rating_value
+7	йолдыз	_	B-rating_unit
+8	куй	_	O
+
+# intent = PlayMusic
+1	ютбта	_	B-datetime
+2	гүзәл	_	B-artist
+3	әскәровнаның	_	I-music_item
+4	җырларын	_	O
+5	тыңлыйсым	_	O
+6	килә	_	O
+
+# intent = BookRestaurant
+1	13	_	B-datetime
+2	мартка	_	I-datetime
+3	малабар	_	B-served_dish
+4	ресторанында	_	B-restaurant_type
+5	биш	_	B-party_size_number
+6	кешелек	_	I-party_size_number
+7	өстәл	_	O
+8	брунля	_	O
+
+# intent = SearchScreeningEvent
+1	иң	_	O
+2	якын	_	O
+3	кино	_	B-object_type
+4	сеансы	_	I-object_type
+5	кайчан	_	O
+
+# intent = AddToPlaylist
+1	татар	_	B-playlist
+2	җырлары	_	I-playlist
+3	җыентыгыма	_	O
+4	гүзәл	_	B-artist
+5	уразов	_	I-artist
+6	аны	_	B-music_item
+7	эсте	_	O
+
+# intent = BookRestaurant
+1	малабар	_	B-served_dish
+2	ресторанында	_	B-restaurant_type
+3	биш	_	B-party_size_number
+4	кешелек	_	I-party_size_number
+5	өстәлгә	_	O
+6	бронь	_	O
+7	ясыйсым	_	O
+8	килә	_	O
+
+# intent = SearchScreeningEvent
+1	зинһар	_	O
+2	бибинур	_	B-movie_name
+3	фильмын	_	O
+4	тап	_	O
+
+# intent = weather/find
+1	8	_	B-datetime
+2	мартта	_	I-datetime
+3	монда	_	O
+4	күпмегә	_	O
+5	суыграк	_	B-weather/attribute
+6	булыр	_	O
+7	икән	_	O
+
+# intent = BookRestaurant
+1	ун	_	B-party_size_number
+2	кешегә	_	I-party_size_number
+3	ресторан	_	B-restaurant_type
+4	борынлыйсым	_	O
+5	килә	_	O
+
+# intent = PlayMusic
+1	илһам	_	B-artist
+2	шакировның	_	I-artist
+3	70	_	B-datetime
+4	нче	_	I-datetime
+5	еллардагы	_	I-datetime
+6	җырларын	_	O
+7	уйнат	_	O
+
+# intent = RateBook
+1	бибинур	_	B-object_name
+2	фильмын	_	O
+3	бишкә	_	B-rating_value
+4	бәяли	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	җырны	_	B-music_item
+3	татар	_	B-playlist
+4	җырлары	_	I-playlist
+5	җыентыгына	_	O
+6	өстә	_	O
+
+# intent = AddToPlaylist
+1	шәп	_	B-playlist
+2	җырын	_	B-music_item
+3	аман	_	B-playlist
+4	җыентыгыма	_	I-playlist
+5	өстә	_	O
+
+# intent = PlayMusic
+1	эльмира	_	B-artist
+2	нагимованың	_	I-artist
+3	яңа	_	B-sort
+4	җырын	_	B-music_item
+5	яндекс	_	B-service
+6	музыкта	_	O
+7	уйнап	_	O
+
+# intent = RateBook
+1	тимергали	_	B-object_name
+2	хәзрәт	_	I-object_name
+3	вәгазьләренә	_	I-object_name
+4	6	_	B-best_rating
+5	баллдан	_	I-best_rating
+6	5	_	B-rating_value
+7	балл	_	I-rating_value
+8	куй	_	O
+
+# intent = BookRestaurant
+1	чак	_	O
+2	чак	_	I-datetime
+3	кафесында	_	B-restaurant_type
+4	тугыз	_	B-party_size_number
+5	кешегә	_	I-party_size_number
+6	урын	_	O
+7	бронла	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	романга	_	B-object_type
+3	алты	_	B-best_rating
+4	балдан	_	I-best_rating
+5	ике	_	B-rating_value
+6	бал	_	I-rating_value
+7	куй	_	O
+
+# intent = AddToPlaylist
+1	айдар	_	B-artist
+2	галимовның	_	I-artist
+3	җырларыннан	_	O
+4	берәр	_	O
+5	күңелле	_	I-sort
+6	җырны	_	O
+7	куй	_	O
+
+# intent = PlayMusic
+1	2013	_	B-datetime
+2	елгы	_	I-datetime
+3	симфонияне	_	B-music_item
+4	уйнат	_	O
+
+# intent = AddToPlaylist
+1	ләйсән	_	B-artist
+2	закировның	_	I-artist
+3	җырын	_	B-music_item
+4	куй	_	O
+5	әле	_	O
+
+# intent = RateBook
+1	доктор	_	B-object_name
+2	кто	_	I-object_name
+3	сериалына	_	B-object_part_of_series_type
+4	биш	_	B-rating_value
+5	йолдыз	_	B-rating_unit
+6	бир	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	дәреслеккә	_	B-object_type
+3	ноль	_	B-rating_value
+4	йолдыз	_	B-rating_unit
+5	куй	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	серияне	_	B-object_part_of_series_type
+3	дүрт	_	B-rating_value
+4	баллга	_	B-rating_unit
+5	бәялә	_	O
+
+# intent = BookRestaurant
+1	казанда	_	B-restaurant_type
+2	рәхмәт	_	B-cuisine
+3	ресторанында	_	B-restaurant_type
+4	өстәл	_	O
+5	алып	_	O
+6	утырырга	_	O
+7	телим	_	O
+
+# intent = weather/find
+1	бу	_	O
+2	әкияти	_	O
+3	патруль	_	B-genre
+4	уйныймы	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	җырны	_	B-music_item
+3	татар	_	B-playlist
+4	җырлары	_	I-playlist
+5	җыентыгына	_	O
+6	өстә	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	иншага	_	B-object_type
+3	алты	_	B-best_rating
+4	да	_	O
+5	нуль	_	B-rating_value
+6	йолдыз	_	B-rating_unit
+7	куй	_	O
+
+# intent = PlayMusic
+1	әйдә	_	O
+2	фирдүстәмаевның	_	B-genre
+3	берәр	_	O
+4	нәрсә	_	O
+5	тыңлыйк	_	O
+
+# intent = SearchScreeningEvent
+1	иң	_	O
+2	якындыгы	_	O
+3	кинотеатр	_	B-object_location_type
+4	кайда	_	O
+5	урнашкан	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	вакыйгалар	_	I-object_name
+3	җыентыгына	_	B-object_part_of_series_type
+4	алтыдан	_	B-best_rating
+5	биш	_	B-rating_value
+6	балл	_	B-rating_unit
+7	бир	_	O
+
+# intent = BookRestaurant
+1	миңа	_	O
+2	казанда	_	B-location
+3	чәк	_	B-served_dish
+4	чәк	_	I-served_dish
+5	кафесында	_	B-restaurant_type
+6	дүрт	_	B-party_size_number
+7	кешелек	_	I-party_size_number
+8	өстәл	_	O
+9	кирәк	_	O
+
+# intent = weather/find
+1	түбән	_	O
+2	камада	_	I-weather/attribute
+3	нефтехимиклар	_	O
+4	көнендә	_	I-datetime
+5	һава	_	O
+6	торышы	_	O
+7	нинди	_	O
+8	булачак	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	кара	_	O
+3	фильм	_	B-object_type
+4	кинотеатрының	_	I-object_type
+5	расписаниесе	_	B-object_type
+6	кирәк	_	O
+
+# intent = SearchCreativeWork
+1	миңа	_	O
+2	эч	_	B-object_name
+3	аяклы	_	I-object_name
+4	ат	_	I-object_name
+5	сериалын	_	B-object_type
+6	эзләп	_	O
+7	тап	_	O
+
+# intent = weather/find
+1	зинһар	_	O
+2	миңа	_	O
+3	әлдермешкә	_	O
+4	кайтам	_	O
+5	әле	_	O
+6	җырын	_	O
+7	кабыз	_	O
+
+# intent = PlayMusic
+1	яндекс	_	B-genre
+2	музыкада	_	I-genre
+3	кызыл	_	B-playlist
+4	розалар	_	I-album
+5	җырын	_	B-music_item
+6	уйнат	_	O
+
+# intent = PlayMusic
+1	зинһар	_	O
+2	миңа	_	O
+3	гүзәл	_	B-artist
+4	уразованың	_	I-artist
+5	альбомын	_	B-music_item
+6	тап	_	O
+
+# intent = SearchScreeningEvent
+1	минем	_	O
+2	айсылу	_	B-movie_name
+3	фильмым	_	I-movie_name
+4	кинотеатрда	_	B-object_location_type
+5	карыйсым	_	O
+6	килә	_	O
+
+# intent = PlayMusic
+1	фирдүс	_	B-datetime
+2	тәмаевның	_	I-genre
+3	ялгыз	_	B-sort
+4	торна	_	I-album
+5	җырын	_	B-music_item
+6	уйнат	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	әсәрне	_	O
+3	өч	_	B-rating_value
+4	йолдызга	_	B-rating_unit
+5	бәялә	_	O
+
+# intent = SearchScreeningEvent
+1	ак	_	B-movie_name
+2	чәчәкләр	_	I-movie_name
+3	китабын	_	O
+4	таба	_	O
+5	аласызмы	_	O
+
+# intent = PlayMusic
+1	әлфия	_	B-artist
+2	абзалованың	_	I-artist
+3	70	_	B-datetime
+4	нчы	_	I-datetime
+5	елларындагы	_	I-datetime
+6	җырларын	_	O
+7	эзләп	_	O
+8	тап	_	O
+
+# intent = BookRestaurant
+1	киләсе	_	B-datetime
+2	елга	_	I-datetime
+3	түбән	_	B-facility
+4	камадан	_	I-datetime
+5	ерак	_	O
+6	булмаган	_	O
+7	ак	_	B-cuisine
+8	карал	_	I-served_dish
+9	ресторанында	_	B-restaurant_type
+10	өч	_	B-party_size_number
+11	кешегә	_	I-party_size_number
+12	өстәл	_	O
+13	бурычларга	_	O
+14	телим	_	O
+
+# intent = weather/find
+1	казанда	_	B-location
+2	яңгырлы	_	B-weather/attribute
+3	булачакмы	_	O
+
+# intent = SearchCreativeWork
+1	зинһар	_	O
+2	асылыбызга	_	O
+3	кайту	_	I-reminder/todo
+4	тамашасын	_	B-object_type
+5	эзләп	_	O
+6	тап	_	O
+
+# intent = BookRestaurant
+1	минем	_	O
+2	казан	_	B-cuisine
+3	шәһәрендә	_	O
+4	ашыйсым	_	O
+5	килә	_	O
+
+# intent = AddToPlaylist
+1	татар	_	B-playlist
+2	җырлары	_	I-playlist
+3	җыентыгына	_	O
+4	уфтанма	_	B-entity_name
+5	җырын	_	O
+6	өстә	_	O
+
+# intent = BookRestaurant
+1	әлмәт	_	B-location
+2	шәһәре	_	I-location
+3	ресторанында	_	B-restaurant_type
+4	өстәл	_	O
+5	бройларга	_	O
+6	телим	_	O
+
+# intent = SearchCreativeWork
+1	22	_	B-datetime
+2	сәгатьтән	_	I-datetime
+3	соң	_	I-datetime
+4	әни	_	B-object_name
+5	килде	_	O
+6	спектакль	_	B-object_type
+7	башлана	_	O
+
+# intent = BookRestaurant
+1	тугыз	_	B-party_size_number
+2	кешегә	_	I-party_size_number
+3	урын	_	O
+4	борын	_	O
+5	ала	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	җырны	_	B-music_item
+3	туган	_	B-playlist
+4	ягым	_	I-playlist
+5	җыентыгына	_	I-playlist
+6	өстә	_	O
+
+# intent = PlayMusic
+1	90	_	B-datetime
+2	нчы	_	I-datetime
+3	еллар	_	I-datetime
+4	җырлар	_	I-playlist
+5	җыентыгыннан	_	O
+6	берәр	_	O
+7	җыр	_	B-music_item
+8	куй	_	O
+
+# intent = SearchCreativeWork
+1	миңа	_	O
+2	баш	_	O
+3	ваткыч	_	I-object_name
+4	тамашасын	_	B-object_type
+5	таба	_	O
+6	аласыңмы	_	O
+
+# intent = RateBook
+1	күктау	_	B-object_name
+2	фильмына	_	O
+3	алты	_	B-best_rating
+4	йолдыздан	_	I-best_rating
+5	икене	_	B-rating_value
+6	куй	_	O
+
+# intent = SearchScreeningEvent
+1	сан	_	O
+2	сити	_	B-object_type
+3	кинотеатрында	_	B-object_location_type
+4	фильмнар	_	B-movie_type
+5	карарга	_	O
+6	телим	_	O
+
+# intent = AddToPlaylist
+1	гүзәл	_	B-artist
+2	уразованың	_	B-reference
+3	татар	_	B-playlist
+4	хитлары	_	I-playlist
+5	җыентыгына	_	O
+6	өстә	_	O
+
+# intent = AddToPlaylist
+1	күбәләгем	_	B-entity_name
+2	җырын	_	O
+3	минем	_	B-reference
+4	татар	_	I-playlist
+5	хитлары	_	I-playlist
+6	җыентыгына	_	O
+7	өстә	_	O
+
+# intent = SearchCreativeWork
+1	миңа	_	O
+2	хәзинә	_	O
+3	әсәрен	_	O
+4	эзләп	_	O
+5	тап	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	альбомны	_	B-object_type
+3	бишкә	_	B-rating_value
+4	бәялә	_	O
+
+# intent = SearchScreeningEvent
+1	муабид	_	B-movie_type
+2	дәфтәре	_	I-movie_name
+3	фильмын	_	O
+4	көн	_	B-datetime
+5	уртасында	_	I-datetime
+6	якындагы	_	O
+7	кинотеатрда	_	B-object_location_type
+8	күрсәтәчәкләрме	_	O
+
+# intent = RateBook
+1	туган	_	B-object_name
+2	ягы	_	I-object_name
+3	мәкаләсен	_	B-object_type
+4	алтыдан	_	B-best_rating
+5	бишкә	_	B-rating_value
+6	бәяла	_	O
+
+# intent = AddToPlaylist
+1	гүзәл	_	B-artist
+2	аскаровнаны	_	O
+3	минем	_	B-reference
+4	яңа	_	B-playlist
+5	җырлар	_	I-playlist
+6	җыентыгына	_	O
+7	өстә	_	O
+
+# intent = RateBook
+1	бу	_	B-object_select
+2	романга	_	B-object_type
+3	алтыдан	_	B-best_rating
+4	нуль	_	B-rating_value
+5	куй	_	O
+
+# intent = SearchScreeningEvent
+1	минем	_	O
+2	кинотеатрда	_	B-object_location_type
+3	кайсы	_	O
+4	вакытта	_	O
+5	сөләйха	_	B-movie_name
+6	фильмын	_	O
+7	күрсәтәләр	_	O
+
+# intent = SearchScreeningEvent
+1	бу	_	B-datetime
+2	районда	_	I-location
+3	нинди	_	O
+4	фильмнар	_	B-movie_type
+5	күрсәтәләр	_	O
+
+# intent = BookRestaurant
+1	яр	_	B-cuisine
+2	чаллы	_	I-cuisine
+3	шәһәрендә	_	I-location
+4	дулкын	_	B-served_dish
+5	ресторанында	_	B-restaurant_type
+6	урын	_	O
+7	бройларга	_	O
+8	телим	_	O
+
+# intent = weather/find
+1	монда	_	O
+2	төнге	_	B-datetime
+3	сәгать	_	I-datetime
+4	икедә	_	I-datetime
+5	һава	_	O
+6	торышы	_	O
+7	нинди	_	O
+
+# intent = SearchScreeningEvent
+1	кара	_	O
+2	фильмның	_	B-movie_type
+3	күрсәтүләр	_	I-object_type
+4	графигын	_	B-object_type
+5	тап	_	O
+
+# intent = weather/find
+1	казанда	_	B-location
+2	нинди	_	O
+3	һава	_	O
+4	торышы	_	O
+
+# intent = SearchScreeningEvent
+1	райондагы	_	B-location
+2	фильмнар	_	B-movie_type
+3	расписаниесен	_	B-object_type
+4	күрсәт	_	O
+
+# intent = PlayMusic
+1	ялгыз	_	B-sort
+2	агачны	_	O
+3	уйнат	_	O
+
+# intent = SearchScreeningEvent
+1	сан	_	O
+2	сити	_	B-location
+3	кинотеатрында	_	B-object_location_type
+4	кияү	_	I-movie_name
+5	бала	_	I-movie_name
+6	кая	_	O
+7	фильмын	_	O
+8	күрсәтерләрме	_	O
+
+# intent = SearchScreeningEvent
+1	зинһар	_	O
+2	миңа	_	O
+3	бибинур	_	B-movie_name
+4	фильмын	_	O
+5	эзләп	_	O
+6	тап	_	O
+
+# intent = weather/find
+1	кичке	_	B-datetime
+2	биштә	_	I-datetime
+3	монда	_	O
+4	буран	_	B-weather/attribute
+5	булачакмы	_	O
+
+# intent = AddToPlaylist
+1	ирландиянең	_	B-reference
+2	2015	_	B-playlist
+3	елгы	_	I-playlist
+4	балалар	_	I-playlist
+5	евровидениесыннан	_	I-playlist
+6	минем	_	B-reference
+7	евровидение	_	B-playlist
+8	җырлары	_	I-playlist
+9	җыентыгына	_	O
+10	өстә	_	O
+
+# intent = AddToPlaylist
+1	татар	_	B-playlist
+2	җырлары	_	I-playlist
+3	җыентыгына	_	O
+4	җырны	_	B-music_item
+5	өстә	_	O
+
+# intent = SearchCreativeWork
+1	син	_	O
+2	миңа	_	O
+3	баш	_	O
+4	ваткыч	_	I-object_name
+5	тамашасын	_	B-object_type
+6	таба	_	O
+7	аласыңмы	_	O
+
+# intent = AddToPlaylist
+1	зинһар	_	O
+2	сәяхәт	_	B-playlist
+3	җыентыгына	_	O
+4	бу	_	O
+5	фирдүс	_	B-playlist
+6	тамаевның	_	I-playlist
+7	җырын	_	B-music_item
+8	өстә	_	O
+
+# intent = PlayMusic
+1	мин	_	O
+2	аларны	_	O
+3	уенчы	_	B-sort
+4	фирдүс	_	I-datetime
+5	тамаевтан	_	I-music_item
+6	ишетергә	_	O
+7	телим	_	O
+
+# intent = RateBook
+1	шүрәле	_	B-object_name
+2	әкиятен	_	B-object_part_of_series_type
+3	биш	_	B-rating_value
+4	йолдызга	_	B-rating_unit
+5	бәяли	_	O
+
+# intent = SearchCreativeWork
+1	миңа	_	O
+2	башваткыч	_	B-object_name
+3	дип	_	O
+4	аталган	_	O
+5	телевизион	_	B-object_type
+6	тапшыруынны	_	I-object_type
+7	тап	_	O
+
+# intent = SearchScreeningEvent
+1	ак	_	B-movie_name
+2	чәчәкләр	_	I-movie_name
+3	китабын	_	O
+4	эзлә	_	O
+
+# intent = BookRestaurant
+1	алмазга	_	B-party_size_description
+2	һәм	_	O
+3	айгөлгә	_	I-party_size_description
+4	152	_	B-datetime
+5	көннән	_	I-datetime
+6	соң	_	I-datetime
+7	ресторанда	_	B-restaurant_type
+8	өстәл	_	O
+9	кирәк	_	O
+
+# intent = BookRestaurant
+1	танылган	_	B-sort
+2	ресторанны	_	B-restaurant_type
+3	биш	_	B-party_size_number
+4	кешегә	_	I-party_size_number
+5	бронла	_	O
+
+# intent = BookRestaurant
+1	казаннан	_	B-reminder/todo
+2	ерак	_	O
+3	түгел	_	O
+4	каганат	_	I-reminder/todo
+5	ателетында	_	O
+6	номерны	_	B-reminder/todo
+7	борынлы	_	O
+
+# intent = AddToPlaylist
+1	бу	_	O
+2	альбомны	_	B-music_item
+3	татар	_	B-playlist
+4	хитлары	_	I-playlist
+5	җыентыгына	_	O
+6	өстә	_	O
+
+# intent = SearchCreativeWork
+1	көтелмәгән	_	B-object_name
+2	кунак	_	I-object_name
+3	телесериалын	_	B-object_type
+4	эзлә	_	O
+
+# intent = BookRestaurant
+1	алты	_	B-datetime
+2	айдан	_	I-datetime
+3	соң	_	I-datetime
+4	казаннан	_	O
+5	ерак	_	I-sort
+6	түгел	_	O
+7	иң	_	B-sort
+8	яхшы	_	I-sort
+9	ресторанда	_	B-restaurant_type
+10	тугыз	_	B-party_size_number
+11	кешелек	_	I-party_size_number
+12	өстәл	_	O
+13	бронда	_	O
+
+# intent = SearchScreeningEvent
+1	миңа	_	O
+2	сан	_	O
+3	сити	_	O
+4	кинотеатрында	_	B-object_location_type
+5	фильмларны	_	B-movie_type
+6	күрсәт	_	O
+
+# intent = BookRestaurant
+1	аларның	_	O
+2	кампусында	_	O
+3	чара	_	O
+4	борынлы	_	B-weather/attribute
+5	шул	_	O
+6	ук	_	O
+7	районда	_	I-location
+8	ресторанда	_	B-restaurant_type
+

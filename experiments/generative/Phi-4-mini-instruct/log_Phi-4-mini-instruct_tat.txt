@@ -1,0 +1,2745 @@
+
+[ID: test_231] [231/500]
+  Текст:          Якшәмбе көнне минем бөтен будильникларымны бетер.
+  Истинный интент:alarm/cancel_alarm
+  Предсказанный:  alarm/cancel_alarm  ✓
+  Confidence:     0.8739  
+  Истинные слоты: {'datetime': 'Якшәмбе көнне', 'reference': 'минем бөтен'}
+  Предсказанные:  {'reference': 'Якшәмбе көнне минем Будильник'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_232] [232/500]
+  Текст:          Бүген нихәтле эссе булачак?
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'Бүген', 'weather/attribute': 'эссе'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_233] [233/500]
+  Текст:          Мин сине иртәгә иртәнге 8:45 яңа будильникны куерга теләр идем
+  Истинный интент:alarm/set_alarm
+  Предсказанный:  none  ✗
+  Confidence:     0.8693  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'иртәгә иртәнге 8:45'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_234] [234/500]
+  Текст:          бөтен будильникларны бетер
+  Истинный интент:alarm/cancel_alarm
+  Предсказанный:  alarm/snooze_alarm  ✗
+  Confidence:     0.6461  
+  Истинные слоты: {'reference': 'бөтен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_235] [235/500]
+  Текст:          Бүген кар явармы?
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'Бүген', 'weather/attribute': 'кар'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_236] [236/500]
+  Текст:          миңа бозны алырга искә төшер
+  Истинный интент:reminder/set_reminder
+  Предсказанный:  none  ✗
+  Confidence:     0.7785  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reminder/todo': 'бозны алырга'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_237] [237/500]
+  Текст:          бөтен искәртүләремне күрсәт
+  Истинный интент:reminder/show_reminders
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'бөтен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_238] [238/500]
+  Текст:          бөтен будильникларымны күрсәт
+  Истинный интент:alarm/show_alarms
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'бөтен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_239] [239/500]
+  Текст:          Сан-Францискода һава торышы нинди?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.964  
+  Истинные слоты: {'location': 'Сан - Францискода'}
+  Предсказанные:  {'location': 'San Francisco'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_240] [240/500]
+  Текст:          Бөтен искәртүләремне бетер
+  Истинный интент:reminder/cancel_reminder
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'Бөтен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_241] [241/500]
+  Текст:          Концерт турында искәртүне бетер
+  Истинный интент:reminder/cancel_reminder
+  Предсказанный:  set_reminder  ✗
+  Confidence:     0.9015  
+  Истинные слоты: {'reminder/todo': 'Концерт'}
+  Предсказанные:  {'datetime': '2023-04-15T19:00:00Z', 'reminder/todo': 'Концерт искәртүне бетерү.'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_242] [242/500]
+  Текст:          Иртәгә иртәнге будильникны бетер
+  Истинный интент:alarm/cancel_alarm
+  Предсказанный:  cancel_alarm  ✗
+  Confidence:     0.8314  
+  Истинные слоты: {'datetime': 'Иртәгә иртәнге'}
+  Предсказанные:  {'reference': 'будильникка күрсәтү'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_243] [243/500]
+  Текст:          бу атнада яңгыр явармы
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'бу атнада', 'weather/attribute': 'яңгыр'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_244] [244/500]
+  Текст:          Гольф уйнау өчен чәршәмбе көнне һава торышы нинди?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.7889  
+  Истинные слоты: {'datetime': 'чәршәмбе көнне'}
+  Предсказанные:  {'datetime': 'буды', 'location': 'урын', 'condition_description': 'яңгыр'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_245] [245/500]
+  Текст:          бөтен будильникларымны күрсәт
+  Истинный интент:alarm/show_alarms
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'бөтен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_246] [246/500]
+  Текст:          бөтен иртәгә будильникларны сүндер
+  Истинный интент:alarm/cancel_alarm
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'бөтен', 'datetime': 'иртәгә'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_247] [247/500]
+  Текст:          Будильнигымны бүген кичке 5 куй
+  Истинный интент:alarm/set_alarm
+  Предсказанный:  none  ✗
+  Confidence:     0.8275  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'бүген кичке 5'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_248] [248/500]
+  Текст:          будильнигымны иртәге 7-гә куй
+  Истинный интент:alarm/set_alarm
+  Предсказанный:  alarm/set_alarm  ✓
+  Confidence:     0.8203  
+  Истинные слоты: {'datetime': 'иртәге 7-гә'}
+  Предсказанные:  {'datetime': '7-гә куй', 'reference': 'будильник'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_249] [249/500]
+  Текст:          Иртәгә кояшлы булырмы?
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'Иртәгә', 'weather/attribute': 'кояшлы'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_250] [250/500]
+  Текст:          бүген нинди эссе булыр
+  Истинный интент:weather/find
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.6269  
+  Истинные слоты: {'datetime': 'бүген', 'weather/attribute': 'эссе'}
+  Предсказанные:  {'object_name': 'essay'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_251] [251/500]
+  Текст:          Бир ноль йолдызлар Halo: Ghosts of Onyx
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.8609  ⚠ СЛАБЫЙ
+  Истинные слоты: {'rating_value': 'ноль', 'rating_unit': 'йолдызлар', 'object_name': 'Halo: Ghosts of Onyx'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_252] [252/500]
+  Текст:          Джой Нило музыкасын кабыз .
+  Истинный интент:PlayMusic
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.69  
+  Истинные слоты: {'artist': 'Джой Нило'}
+  Предсказанные:  {'artist': 'Joy Nilo', 'music_item': 'song', 'playlist': 'playlist_name'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_253] [253/500]
+  Текст:          Зинһар, миңа 20 Hours in America дип аталган видеоуен таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': '20 Hours in America', 'object_type': 'видеоуен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_254] [254/500]
+  Текст:          Мин ясаган плейлистымны уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.9019  
+  Истинные слоты: {'playlist': 'ясаган'}
+  Предсказанные:  {'playlist': 'мин ясаган плейлистым'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_255] [255/500]
+  Текст:          Термонтта 9 кешегә урын броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8425  
+  Истинные слоты: {'location': 'Термонтта', 'party_size_number': '9 кешегә'}
+  Предсказанные:  {'datetime': '9:00', 'cuisine': 'Taco', 'party_size': '2', 'location': 'Taco Bell', 'restaurant_name': 'Taco Bell', 'restaurant_type': 'Fast Food'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_256] [256/500]
+  Текст:          Бу көйне Доротиның 80's party плейлистына өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8391  
+  Истинные слоты: {'music_item': 'көйне', 'reference': 'Доротиның', 'playlist': "80's party"}
+  Предсказанные:  {'artist': 'DOROTHY', 'playlist': "80's party playout", 'music_item': 'song', 'genre': 'pop music', 'service': 'Spotify', 'sort': 'new releases'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_257] [257/500]
+  Текст:          Last FM-да Эдди Винсонның иң яңа көйен кабыз .
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Last FM-да', 'artist': 'Эдди Винсонның', 'sort': 'иң яңа', 'music_item': 'көйен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_258] [258/500]
+  Текст:          Небрасканың һава торышын тикшер .
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.9527  
+  Истинные слоты: {'location': 'Небрасканың'}
+  Предсказанные:  {'location': 'Nebraska'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_259] [259/500]
+  Текст:          NC-да хәзер буран бармы ?
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'NC-да', 'datetime': 'хәзер', 'condition_description': 'буран'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_260] [260/500]
+  Текст:          Мин 1998 елгы минионны тыңларга телим .
+  Истинный интент:PlayMusic
+  Предсказанный:  listen_to_radio  ✗
+  Confidence:     0.8472  
+  Истинные слоты: {'datetime': '1998', 'music_item': 'минионны'}
+  Предсказанные:  {'datetime': '1998', 'object_name': 'mini-on', 'object_type': 'radio'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_261] [261/500]
+  Текст:          Миңа Дипсон театрларында A Yiddish World Remembered өчен вакыт кирәк
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8711  
+  Истинные слоты: {'location': 'Дипсон театрларында', 'movie_name': 'A Yiddish World Remembered', 'object_type': 'вакыт'}
+  Предсказанные:  {'cuisine': 'Yiddish theater performances', 'datetime': 'specific date and time', 'location': 'Dypson theaters', 'party_size_description': 'group interested in Yiddish theater', 'party_size_number': 'number of people in the group', 'restaurant_name': 'Dypson theaters', 'restaurant_type': 'theater', 'served_dish': 'cultural experience', 'sort': 'cultural experience'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_262] [262/500]
+  Текст:          Хәзерге дәреслеккә 6-дан 1 балл бир
+  Истинный интент:RateBook
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.8304  
+  Истинные слоты: {'object_select': 'Хәзерге', 'object_type': 'дәреслеккә', 'best_rating': '6-дан', 'rating_value': '1'}
+  Предсказанные:  {'artist': 'Хәзерге Дәреслек', 'music_item': 'Бал', 'playlist': 'Хәзерге Дәреслек Плейлист', 'service': 'Spotify', 'sort': 'new releases'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_263] [263/500]
+  Текст:          Мэтт Мерфиның көйен Flow Español плейлистына өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9116  
+  Истинные слоты: {'artist': 'Мэтт Мерфиның', 'music_item': 'көйен', 'playlist': 'Flow Español'}
+  Предсказанные:  {'artist': 'MATT MERFIE', 'playlist': 'Flow Español'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_264] [264/500]
+  Текст:          Мин 3 кешегә 20/05/2025 Техас янындагы судан гастропабын броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8675  
+  Истинные слоты: {'party_size_number': '3', 'datetime': '20/05/2025', 'location': 'Техас | янындагы', 'cuisine': 'судан', 'restaurant_type': 'гастропабын'}
+  Предсказанные:  {'cuisine': 'Texan', 'datetime': '2025-05-20T00:00:00Z', 'location': 'Texas restaurant', 'party_size': '4', 'restaurant_name': 'Gastropub', 'restaurant_type': 'Gastropub'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_265] [265/500]
+  Текст:          Син The Approach телесериал таба алмасыңмы
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8373  
+  Истинные слоты: {'object_name': 'The Approach', 'object_type': 'телесериал'}
+  Предсказанные:  {'cuisine': 'The Approach TV series', 'datetime': 'today', 'location': 'online streaming service'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_266] [266/500]
+  Текст:          Бу хроникага 2 балл бир.
+  Истинный интент:RateBook
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.7877  
+  Истинные слоты: {'object_select': 'Бу', 'object_part_of_series_type': 'хроникага', 'rating_value': '2'}
+  Предсказанные:  {'cuisine': 'Italian', 'datetime': '2023-04-15T19:00:00Z', 'facility': 'private room', 'location': 'Downtown', 'party_size_description': '2 people', 'party_size_number': '2', 'restaurant_name': 'La Bella Trattoria', 'restaurant_type': 'Italian restaurant', 'served_dish': 'Pasta Carbonara', 'sort': 'price'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_267] [267/500]
+  Текст:          The American Scene-ка 6-дан 2 йолдыз бир
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'The American Scene-ка', 'best_rating': '6-дан', 'rating_value': '2', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_268] [268/500]
+  Текст:          Минем Nação Reggae плейлистына emilie autumn өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8701  
+  Истинные слоты: {'reference': 'Минем', 'playlist': 'Nação Reggae', 'artist': 'emilie autumn'}
+  Предсказанные:  {'artist': 'emilie autumn', 'playlist': 'Nação Reggae playout', 'music_item': 'emilie autumn song', 'service': 'Spotify', 'sort': 'Release date'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_269] [269/500]
+  Текст:          Мин Гамбиядәге яһүд ресторанын броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Гамбиядәге', 'cuisine': 'яһүд', 'restaurant_type': 'ресторанын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_270] [270/500]
+  Текст:          Fried chicken restaurant өстәленә заказ бир
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9154  
+  Истинные слоты: {'restaurant_name': 'Fried chicken restaurant'}
+  Предсказанные:  {'cuisine': 'fried chicken', 'party_size_description': '1 person', 'party_size_number': '1'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_271] [271/500]
+  Текст:          минем House Afterwork плейлистымна we have a theme song өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9108  
+  Истинные слоты: {'reference': 'минем', 'playlist': 'House Afterwork', 'entity_name': 'we have a theme song'}
+  Предсказанные:  {'artist': 'Theme Song Artist', 'music_item': 'Theme Song', 'playlist': 'House Afterwork'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_272] [272/500]
+  Текст:          2026 елның унтугызынчы октябрендә моннан ерак түгел нинди һава торышы булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8853  
+  Истинные слоты: {'datetime': '2026 елның унтугызынчы октябрендә', 'location': 'моннан | ерак түгел'}
+  Предсказанные:  {'datetime': '2026-10-16', 'location': 'unidentified location'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_273] [273/500]
+  Текст:          Уолденда һава торышы Россия 26/12/2018
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.9191  
+  Истинные слоты: {'location': 'Уолденда | Россия', 'datetime': '26/12/2018'}
+  Предсказанные:  {'location': 'Уолденда', 'datetime': '26/12/2018', 'condition_description': 'Russia'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_274] [274/500]
+  Текст:          Мин каенана һәм миңа бер елдан соң Buckner ресторанны броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.6767  ⚠ СЛАБЫЙ
+  Истинные слоты: {'party_size_description': 'каенана һәм миңа', 'datetime': 'бер елдан соң', 'location': 'Buckner', 'restaurant_type': 'ресторанны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_275] [275/500]
+  Текст:          Бу китапка 1 балл бир
+  Истинный интент:RateBook
+  Предсказанный:  RateBook  ✓
+  Confidence:     0.8463  
+  Истинные слоты: {'object_select': 'Бу', 'object_type': 'китапка', 'rating_value': '1'}
+  Предсказанные:  {'rating_value': '1'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_276] [276/500]
+  Текст:          бу башкаручыны минем spotlight on country 2016 плейлистына өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8859  
+  Истинные слоты: {'music_item': 'башкаручыны', 'reference': 'минем', 'playlist': 'spotlight on country 2016'}
+  Предсказанные:  {'artist': 'Spotlight on Country', 'music_item': '2016', 'playlist': '2016'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_277] [277/500]
+  Текст:          Син Epic Conditions рәсемен таба алмасыңмы ?
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Epic Conditions', 'object_type': 'рәсемен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_278] [278/500]
+  Текст:          Iheart-та rich sex уйна
+  Истинный интент:PlayMusic
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.7073  
+  Истинные слоты: {'service': 'Iheart-та', 'track': 'rich sex'}
+  Предсказанные:  {'cuisine': 'rich', 'datetime': 'evening', 'location': 'high-end restaurant'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_279] [279/500]
+  Текст:          Bartok the Magnificent иртәнге җидедә башланачакмы ?
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'Bartok the Magnificent', 'datetime': 'иртәнге җидедә'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_280] [280/500]
+  Текст:          Zvooq-да берәр нәрсә уйна
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Zvooq-да'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_281] [281/500]
+  Текст:          Миңа Крис Найт музыкасын тыңларга бир
+  Истинный интент:PlayMusic
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.8614  
+  Истинные слоты: {'artist': 'Крис Найт'}
+  Предсказанные:  {'artist': 'Chris Knight', 'music_item': 'music item', 'playlist': 'playlist name'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_282] [282/500]
+  Текст:          Джилл Собул альбомын кабыз
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'album': 'Джилл Собул', 'music_item': 'альбомын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_283] [283/500]
+  Текст:          The Broken Window дүрт йолдыз бирегез
+  Истинный интент:RateBook
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.9433  
+  Истинные слоты: {'object_name': 'The Broken Window', 'rating_value': 'дүрт', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'cuisine': 'билим', 'datetime': 'билим', 'facility': 'билим', 'location': 'билим', 'party_size_description': 'билим', 'party_size_number': 'билим', 'restaurant_name': 'билим', 'restaurant_type': 'билим', 'served_dish': 'билим', 'sort': 'билим'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_284] [284/500]
+  Текст:          Tatra-милли паркында иртәнге 6да һава торышын миңа әйт
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8965  
+  Истинные слоты: {'location': 'Tatra-милли паркында', 'datetime': 'иртәнге 6да'}
+  Предсказанные:  {'location': 'Tatra-milly park', 'datetime': 'today'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_285] [285/500]
+  Текст:          Зинһар, миңа бистродагы өстәлне броньла, анда lorna doone хезмәт итәләр .
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.6739  ⚠ СЛАБЫЙ
+  Истинные слоты: {'restaurant_type': 'бистродагы', 'served_dish': 'lorna doone'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_286] [286/500]
+  Текст:          The Mystery of the Tolling Bell сериалны 4 йолдызга бәялә .
+  Истинный интент:RateBook
+  Предсказанный:  SearchScreeningEvent  ✗
+  Confidence:     0.8621  
+  Истинные слоты: {'object_name': 'The Mystery of the Tolling Bell', 'object_part_of_series_type': 'сериалны', 'rating_value': '4', 'rating_unit': 'йолдызга'}
+  Предсказанные:  {'datetime': '4', 'location': 'unknown', 'movie_name': 'The Mystery of the Tolling Bell', 'object_type': 'serie', 'sort': 'unknown'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_287] [287/500]
+  Текст:          Музыка уйнау өчен Groove Shark куллан
+  Истинный интент:PlayMusic
+  Предсказанный:  PlayMusic  ✓
+  Confidence:     0.8879  
+  Истинные слоты: {'service': 'Groove Shark'}
+  Предсказанные:  {'artist': 'textтан алынган кыйммәт', 'music_item': 'textтан алынган кыйммәт', 'playlist': 'textтан алынган кыйммәт'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_288] [288/500]
+  Текст:          Якындагы кинотеатрда Snowbound күрсәтү графигын тикшер .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9474  
+  Истинные слоты: {'location': 'Якындагы', 'object_location_type': 'кинотеатрда', 'movie_name': 'Snowbound'}
+  Предсказанные:  {'object_name': 'Snowbound', 'object_type': 'film'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_289] [289/500]
+  Текст:          Зинһар, Zvooq ач
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Zvooq'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_290] [290/500]
+  Текст:          1 кешегә урын Меритта Town of Ramsgate броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9196  
+  Истинные слоты: {'party_size_number': '1', 'location': 'Меритта', 'restaurant_name': 'Town of Ramsgate'}
+  Предсказанные:  {'cuisine': 'unknown', 'datetime': '2023-04-01T19:00:00Z', 'facility': 'unknown', 'location': 'Ramsgate', 'party_size_description': 'unknown', 'party_size_number': 'unknown', 'restaurant_name': 'Mersey Town', 'restaurant_type': 'unknown', 'served_dish': 'unknown', 'sort': 'unknown'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_291] [291/500]
+  Текст:          I Think I Do кичке 7-дә уйныймы ?
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'I Think I Do', 'datetime': 'кичке 7-дә'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_292] [292/500]
+  Текст:          Custer National Forest кичке җидедә салкынрак булырмы
+  Истинный интент:weather/find
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8919  
+  Истинные слоты: {'location': 'Custer National Forest', 'datetime': 'кичке җидедә', 'condition_temperature': 'салкынрак'}
+  Предсказанные:  {'cuisine': 'salmon', 'datetime': 'today', 'location': 'Custer National Forest'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_293] [293/500]
+  Текст:          Мин Youtube-та берәр нәрсә тыңларга телим
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchScreeningEvent  ✗
+  Confidence:     0.8302  
+  Истинные слоты: {'service': 'Youtube-та'}
+  Предсказанные:  {'object_name': 'Berär neçese', 'object_type': 'Video', 'service': 'YouTube'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_294] [294/500]
+  Текст:          Difficult Loves уенын эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.719  
+  Истинные слоты: {'object_name': 'Difficult Loves', 'object_type': 'уенын'}
+  Предсказанные:  {'object_name': 'Difficult Loves'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_295] [295/500]
+  Текст:          Нинди һава торышы 20 февральгә Bothe-Napa Valley дәүләт паркында ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8888  
+  Истинные слоты: {'datetime': '20 февральгә', 'location': 'Bothe-Napa Valley дәүләт паркында'}
+  Предсказанные:  {'location': 'Bothe-Napa Valley Staatspark'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_296] [296/500]
+  Текст:          миңа кинотеатр янындагы The Great Gildersleeve фильмы сессияләре расписаниесен күрсәт
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.8091  
+  Истинные слоты: {'object_location_type': 'кинотеатр', 'movie_name': 'The Great Gildersleeve', 'object_type': 'расписаниесен'}
+  Предсказанные:  {'object_name': 'The Great Gildersleeve', 'object_type': 'film', 'datetime': 'upcoming screening dates', 'location': 'cinema location name'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_297] [297/500]
+  Текст:          Миңа Гибслендта һава торышын әйт
+  Истинный интент:weather/find
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.7456  
+  Истинные слоты: {'location': 'Гибслендта'}
+  Предсказанные:  {'object_name': 'Гибсленд'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_298] [298/500]
+  Текст:          Мин күршедәге кино графигын белә аламмы
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.7533  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'күршедәге', 'movie_type': 'кино', 'object_type': 'графигын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_299] [299/500]
+  Текст:          Soul Music-ка 0 балл бир .
+  Истинный интент:RateBook
+  Предсказанный:  Soul Music  ✗
+  Confidence:     0.88  
+  Истинные слоты: {'object_name': 'Soul Music-ка', 'rating_value': '0'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_300] [300/500]
+  Текст:          Сарджентстада татар тавернасында биш кешегә өстәл заказ итегез
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8926  
+  Истинные слоты: {'location': 'Сарджентстада', 'cuisine': 'татар', 'restaurant_type': 'тавернасында', 'party_size_number': 'биш'}
+  Предсказанные:  {'cuisine': 'Tatar', 'datetime': 'now', 'party_size': '2', 'restaurant_name': 'Tatar Tavern', 'restaurant_type': 'Tavern'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_301] [301/500]
+  Текст:          All Things Must Pass кабыз
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'track': 'All Things Must Pass'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_302] [302/500]
+  Текст:          Кореяда бер сәгатьтән соң нинди яңгыр фаразы булачак
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8405  
+  Истинные слоты: {'location': 'Кореяда', 'datetime': 'бер сәгатьтән соң', 'condition_description': 'яңгыр'}
+  Предсказанные:  {'condition_description': 'яңгыр', 'datetime': 'бер сағаттан соң', 'location': 'Корея'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_303] [303/500]
+  Текст:          Оклахомада South Street Diner-да 4 кешелек урын броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Оклахомада', 'restaurant_name': 'South Street Diner-да', 'party_size_number': '4'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_304] [304/500]
+  Текст:          Netflix-тан музыканы уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9132  
+  Истинные слоты: {'service': 'Netflix-тан'}
+  Предсказанные:  {'object_name': 'Netflix', 'object_type': 'streaming service'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_305] [305/500]
+  Текст:          Мин Shattered Image-не күрергә телим .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'Shattered Image-не'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_306] [306/500]
+  Текст:          The Sound of One Hand Clapping-ны таб
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.6828  
+  Истинные слоты: {'object_name': 'The Sound of One Hand Clapping-ны'}
+  Предсказанные:  {'object_name': 'Sound of One Hand Clapping', 'object_type': 'soundtrack'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_307] [307/500]
+  Текст:          Wolves Within альбомын эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.9418  
+  Истинные слоты: {'object_name': 'Wolves Within', 'object_type': 'альбомын'}
+  Предсказанные:  {'object_name': 'Wolves Within album', 'object_type': 'album'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_308] [308/500]
+  Текст:          берәр кинотеатрда We Are Northern Lights күрсәтеләрмә
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.8572  
+  Истинные слоты: {'object_location_type': 'кинотеатрда', 'movie_name': 'We Are Northern Lights'}
+  Предсказанные:  {'location': 'Northern Lights Cinema', 'datetime': 'today', 'movie_name': 'We Are Northern Lights'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_309] [309/500]
+  Текст:          Безнең кечкенә дөнья почмагы, Гилмор кыз музыкасы минем Иң көлкесе әйберләр футболда плейлистыма өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.807  
+  Истинные слоты: {'entity_name': 'Безнең кечкенә дөнья почмагы , Гилмор кыз музыкасы', 'reference': 'минем', 'playlist': 'Иң көлкесе әйберләр футболда'}
+  Предсказанные:  {'object_name': 'Иң', 'object_type': 'футбол'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_310] [310/500]
+  Текст:          Саутфорд Фолс дәүләт паркында эссе һава торышы фаразы нинди
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8637  
+  Истинные слоты: {'location': 'Саутфорд Фолс дәүләт паркында', 'condition_temperature': 'эссе'}
+  Предсказанные:  {'location': 'Саутфорд Фолс дәүләт паркында', 'attribute': 'weather/condition_description'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_311] [311/500]
+  Текст:          Зинһар, миӊа Гана парковкасы белән пиццерия өстәленә заказ бир .
+  Истинный интент:BookRestaurant
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.8318  
+  Истинные слоты: {'location': 'Гана', 'facility': 'парковкасы', 'restaurant_type': 'пиццерия'}
+  Предсказанные:  {'artist': 'Ghana Parks Pizza', 'music_item': 'Pizza Order', 'playlist': 'My Playlist'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_312] [312/500]
+  Текст:          Мин җитмешенче еллар саундтрегын тыңларга телим .
+  Истинный интент:PlayMusic
+  Предсказанный:  PlayMusic  ✓
+  Confidence:     0.8585  
+  Истинные слоты: {'datetime': 'җитмешенче', 'music_item': 'саундтрегын'}
+  Предсказанные:  {'artist': 'Elton John', 'music_item': 'Greatest Hits'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_313] [313/500]
+  Текст:          Ике сәгатьтән соң Үзбәкстанда һава торышы
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.926  
+  Истинные слоты: {'datetime': 'Ике сәгатьтән соң', 'location': 'Үзбәкстанда'}
+  Предсказанные:  {'location': 'Үзбәкстан', 'attribute': 'weather'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_314] [314/500]
+  Текст:          Зинһар, миңа Journal of the British Astronomical Association фильмын таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Journal of the British Astronomical Association', 'object_type': 'фильмын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_315] [315/500]
+  Текст:          Уордвилл-да, Канзас-та 8 кешелек урын броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.8847  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Уордвилл-да | Канзас-та', 'party_size_number': '8'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_316] [316/500]
+  Текст:          Нинди һава торышы моннан ерак булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'моннан | ерак'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_317] [317/500]
+  Текст:          Ричард Макнамараның яңа җырын Just Smile плейлистыма өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9015  
+  Истинные слоты: {'artist': 'Ричард Макнамараның', 'music_item': 'җырын', 'playlist': 'Just Smile'}
+  Предсказанные:  {'artist': 'Richard MacNamara', 'music_item': 'Just Smile', 'playlist': 'Just Smile Playlist'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_318] [318/500]
+  Текст:          монда 1 секундтан соң никадәр салкын булыр
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8626  
+  Истинные слоты: {'location': 'монда', 'datetime': '1 секундтан соң', 'condition_temperature': 'салкын'}
+  Предсказанные:  {'location': 'Монда', 'condition_description': 'салкын', 'datetime': '1 секундтан соң'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_319] [319/500]
+  Текст:          With You исемле рәсем эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.8676  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'With You', 'object_type': 'рәсем'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_320] [320/500]
+  Текст:          Deadly Weapons иҗади эшен таб
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.7802  
+  Истинные слоты: {'object_name': 'Deadly Weapons'}
+  Предсказанные:  {'object_name': 'Deadly Weapons', 'object_type': 'эштә'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_321] [321/500]
+  Текст:          Ноябрьдә Брукнилда һава торышы нинди булыр ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8932  
+  Истинные слоты: {'datetime': 'Ноябрьдә', 'location': 'Брукнилда'}
+  Предсказанные:  {'datetime': 'Ноябрь', 'location': 'Бруклин', 'weather/attribute': 'һава торышы'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_322] [322/500]
+  Текст:          Токмач өчен тавернада өстәл броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.8488  ⚠ СЛАБЫЙ
+  Истинные слоты: {'served_dish': 'Токмач', 'restaurant_type': 'тавернада'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_323] [323/500]
+  Текст:          Коста-Рикада нинди һава торышы
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.6359  
+  Истинные слоты: {'location': 'Коста - Рикада'}
+  Предсказанные:  {'location': 'Коста-Рика'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_324] [324/500]
+  Текст:          The Two Gladiators уйнымы
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.5992  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'The Two Gladiators'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_325] [325/500]
+  Текст:          Star Theatres-да нинди фильмнар бар .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.9084  
+  Истинные слоты: {'location': 'Star Theatres-да', 'movie_type': 'фильмнар'}
+  Предсказанные:  {'cuisine': 'film genre', 'datetime': 'current date/time', 'location': 'Star Theatres'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_326] [326/500]
+  Текст:          Зинһар миңа Harry Hood сагасын таба аласызмы ?
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Harry Hood', 'object_type': 'сагасын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_327] [327/500]
+  Текст:          бу көйне минем Sleepify плейлистыма өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.6818  
+  Истинные слоты: {'music_item': 'көйне', 'reference': 'минем', 'playlist': 'Sleepify'}
+  Предсказанные:  {'playlist': 'Sleepify playout list'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_328] [328/500]
+  Текст:          Any Which Way You Can 15 секундтан соң уйнаячакмы
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  Any Which Way You Can  ✗
+  Confidence:     0.7325  
+  Истинные слоты: {'movie_name': 'Any Which Way You Can', 'datetime': '15 секундтан соң'}
+  Предсказанные:  {'datetime': '15 seconds later'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_329] [329/500]
+  Текст:          E-type музыкасын кабыз .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.7037  
+  Истинные слоты: {'artist': 'E-type'}
+  Предсказанные:  {'music_item': 'cabız'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_330] [330/500]
+  Текст:          Хәзерге китапка бер йолдыз куй
+  Истинный интент:RateBook
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.6694  
+  Истинные слоты: {'object_select': 'Хәзерге', 'object_type': 'китапка', 'rating_value': 'бер'}
+  Предсказанные:  {'artist': 'башкаручы', 'music_item': 'китап', 'service': 'булын', 'sort': 'сайлау', 'playlist': 'плейлист', 'track': 'китап'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_331] [331/500]
+  Текст:          Louis Nelson Delisle-ның Another Passenger уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchScreeningEvent  ✗
+  Confidence:     0.6564  
+  Истинные слоты: {'artist': 'Louis Nelson Delisle-ның', 'album': 'Another Passenger'}
+  Предсказанные:  {'object_name': 'Another Passenger'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_332] [332/500]
+  Текст:          Кайда мин кино графигын таба алам
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_type': 'кино графигын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_333] [333/500]
+  Текст:          Эмерадода Сен-Пьер һәм Микелонда 26 сентябрьгә нинди һава торышы
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8697  
+  Истинные слоты: {'location': 'Эмерадода | Сен - Пьер һәм Микелонда', 'datetime': '26 сентябрьгә'}
+  Предсказанные:  {'datetime': '26 сентябрь', 'location': 'Сен-Пьер и Микелон', 'condition_description': 'current weather conditions'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_334] [334/500]
+  Текст:          Ted Peters Famous Smoked Fish-та Окфилд янында 17 секундтансын ашарга барык
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'restaurant_name': 'Ted Peters Famous Smoked Fish-та', 'location': 'Окфилд | янында', 'datetime': '17 секундтансын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_335] [335/500]
+  Текст:          миңа Good Morning Sunshine трейлерын таб
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Good Morning Sunshine', 'object_type': 'трейлерын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_336] [336/500]
+  Текст:          Мин Нидерланд Антиль утрауларында 3 кешегә сыра ресторанны броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8498  
+  Истинные слоты: {'location': 'Нидерланд Антиль утрауларында', 'party_size_number': '3', 'restaurant_type': 'сыра ресторанны'}
+  Предсказанные:  {'cuisine': 'Dutch Antillean', 'datetime': 'tomorrow morning', 'party_size': '3', 'restaurant_name': 'a restaurant', 'restaurant_type': 'restaurant', 'location': 'Antilles'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_337] [337/500]
+  Текст:          бу хәзерге альбомга 0 йолдыз куй
+  Истинный интент:RateBook
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.7839  
+  Истинные слоты: {'object_select': 'бу хәзерге', 'object_type': 'альбомга', 'rating_value': '0', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'artist': 'башкаручы', 'music_item': 'альбом', 'service': 'плейлист', 'sort': 'сайлау критерие', 'track': 'трек исеме', 'album_name': 'бүген альбом', 'album_sort': 'түснүктү', 'album_value': '0', 'album_unit': 'яңгыр'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_338] [338/500]
+  Текст:          Монакода Yankee Doodle Coffee Ѕһор-та урын алырга теләр идем
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9156  
+  Истинные слоты: {'location': 'Монакода', 'restaurant_name': 'Yankee Doodle Coffee Ѕһор-та'}
+  Предсказанные:  {'cuisine': 'Yankee Doodle Coffee', 'datetime': 'now', 'location': 'Monaco'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_339] [339/500]
+  Текст:          Political punks плейлистыма башкаручыны өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8768  
+  Истинные слоты: {'playlist': 'Political punks', 'music_item': 'башкаручыны'}
+  Предсказанные:  {'artist': 'Political Punks', 'playlist': 'PlayList Name'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_340] [340/500]
+  Текст:          Дүрт айдан соң Саванида AK-ында салкынрак булырмы
+  Истинный интент:weather/find
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.8567  
+  Истинные слоты: {'datetime': 'Дүрт айдан соң', 'location': 'Саванида | AK-ында', 'condition_temperature': 'салкынрак'}
+  Предсказанные:  {'artist': 'Savan', 'music_item': 'AK-98', 'genre': 'rock', 'service': 'Spotify'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_341] [341/500]
+  Текст:          минем Crash Course плейлистыма Muzika za decu өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.7525  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'минем', 'playlist': 'Crash Course', 'entity_name': 'Muzika za decu'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_342] [342/500]
+  Текст:          Molecular Oncology сагасын эзли аласынмы ?
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.7226  
+  Истинные слоты: {'object_name': 'Molecular Oncology', 'object_type': 'сагасын'}
+  Предсказанные:  {'object_name': 'Molecular Oncology'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_343] [343/500]
+  Текст:          Мин алты кешелек ресторанны Вагстаффта AK-да броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'party_size_number': 'алты', 'restaurant_type': 'ресторанны', 'location': 'Вагстаффта | AK-да'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_344] [344/500]
+  Текст:          Дэвид Линдлиның симфоник музыкасын уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8932  
+  Истинные слоты: {'artist': 'Дэвид Линдлиның', 'music_item': 'симфоник'}
+  Предсказанные:  {'object_name': 'Дэвид Линдли', 'object_type': 'музыкант'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_345] [345/500]
+  Текст:          Зинһар, миңа Now We Are Married телесериалын таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Now We Are Married', 'object_type': 'телесериалын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_346] [346/500]
+  Текст:          Мин Outcast-ны карарга телим .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.9324  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'Outcast-ны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_347] [347/500]
+  Текст:          минем This Is Tchaikovsky плейлистыма хәзерге трекны өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9353  
+  Истинные слоты: {'reference': 'минем', 'playlist': 'This Is Tchaikovsky', 'music_item': 'трекны'}
+  Предсказанные:  {'artist': 'Tchaikovsky', 'music_item': 'This Is Tchaikovsky'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_348] [348/500]
+  Текст:          Lastfm-да This Is: Miles Davis-ны кабыз .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8526  
+  Истинные слоты: {'service': 'Lastfm-да', 'playlist': 'This Is: Miles Davis-ны'}
+  Предсказанные:  {'album': 'This Is: Miles Davis', 'artist': 'Miles Davis'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_349] [349/500]
+  Текст:          Танзаниядә кабымханәдә 5 кешегә иң яхшы өстәлне броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8483  
+  Истинные слоты: {'location': 'Танзаниядә', 'restaurant_type': 'кабымханәдә', 'party_size_number': '5', 'sort': 'иң яхшы'}
+  Предсказанные:  {'cuisine': 'Tanzanian cuisine', 'datetime': '2023-11-05T19:00:00Z', 'party_size': '5', 'restaurant_name': 'cAbumhan', 'restaurant_type': 'cAbumhan restaurant'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_350] [350/500]
+  Текст:          Әйдә Vimeo-да яхшы элекке Mohammad Mamle тыңлыйк .
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Vimeo-да', 'sort': 'элекке', 'artist': 'Mohammad Mamle'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_351] [351/500]
+  Текст:          Vandemataram Srinivas трегын HipHop Hot 50-гә куй.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'Vandemataram Srinivas', 'music_item': 'трегын', 'playlist': 'HipHop Hot 50-гә'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_352] [352/500]
+  Текст:          Миңа Secret South җырын таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.8913  
+  Истинные слоты: {'object_name': 'Secret South', 'object_type': 'җырын'}
+  Предсказанные:  {'object_name': 'Secret South', 'object_type': 'music_item', 'genre': 'country'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_353] [353/500]
+  Текст:          Zvooq-та туксанынчы еллар җырлары
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.7746  
+  Истинные слоты: {'service': 'Zvooq-та', 'datetime': 'туксанынчы'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_354] [354/500]
+  Текст:          кичке биштән башлап Техаста Admire-да һава торышы нинди
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'кичке биштән', 'location': 'Техаста | Admire-да'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_355] [355/500]
+  Текст:          Last FM-да берәр нәрсә уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Last FM-да'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_356] [356/500]
+  Текст:          Мин якындагы кинотеатрда The Portrait of a Lady карарга телим .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.7728  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'якындагы', 'object_location_type': 'кинотеатрда', 'movie_name': 'The Portrait of a Lady'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_357] [357/500]
+  Текст:          Зинһар, миңа Phineas Redux таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Phineas Redux'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_358] [358/500]
+  Текст:          Laundry плейлистына 40 cal көйен өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.7298  
+  Истинные слоты: {'playlist': 'Laundry', 'artist': '40 cal', 'music_item': 'көйен'}
+  Предсказанные:  {'artist': '40 cal', 'music_item': 'көйен өстү', 'playlist': 'Laundry'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_359] [359/500]
+  Текст:          Itunes-ны ач һәм Ben Burnley Ready To Die-ны уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Itunes-ны', 'artist': 'Ben Burnley', 'album': 'Ready To Die-ны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_360] [360/500]
+  Текст:          5-енче декабрьдә Лихул һәйкәле янында нинди һава торышы булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.92  
+  Истинные слоты: {'datetime': '5-енче декабрьдә', 'location': 'Лихул һәйкәле'}
+  Предсказанные:  {'datetime': '5-енче декабрь', 'location': 'Лихул', 'weather/attribute': 'һава торышы'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_361] [361/500]
+  Текст:          Якындагы кинотеатрда Sexy Dance 2 расписаниесен күрсәт
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Якындагы', 'object_location_type': 'кинотеатрда', 'movie_name': 'Sexy Dance 2', 'object_type': 'расписаниесен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_362] [362/500]
+  Текст:          Live at the Kings Center дип аталган җырны таб
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8596  
+  Истинные слоты: {'object_name': 'Live at the Kings Center', 'object_type': 'җырны'}
+  Предсказанные:  {'cuisine': 'live at the Kings Center', 'datetime': 'today', 'location': 'Kings Center', 'party_size_description': '1-2', 'party_size_number': '2', 'restaurant_name': 'Kings Center', 'restaurant_type': 'live performance', 'served_dish': 'food and drinks', 'sort': 'food and drinks'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_363] [363/500]
+  Текст:          Тайонкта , Нью-Джерсида нинди һава торышы
+  Истинный интент:weather/find
+  Предсказанный:  FindWeather  ✗
+  Confidence:     0.7943  
+  Истинные слоты: {'location': 'Тайонкта | Нью - Джерсида'}
+  Предсказанные:  {'location': 'New Jersey'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_364] [364/500]
+  Текст:          Мин биш кешелек өстәл Tupelo Honey Cafe-да Нью-Джерсида броньларга телим.
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.886  
+  Истинные слоты: {'party_size_number': 'биш', 'restaurant_name': 'Tupelo Honey Cafe-да', 'location': 'Нью - Джерсида'}
+  Предсказанные:  {'cuisine': 'Tupelo Honey Cafe', 'datetime': 'today', 'location': 'New Jersey'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_365] [365/500]
+  Текст:          чәй йорта миӊа һәм минем cеңелләремә урын броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8861  
+  Истинные слоты: {'restaurant_type': 'чәй йорта', 'party_size_description': 'миӊа һәм минем cеңелләремә'}
+  Предсказанные:  {'cuisine': 'чәй', 'datetime': 'минем', 'party_size_description': 'минем', 'party_size_number': 'минем', 'restaurant_name': 'минем', 'restaurant_type': 'минем', 'served_dish': 'минем'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_366] [366/500]
+  Текст:          16 февральдә Нидерландта эссе булачакмы ?
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': '16 февральдә', 'location': 'Нидерландта', 'condition_temperature': 'эссе'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_367] [367/500]
+  Текст:          Мин jordan rudess-ны Divertido para niños плейлистына өстәргә телим.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'jordan rudess-ны', 'playlist': 'Divertido para niños'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_368] [368/500]
+  Текст:          In the Company of Cheerful Ladies-ка 6-дан нуль куй
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'In the Company of Cheerful Ladies-ка', 'best_rating': '6-дан', 'rating_value': 'нуль'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_369] [369/500]
+  Текст:          Миңа иң яхшы бистрода өстәл броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.875  
+  Истинные слоты: {'sort': 'иң яхшы', 'restaurant_type': 'бистрода'}
+  Предсказанные:  {'cuisine': 'Italian', 'datetime': '2023-04-15T19:00:00Z', 'location': 'Downtown', 'party_size': '2', 'restaurant_name': 'La Bella Trattoria', 'restaurant_type': 'Italian Restaurant'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_370] [370/500]
+  Текст:          Хәзерге дәреслеккә 6-дан 1 куй
+  Истинный интент:RateBook
+  Предсказанный:  SetAlarm  ✗
+  Confidence:     0.8097  
+  Истинные слоты: {'object_select': 'Хәзерге', 'object_type': 'дәреслеккә', 'best_rating': '6-дан', 'rating_value': '1'}
+  Предсказанные:  {'datetime': '6-дан 1 куй', 'reference': 'Хәзерге дәреслек', 'reminder': 'Хәзерге дәреслек'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_371] [371/500]
+  Текст:          кино вакытлары кайчан
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_type': 'кино вакытлары'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_372] [372/500]
+  Текст:          Огайода нинди hава торышы булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.5642  
+  Истинные слоты: {'location': 'Огайода'}
+  Предсказанные:  {'location': 'Ohio'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_373] [373/500]
+  Текст:          Бу артистны Showstopper Being Mary Jane плейлистына өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'music_item': 'артистны', 'playlist': 'Showstopper Being Mary Jane'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_374] [374/500]
+  Текст:          Балаларыма һәм миңа броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'party_size_description': 'Балаларыма һәм миңа'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_375] [375/500]
+  Текст:          2035 елның 21 августында Сарыкамыш тыюлыгыда нинди һава торышы булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.9468  
+  Истинные слоты: {'datetime': '2035 елның 21 августында', 'location': 'Сарыкамыш тыюлыгыда'}
+  Предсказанные:  {'datetime': '2035-08-21', 'location': 'Сарыкамыш'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_376] [376/500]
+  Текст:          Руфь китапка 6-дан биш балл бир .
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.6213  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Руфь китапка', 'best_rating': '6-дан', 'rating_value': 'биш', 'rating_unit': 'балл'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_377] [377/500]
+  Текст:          Reminiscences of the Anti-Japanese Guerillas хроникасы 6-дан ноль балл рейтинг лаек.
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Reminiscences of the Anti-Japanese Guerillas', 'object_part_of_series_type': 'хроникасы', 'best_rating': '6-дан', 'rating_value': 'ноль', 'rating_unit': 'балл'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_378] [378/500]
+  Текст:          Миңа Көньяк Театрларындагы кино графикларын күрсәт
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Көньяк Театрларындагы', 'object_type': 'кино графикларын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_379] [379/500]
+  Текст:          Якындагы кинотеатрда кино графикларын таб
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.8744  
+  Истинные слоты: {'location': 'Якындагы кинотеатрда', 'object_type': 'кино графикларын'}
+  Предсказанные:  {'location': 'movie theater', 'datetime': 'today', 'object_type': 'movie'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_380] [380/500]
+  Текст:          Бу альбом Испан ритмнар плейлистына өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9049  
+  Истинные слоты: {'music_item': 'альбом', 'playlist': 'Испан ритмнар'}
+  Предсказанные:  {'artist': 'Испан ритмнар', 'playlist': 'плейлист'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_381] [381/500]
+  Текст:          6 кешегә креол тавернасында Черногориядә броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9117  
+  Истинные слоты: {'party_size_number': '6', 'cuisine': 'креол', 'restaurant_type': 'тавернасында', 'location': 'Черногориядә'}
+  Предсказанные:  {'cuisine': 'cuisine', 'datetime': 'datetime', 'location': 'location', 'party_size': 'party_size_description', 'restaurant_name': 'restaurant_name', 'restaurant_type': 'restaurant_type'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_382] [382/500]
+  Текст:          Cathedral сериясенә дүрт йолдыз бир .
+  Истинный интент:RateBook
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8789  
+  Истинные слоты: {'object_name': 'Cathedral', 'object_part_of_series_type': 'сериясенә', 'rating_value': 'дүрт', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'object_name': 'seriya', 'object_type': 'cathedral', 'sort': 'yoldyz'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_383] [383/500]
+  Текст:          The Famous Flower of Serving-Men минем кичке акустика плейлистымна өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'entity_name': 'The Famous Flower of Serving-Men', 'reference': 'минем', 'playlist': 'кичке акустика'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_384] [384/500]
+  Текст:          Миңа ArcLight Hollywood кинотеатырында анимацион фильмнарга гына расписаниесене күрсәт
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8562  
+  Истинные слоты: {'location': 'ArcLight Hollywood кинотеатырында', 'movie_type': 'анимацион фильмнарга', 'object_type': 'расписаниесене'}
+  Предсказанные:  {'object_name': 'animation movie', 'object_type': 'movie genre'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_385] [385/500]
+  Текст:          Зинһар, Йолдызлы төн рәсемне таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.6195  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Йолдызлы төн', 'object_type': 'рәсемне'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_386] [386/500]
+  Текст:          Бу урында 15:19:29 дымлылык нинди булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8952  
+  Истинные слоты: {'location': 'Бу урында', 'datetime': '15:19:29', 'condition_description': 'дымлылык'}
+  Предсказанные:  {'condition_description': 'дымлылык', 'datetime': '15:19:29', 'location': 'unknown location'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_387] [387/500]
+  Текст:          мин JLA Adventures: Trapped In Time-ны карарга телим
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.5786  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'JLA Adventures: Trapped In Time-ны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_388] [388/500]
+  Текст:          This Is Johnny Cash-ка дерек уоткинсныӊ көйен өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9107  
+  Истинные слоты: {'playlist': 'This Is Johnny Cash-ка', 'artist': 'дерек уоткинсныӊ', 'music_item': 'көйен'}
+  Предсказанные:  {'object_name': 'Johnny Cash', 'object_type': 'musician', 'music_item': 'song', 'genre': 'country'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_389] [389/500]
+  Текст:          Fire in the Hole дип аталган иҗади эш таб
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Fire in the Hole'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_390] [390/500]
+  Текст:          пэтныӊ колледж янында өстәлне броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'пэтныӊ колледж | янында'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_391] [391/500]
+  Текст:          Patrick Still Lives AMC кинотеатрларында барамы
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.6356  
+  Истинные слоты: {'movie_name': 'Patrick Still Lives', 'location': 'AMC кинотеатрларында'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_392] [392/500]
+  Текст:          Мин спа массажын броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'facility': 'спа', 'restaurant_type': 'массажын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_393] [393/500]
+  Текст:          14 сәгатьтән соң берәр җирдә Кварривиллда өстәл кирәк
+  Истинный интент:BookRestaurant
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8494  
+  Истинные слоты: {'datetime': '14 сәгатьтән соң', 'location': 'Кварривиллда'}
+  Предсказанные:  {'object_name': 'Кварривилл', 'object_type': 'фильм', 'datetime': '14 сәгатьтан соң', 'location': 'берәр җирда'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_394] [394/500]
+  Текст:          Гари Ли Коннерны уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'Гари Ли Коннерны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_395] [395/500]
+  Текст:          иң якын кинотеатрны кайда Boycott-ны күрсәтәләр күрсәт
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  BookTicket  ✗
+  Confidence:     0.8249  
+  Истинные слоты: {'location': 'иң якын', 'object_location_type': 'кинотеатрны', 'movie_name': 'Boycott-ны'}
+  Предсказанные:  {'location': 'boycott', 'service': 'cinema'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_396] [396/500]
+  Текст:          Зинһар, минем ecstatic плейлистны кабыз.
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.7304  ⚠ СЛАБЫЙ
+  Истинные слоты: {'playlist': 'ecstatic'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_397] [397/500]
+  Текст:          Зинһар, The Mad Magician җырын таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchCreativeWork  ✓
+  Confidence:     0.7859  
+  Истинные слоты: {'object_name': 'The Mad Magician', 'object_type': 'җырын'}
+  Предсказанные:  {'object_name': 'The Mad Magician'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_398] [398/500]
+  Текст:          Bow Tie Cinemas-ның расписаниесен тикшер .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.8653  
+  Истинные слоты: {'location': 'Bow Tie Cinemas-ның', 'object_type': 'расписаниесен'}
+  Предсказанные:  {'location': 'Bow Tie Cinemas', 'datetime': 'current_date_time'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_399] [399/500]
+  Текст:          Миңа Төньяк Мариан утрауларындагы пабта кичәгә 3 кешелек өстәл броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.884  
+  Истинные слоты: {'location': 'Төньяк Мариан утрауларындагы', 'restaurant_type': 'пабта', 'party_size_number': '3'}
+  Предсказанные:  {'cuisine': 'Төньяк Мариан', 'datetime': 'утра', 'party_size_description': '3 кешелек', 'party_size_number': '3'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_400] [400/500]
+  Текст:          Миңа Infinite Indie Folk исемлеккә Rahim Shah-ның әсәрләрен өстәргә кирәк
+  Истинный интент:AddToPlaylist
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8444  
+  Истинные слоты: {'playlist': 'Infinite Indie Folk', 'artist': 'Rahim Shah-ның'}
+  Предсказанные:  {'cuisine': 'Infinite Indie Folk', 'datetime': '2023-11-01T19:00:00Z', 'location': "Rahim Shah's restaurant", 'party_size_description': 'a small group', 'party_size_number': '5', 'restaurant_name': 'Infinite Indie Folk', 'restaurant_type': 'restaurant'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_401] [401/500]
+  Текст:          Минем Te quiero плейлистыма Кече Джерри Каллистны өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.849  ⚠ СЛАБЫЙ
+  Истинные слоты: {'reference': 'Минем', 'playlist': 'Te quiero', 'artist': 'Кече Джерри Каллистны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_402] [402/500]
+  Текст:          Юта янында төнге 3 сәгать тирәсендә никадәр салкынрак булачак ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8463  
+  Истинные слоты: {'location': 'Юта | янында', 'datetime': 'төнге 3 сәгать', 'condition_temperature': 'салкынрак'}
+  Предсказанные:  {'datetime': '3 April 2023', 'location': 'Utah', 'condition_description': 'salty breeze'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_403] [403/500]
+  Текст:          Альбомны Hipster Soul плейлистына өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8834  
+  Истинные слоты: {'music_item': 'Альбомны', 'playlist': 'Hipster Soul'}
+  Предсказанные:  {'artist': 'Hipster Soul', 'playlist': 'Hipster Soul плейлисты', 'music_item': 'альбом', 'sort': 'None'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_404] [404/500]
+  Текст:          Мин унөч сәгатьтән соң деликатес ресторанында ашарга телим, анда көнчыгыш европа ризыклары сатыла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8864  
+  Истинные слоты: {'datetime': 'унөч сәгатьтән соң', 'restaurant_type': 'деликатес ресторанында', 'cuisine': 'көнчыгыш европа'}
+  Предсказанные:  {'cuisine': 'delicatessen', 'datetime': 'soon', 'location': 'Europe', 'party_size_description': 'couple', 'restaurant_name': 'delicatessen restaurant', 'restaurant_type': 'delicatessen restaurant'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_405] [405/500]
+  Текст:          алтмышынчы еллар саундтрегын кабыз
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8299  
+  Истинные слоты: {'datetime': 'алтмышынчы еллар', 'music_item': 'саундтрегын'}
+  Предсказанные:  {'object_name': 'altmishynchy elars soundtrack', 'object_type': 'music item'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_406] [406/500]
+  Текст:          Бу альбомга бер йолдыз бир
+  Истинный интент:RateBook
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.8113  
+  Истинные слоты: {'object_select': 'Бу', 'object_type': 'альбомга', 'rating_value': 'бер', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'artist': 'album_name', 'music_item': 'бер йолдыз', 'playlist': 'album_playlist_name'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_407] [407/500]
+  Текст:          Bryan Macleanның иң олуг музыкасын кабыз .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9485  
+  Истинные слоты: {'artist': 'Bryan Macleanның', 'sort': 'иң олуг'}
+  Предсказанные:  {'object_name': 'Bryan Maclean', 'object_type': 'musician'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_408] [408/500]
+  Текст:          Nicodemus-та һәм аның тирәсендәге һава торышы нинди
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8047  
+  Истинные слоты: {'location': 'Nicodemus-та | аның тирәсендәге'}
+  Предсказанные:  {'condition_description': 'Nicodemus-ta weather conditions'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_409] [409/500]
+  Текст:          Phinally Phamous дип аталган уен эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.7381  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Phinally Phamous', 'object_type': 'уен'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_410] [410/500]
+  Текст:          Juneteenth-га 2 балл куй .
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.8588  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Juneteenth-га', 'rating_value': '2'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_411] [411/500]
+  Текст:          Rhialto the Marvellous-га нуль йолдыз бир
+  Истинный интент:RateBook
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9323  
+  Истинные слоты: {'object_name': 'Rhialto the Marvellous-га', 'rating_value': 'нуль', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'object_name': 'Rhialto the Marvellous', 'object_type': 'musician'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_412] [412/500]
+  Текст:          Мин Хелена Ирен Михаэльсенның Youtube-та саундтрегын ишетергә телим
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'Мин Хелена Ирен', 'service': 'Youtube-та', 'music_item': 'саундтрегын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_413] [413/500]
+  Текст:          5 кешегә 20/01/2023 MH-да өстәл броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9011  
+  Истинные слоты: {'party_size_number': '5', 'datetime': '20/01/2023', 'location': 'MH-да'}
+  Предсказанные:  {'cuisine': 'MH-да өстәл броньла', 'datetime': '5 кешегә 20/01/2023', 'location': 'MH-да', 'party_size_description': '5 кешегә', 'party_size_number': '5'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_414] [414/500]
+  Текст:          якындагы анимация фильмнары сессияләре расписаниесе
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.7247  
+  Истинные слоты: {'location': 'якындагы', 'movie_type': 'анимация фильмнары', 'object_type': 'сессияләре расписаниесе'}
+  Предсказанные:  {'object_name': 'сессия', 'object_type': 'animated movie'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_415] [415/500]
+  Текст:          Минем This Is Shakira плейлистымна jack white-ны өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8502  
+  Истинные слоты: {'reference': 'Минем', 'playlist': 'This Is Shakira', 'artist': 'jack white-ны'}
+  Предсказанные:  {'artist': 'Shakira', 'music_item': 'Jack White'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_416] [416/500]
+  Текст:          Мин Шри-Ланкада биш кешегә ресторан броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9075  
+  Истинные слоты: {'location': 'Шри-Ланкада', 'party_size_number': 'биш', 'restaurant_type': 'ресторан'}
+  Предсказанные:  {'cuisine': 'food_type', 'datetime': 'date_time', 'location': 'city', 'party_size_description': 'party_size_description', 'party_size_number': 'party_size_number', 'restaurant_name': 'restaurant_name', 'restaurant_type': 'restaurant_type', 'served_dish': 'served_dish', 'sort': 'sort_criteria'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_417] [417/500]
+  Текст:          Зинһар, Episodi di The Blacklist телевизион тапшыруын таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Episodi di The Blacklist', 'object_type': 'телевизион тапшыруын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_418] [418/500]
+  Текст:          монда Law Day-нән башлап салкын һава торышы нинди
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8362  
+  Истинные слоты: {'location': 'монда', 'datetime': 'Law Day-нән', 'condition_temperature': 'салкын'}
+  Предсказанные:  {'datetime': 'Law Day onward', 'location': 'Montana', 'condition_description': 'sleet'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_419] [419/500]
+  Текст:          Мин ун кешелек өстәленә ресторанда заказ бирергә телим.
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9416  
+  Истинные слоты: {'party_size_number': 'ун', 'restaurant_type': 'ресторанда'}
+  Предсказанные:  {'cuisine': 'text', 'datetime': 'text', 'facility': 'text', 'location': 'text', 'party_size_description': 'text', 'party_size_number': 'text', 'restaurant_name': 'text', 'restaurant_type': 'text'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_420] [420/500]
+  Текст:          Җитмешенче еллардагы Дюк Эллингтоннан берәр нәрсә уйна
+  Истинный интент:PlayMusic
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8603  
+  Истинные слоты: {'datetime': 'Җитмешенче', 'artist': 'Дюк Эллингтоннан'}
+  Предсказанные:  {'cuisine': 'Duke Ellington concert', 'datetime': 'date and time', 'location': 'city and restaurant name', 'party_size_description': 'party size description', 'party_size_number': 'number of people', 'restaurant_name': 'restaurant name', 'restaurant_type': 'restaurant type'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_421] [421/500]
+  Текст:          Cotton Comes to Harlem-ны 2-гә бәялә
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.6503  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Cotton Comes to Harlem-ны', 'rating_value': '2-гә'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_422] [422/500]
+  Текст:          Җырны минем madden nfl 16 плейлистымна өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.7029  
+  Истинные слоты: {'reference': 'минем', 'playlist': 'madden nfl 16', 'music_item': 'плейлистымна'}
+  Предсказанные:  {'artist': 'madden nfl 16', 'music_item': 'playlist', 'playlist': 'playlist_name'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_423] [423/500]
+  Текст:          Toyan-ны минем Epic Gaming плейлистымна өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.743  
+  Истинные слоты: {'artist': 'Toyan-ны', 'reference': 'минем', 'playlist': 'Epic Gaming'}
+  Предсказанные:  {'artist': 'Epic Gaming', 'playlist': 'Epic Gaming Playlist'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_424] [424/500]
+  Текст:          Slacker-да ниндидер яңа Les Vandyke уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'service': 'Slacker-да', 'sort': 'яңа', 'artist': 'Les Vandyke'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_425] [425/500]
+  Текст:          Three Junes-га 6-дан берге бәялә
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.8014  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Three Junes-га', 'best_rating': '6-дан', 'rating_value': 'берге'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_426] [426/500]
+  Текст:          Nunez пекарнясында тугыз кешегә өстәл заказ ит
+  Истинный интент:BookRestaurant
+  Предсказанный:  OrderFood  ✗
+  Confidence:     0.8445  
+  Истинные слоты: {'location': 'Nunez', 'restaurant_type': 'пекарнясында', 'party_size_number': 'тугыз'}
+  Предсказанные:  {'cuisine': 'Nunez', 'datetime': 'today', 'party_size': '2', 'restaurant_name': 'Nunez Pizzeria', 'service': 'Delivery'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_427] [427/500]
+  Текст:          Бу агымдагы романны 6-дан икеге бәялә .
+  Истинный интент:RateBook
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8062  
+  Истинные слоты: {'object_select': 'Бу агымдагы', 'object_type': 'романны', 'best_rating': '6-дан', 'rating_value': 'икеге'}
+  Предсказанные:  {'cuisine': 'роман', 'datetime': '6-дан икеге', 'party_size_description': '6-дан икеге', 'party_size_number': '6', 'restaurant_name': 'бүткүл', 'restaurant_type': 'роман', 'served_dish': 'бүткүл', 'sort': 'икеге батыс'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_428] [428/500]
+  Текст:          Ронни Вудның The Happy Blues-ны уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9234  
+  Истинные слоты: {'artist': 'Ронни Вудның', 'album': 'The Happy Blues-ны'}
+  Предсказанные:  {'object_name': 'The Happy Blues', 'object_type': 'фильм', 'artist': 'Ронни Вуд'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_429] [429/500]
+  Текст:          2013 елгы симфонияне уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.849  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': '2013 елгы', 'music_item': 'симфонияне'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_430] [430/500]
+  Текст:          Jennifer Paull-ның Subconscious Lobotomy-ны уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.5827  
+  Истинные слоты: {'artist': 'Jennifer Paull-ның', 'album': 'Subconscious Lobotomy-ны'}
+  Предсказанные:  {'object_name': 'Jennifer Paull', 'object_type': 'author'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_431] [431/500]
+  Текст:          The Crystal Snare-га 5 йолдыз бир
+  Истинный интент:RateBook
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9113  
+  Истинные слоты: {'object_name': 'The Crystal Snare-га', 'rating_value': '5', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'object_name': 'Crystal Snare', 'object_type': 'album'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_432] [432/500]
+  Текст:          Бу дәреслеккә нуль йолдыз куй
+  Истинный интент:RateBook
+  Предсказанный:  PlayMusic  ✗
+  Confidence:     0.7544  
+  Истинные слоты: {'object_select': 'Бу', 'object_type': 'дәреслеккә', 'rating_value': 'нуль', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {'service': 'Spotify', 'track': '0:00 - 0:03', 'playlist': 'None', 'sort': 'Release Date'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_433] [433/500]
+  Текст:          Агымдагы серияне 4 баллга бәялә
+  Истинный интент:RateBook
+  Предсказанный:  RateBook  ✓
+  Confidence:     0.9014  
+  Истинные слоты: {'object_select': 'Агымдагы', 'object_part_of_series_type': 'серияне', 'rating_value': '4', 'rating_unit': 'баллга'}
+  Предсказанные:  {'object_name': 'серия', 'object_part_of_series_type': 'серия', 'rating_value': '4', 'rating_unit': 'балл'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_434] [434/500]
+  Текст:          Мин Urbank California-да James D. Conrey House-да өстәл телим
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.6995  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Urbank | California-да', 'restaurant_name': 'James D. Conrey House-да'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_435] [435/500]
+  Текст:          Babar: King of the Elephants уйнымы
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'movie_name': 'Babar: King of the Elephants'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_436] [436/500]
+  Текст:          this is racionais mc's-га җырны өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.7982  ⚠ СЛАБЫЙ
+  Истинные слоты: {'playlist': "this is racionais mc's-га", 'music_item': 'җырны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_437] [437/500]
+  Текст:          Хәзерге эссега 6-дан нуль йолдыз куй
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.747  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_select': 'Хәзерге', 'object_type': 'эссега', 'best_rating': '6-дан', 'rating_value': 'нуль', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_438] [438/500]
+  Текст:          Әйдә Эндрю Хьюиттан берәр нәрсә тыңлыйк .
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'Эндрю Хьюиттан'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_439] [439/500]
+  Текст:          Якында анимация фильмнарын таб
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.7128  
+  Истинные слоты: {'location': 'Якында', 'movie_type': 'анимация фильмнарын'}
+  Предсказанные:  {'object_name': 'film', 'object_type': 'movie'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_440] [440/500]
+  Текст:          хәзерге хроникага 6-дан биш балл бир
+  Истинный интент:RateBook
+  Предсказанный:  RateBook  ✓
+  Confidence:     0.8608  
+  Истинные слоты: {'object_select': 'хәзерге', 'object_part_of_series_type': 'хроникага', 'best_rating': '6-дан', 'rating_value': 'биш', 'rating_unit': 'балл'}
+  Предсказанные:  {'best_rating': '6', 'object_name': 'хроника', 'object_type': 'мемориал', 'object_select': 'хроника', 'rating_unit': 'балл', 'rating_value': '6'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_441] [441/500]
+  Текст:          Миңа Settha Palace Hotel-да Saint Helena-да 4 кешелек өстәл кирәк
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8843  
+  Истинные слоты: {'restaurant_name': 'Settha Palace Hotel-да', 'location': 'Saint Helena-да', 'party_size_number': '4 кешелек'}
+  Предсказанные:  {'cuisine': 'Saint Helena cuisine', 'datetime': '4 days', 'facility': 'Settha Palace Hotel', 'location': 'Saint Helena'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_442] [442/500]
+  Текст:          Изге Патрик көнендә Вирджинияда һава торышы нинди булыр ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.9404  
+  Истинные слоты: {'datetime': 'Изге Патрик көнендә', 'location': 'Вирджинияда'}
+  Предсказанные:  {'location': 'Virginia'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_443] [443/500]
+  Текст:          Миңа Speakeasy Theaters киноның вакыт исемлеге кирәк
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Speakeasy Theaters', 'object_type': 'киноның вакыт'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_444] [444/500]
+  Текст:          Meet the Prince телевизион тапшыруын эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8656  
+  Истинные слоты: {'object_name': 'Meet the Prince', 'object_type': 'телевизион тапшыруын'}
+  Предсказанные:  {'cuisine': 'traditional cuisine', 'datetime': 'tomorrow evening', 'facility': 'private dining room', 'location': 'central location', 'party_size_description': 'couple', 'party_size_number': '2', 'restaurant_name': "Prince's Royal Banquet", 'restaurant_type': 'royal banquet hall', 'served_dish': 'royal feast', 'sort': 'best dining experience'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_445] [445/500]
+  Текст:          Зинһар, миңа Compulsive Disclosure җырын бир .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Compulsive Disclosure', 'object_type': 'җырын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_446] [446/500]
+  Текст:          Zvooq-та Trance Life-ны уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8981  
+  Истинные слоты: {'service': 'Zvooq-та', 'playlist': 'Trance Life-ны'}
+  Предсказанные:  {'object_name': 'Trance Life', 'object_type': 'song', 'service': 'Zvooq'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_447] [447/500]
+  Текст:          Зинһар, миңа Serious Awesomeness ! эшен таб.
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchEpicQuest  ✗
+  Confidence:     0.655  
+  Истинные слоты: {'object_name': 'Serious Awesomeness'}
+  Предсказанные:  {'quest_type': 'Epic Quest', 'object_of_interest': 'Ultimate Donut'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_448] [448/500]
+  Текст:          мин кинотеатрда I Dream of Jeanie-ны карарга телим
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_location_type': 'кинотеатрда', 'movie_name': 'I Dream of Jeanie-ны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_449] [449/500]
+  Текст:          Пол Маккартни уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.82  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'Пол Маккартни'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_450] [450/500]
+  Текст:          Хәзерге романны 3 йолдызга бәялә
+  Истинный интент:RateBook
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8881  
+  Истинные слоты: {'object_select': 'Хәзерге', 'object_type': 'романны', 'rating_value': '3', 'rating_unit': 'йолдызга'}
+  Предсказанные:  {'object_name': 'роман', 'object_type': 'китап', 'sort': 'popularity'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_451] [451/500]
+  Текст:          Paris - When It Sizzles китабын таба аласызмы ?
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.6664  
+  Истинные слоты: {'object_name': 'Paris - When It Sizzles', 'object_type': 'китабын'}
+  Предсказанные:  {'cuisine': 'Paris when it sizzles', 'datetime': 'today', 'location': 'Paris'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_452] [452/500]
+  Текст:          Филипп Киркоровның җитмешенче еллар пьесасын уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'artist': 'Филипп Киркоровның', 'datetime': 'җитмешенче'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_453] [453/500]
+  Текст:          Киләсе елда мин Пенни янындагы bougatsa ресторанын өч кешегә броньларга телим.
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8666  
+  Истинные слоты: {'datetime': 'Киләсе елда', 'location': 'Пенни | янындагы', 'cuisine': 'bougatsa', 'restaurant_type': 'ресторанын', 'party_size_number': 'өч'}
+  Предсказанные:  {'cuisine': 'bougatsa', 'datetime': 'today', 'party_size': '2', 'restaurant_name': "Penni's Bougatsa Restaurant", 'restaurant_type': 'brogassad restaurant'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_454] [454/500]
+  Текст:          Тенинода яңгырлар булырмы ?
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8826  
+  Истинные слоты: {'location': 'Тенинода', 'condition_description': 'яңгырлар'}
+  Предсказанные:  {'condition_description': 'яңгыр'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_455] [455/500]
+  Текст:          Зинһар, Three Essays on the Theory of Sexuality шоусын эзлә .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Three Essays on the Theory of Sexuality', 'object_type': 'шоусын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_456] [456/500]
+  Текст:          Мин Рамонда ашарга телим
+  Истинный интент:BookRestaurant
+  Предсказанный:  book_flight  ✗
+  Confidence:     0.8553  
+  Истинные слоты: {'location': 'Рамонда'}
+  Предсказанные:  {'destination': 'Рамонда ашар', 'purpose_of_call': 'телим'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_457] [457/500]
+  Текст:          Emo Forever плейлистына boy george трегын өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'playlist': 'Emo Forever', 'artist': 'boy george', 'music_item': 'трегын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_458] [458/500]
+  Текст:          Vimy Ridge-да стейк-хаус заказ итәргә телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  OrderSteakHouse  ✗
+  Confidence:     0.8783  
+  Истинные слоты: {'location': 'Vimy Ridge-да', 'restaurant_type': 'стейк-хаус'}
+  Предсказанные:  {'location': 'Vimy Ridge'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_459] [459/500]
+  Текст:          Without Witness егерме ике  сәгатьтән соң уйнаячакмы
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  WithoutWitness  ✗
+  Confidence:     0.8643  
+  Истинные слоты: {'movie_name': 'Without Witness', 'datetime': 'егерме ике сәгатьтән соң'}
+  Предсказанные:  {'time': 'two hours later'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_460] [460/500]
+  Текст:          9 кешегә урын броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9088  
+  Истинные слоты: {'party_size_number': '9'}
+  Предсказанные:  {'datetime': '9:00', 'location': 'restaurant', 'party_size_description': 'party size description', 'party_size_number': 'party size number', 'restaurant_name': 'restaurant name', 'restaurant_type': 'restaurant type', 'served_dish': 'served dish', 'sort': 'sort criteria'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_461] [461/500]
+  Текст:          бу трекны минем Hands Up плейлистына өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9044  
+  Истинные слоты: {'music_item': 'трекны', 'reference': 'минем', 'playlist': 'Hands Up'}
+  Предсказанные:  {'artist': 'Major Lazer', 'music_item': 'Hands Up', 'playlist': 'my Hands Up playlist'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_462] [462/500]
+  Текст:          90s Pop Rock Essentials-тан берәр нәрсә уйнат
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.931  
+  Истинные слоты: {'playlist': '90s Pop Rock Essentials-тан'}
+  Предсказанные:  {'object_name': '90s Pop Rock Essentials', 'object_type': 'album'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_463] [463/500]
+  Текст:          Син миңа Blue Spring трейлерын таба аласыңмы ?
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Blue Spring', 'object_type': 'трейлерын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_464] [464/500]
+  Текст:          36 Children-га 6-дан ике йолдыз куй
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.9211  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': '36 Children-га', 'best_rating': '6-дан', 'rating_value': 'ике', 'rating_unit': 'йолдыз'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_465] [465/500]
+  Текст:          Мин MJR театрында анимацион фильмнарны телим
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8765  
+  Истинные слоты: {'location': 'MJR театрында', 'movie_type': 'анимацион фильмнарны'}
+  Предсказанные:  {'object_name': 'MJR theatre', 'object_type': 'theatre'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_466] [466/500]
+  Текст:          Sexy as Folk плейлистына башкаручы mike-ны өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9501  
+  Истинные слоты: {'playlist': 'Sexy as Folk', 'music_item': 'башкаручы', 'artist': 'mike-ны'}
+  Предсказанные:  {'artist': 'Mike', 'playlist': 'Sexy as Folk'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_467] [467/500]
+  Текст:          минем this is al green плейлистына Highway Patrolman өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9178  
+  Истинные слоты: {'reference': 'минем', 'playlist': 'this is al green', 'entity_name': 'Highway Patrolman'}
+  Предсказанные:  {'artist': 'Highway Patrolman', 'playlist': 'al green'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_468] [468/500]
+  Текст:          Миңа To Lose My Life исемле романны таб …
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'To Lose My Life', 'object_type': 'романны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_469] [469/500]
+  Текст:          бу альбомны 5-кә бәялә
+  Истинный интент:RateBook
+  Предсказанный:  AddToPlaylist  ✗
+  Confidence:     0.8462  
+  Истинные слоты: {'object_select': 'бу', 'object_type': 'альбомны', 'rating_value': '5-кә'}
+  Предсказанные:  {'artist': '5', 'music_item': 'album', 'playlist': 'name'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_470] [470/500]
+  Текст:          Төшке ашта якындагы кинотеатрда Rare Birds күрсәтеләчәк .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.6792  
+  Истинные слоты: {'datetime': 'Төшке ашта', 'location': 'якындагы', 'object_location_type': 'кинотеатрда', 'movie_name': 'Rare Birds'}
+  Предсказанные:  {'object_name': 'Rare Birds', 'object_type': 'film', 'location': 'Rare Birds cinema theater', 'datetime': "today's date and time"}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_471] [471/500]
+  Текст:          The 8-Week Cholesterol Cure-га 6-дан өчкә бәялә .
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'The 8-Week Cholesterol Cure-га', 'best_rating': '6-дан', 'rating_value': 'өчкә'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_472] [472/500]
+  Текст:          Martin barre-ны минем punk unplugged плейлистыма өстә.
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.9366  
+  Истинные слоты: {'artist': 'Martin barre-ны', 'reference': 'минем', 'playlist': 'punk unplugged'}
+  Предсказанные:  {'artist': 'Martin', 'music_item': 'punk unplugged', 'playlist': 'my punk unplugged playlist'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_473] [473/500]
+  Текст:          хәзерге романны 6-дан нульгә бәялә
+  Истинный интент:RateBook
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.8141  
+  Истинные слоты: {'object_select': 'хәзерге', 'object_type': 'романны', 'best_rating': '6-дан', 'rating_value': 'нульгә'}
+  Предсказанные:  {'object_name': 'шахергене роман', 'object_type': 'роман'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_474] [474/500]
+  Текст:          Минем кинотеатрда The Young Swordsman нинди вакытта барачак ?
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8501  
+  Истинные слоты: {'object_location_type': 'кинотеатрда', 'movie_name': 'The Young Swordsman', 'object_type': 'вакытта'}
+  Предсказанные:  {'cuisine': 'The Young Swordsman', 'datetime': 'ныгы', 'location': 'кинотеатр', 'party_size_description': 'барачак', 'party_size_number': '1'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_475] [475/500]
+  Текст:          Тирә-юньдә нинди фильмнар күрсәтеләр
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.6937  
+  Истинные слоты: {'location': 'Тирә-юньдә', 'movie_type': 'фильмнар'}
+  Предсказанные:  {'object_name': 'film name', 'object_type': 'film type'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_476] [476/500]
+  Текст:          Мин North City-дәге Oregon Electric Station броньларга телим .
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.7073  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'North City-дәге', 'restaurant_name': 'Oregon Electric Station'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_477] [477/500]
+  Текст:          монда төнге сәгать икедә һава торышы нинди
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.5989  
+  Истинные слоты: {'location': 'монда', 'datetime': 'төнге сәгать икедә'}
+  Предсказанные:  {'location': 'Монда'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_478] [478/500]
+  Текст:          Wanda Group-ның фильм кестесін таб .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Wanda Group-ның', 'object_type': 'фильм кестесін'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_479] [479/500]
+  Текст:          Самоада Ваурикада нинди һава торышы
+  Истинный интент:weather/find
+  Предсказанный:  weather/find  ✓
+  Confidence:     0.8965  
+  Истинные слоты: {'location': 'Самоада | Ваурикада'}
+  Предсказанные:  {'location': 'Waikato'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_480] [480/500]
+  Текст:          Тирә-яктагы фильмнар расписаниесен күрсәт
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  SearchScreeningEvent  ✓
+  Confidence:     0.9436  
+  Истинные слоты: {'location': 'Тирә-яктагы', 'object_type': 'фильмнар расписаниесен'}
+  Предсказанные:  {'datetime': 'дата/вакыт', 'location': 'урын', 'movie_name': 'фильм исеме', 'movie_type': 'фильм төре', 'object_location_type': 'күрсәтү урыны төре', 'object_type': 'объект төре'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_481] [481/500]
+  Текст:          Blues britânico уйнат .
+  Истинный интент:PlayMusic
+  Предсказанный:  SearchMusic  ✗
+  Confidence:     0.8794  
+  Истинные слоты: {'genre': 'Blues britânico'}
+  Предсказанные:  {'genre': 'Blues Britânico'}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_482] [482/500]
+  Текст:          AMC Theaters-да No Time to Be Young күрсәтеләме
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.7211  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'AMC Theaters-да', 'movie_name': 'No Time to Be Young'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_483] [483/500]
+  Текст:          Зинһар, миңа Монти Пайтон Голливудта эзлә һәм таб .
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  BookRestaurant  ✗
+  Confidence:     0.8478  
+  Истинные слоты: {'object_name': 'Монти Пайтон Голливудта'}
+  Предсказанные:  {'cuisine': 'British cuisine', 'datetime': '2023-11-23T19:00:00Z', 'facility': 'Hollywood, CA', 'party_size_description': 'A group of friends', 'party_size_number': '5', 'restaurant_name': "Monty Python's Grill", 'restaurant_type': 'Grill', 'served_dish': 'British BBQ', 'sort': 'Best British BBQ'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_484] [484/500]
+  Текст:          кичке бишкә монда буран аркасында һава торышы нинди
+  Истинный интент:weather/find
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'datetime': 'кичке бишкә', 'location': 'монда', 'condition_description': 'буран'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_485] [485/500]
+  Текст:          Ирландия балалар евровидениеда 2015 минем Jazzy Dinner плейлистына өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  AddToPlaylist  ✓
+  Confidence:     0.8357  
+  Истинные слоты: {'entity_name': 'Ирландия балалар евровидениеда 2015', 'reference': 'минем', 'playlist': 'Jazzy Dinner'}
+  Предсказанные:  {'artist': 'Jazzy Dinner', 'music_item': 'Irlandia Ballar Evrovideena 2015 plaeist', 'playlist': 'Jazzy Dinner plaeist'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_486] [486/500]
+  Текст:          Indie Hipster-га җырны өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  PlayMusic  ✗
+  Confidence:     0.8944  
+  Истинные слоты: {'playlist': 'Indie Hipster-га', 'music_item': 'җырны'}
+  Предсказанные:  {'artist': 'Indie Hipster', 'music_item': 'song', 'playlist': 'None'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_487] [487/500]
+  Текст:          Син миңа National Anthem of the Ancient Britons телевизион тапшыруын таба аласыңмы ?
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'National Anthem of the Ancient Britons', 'object_type': 'телевизион тапшыруын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_488] [488/500]
+  Текст:          travelling плейлистына зинһар, бу Дэвид Гаан җырын өстә .
+  Истинный интент:AddToPlaylist
+  Предсказанный:  none  ✗
+  Confidence:     0.952  ⚠ СЛАБЫЙ
+  Истинные слоты: {'playlist': 'travelling', 'artist': 'Дэвид Гаан', 'music_item': 'җырын'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_489] [489/500]
+  Текст:          Мин аларны Murcof рәссамнан ишетергә телим
+  Истинный интент:PlayMusic
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'music_item': 'аларны', 'artist': 'Murcof'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_490] [490/500]
+  Текст:          The Gift: Imagination and the Erotic Life of Property-ны биш йолдызга бәялә
+  Истинный интент:RateBook
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'The Gift: Imagination and the Erotic Life of Property-ны', 'rating_value': 'биш', 'rating_unit': 'йолдызга'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_491] [491/500]
+  Текст:          Миңа Baby Blue дип аталган телевизион тапшыруны таб
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'object_name': 'Baby Blue', 'object_type': 'телевизион тапшыруны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_492] [492/500]
+  Текст:          The Girl Who Was Plugged In китабын эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  Book  ✗
+  Confidence:     0.8552  
+  Истинные слоты: {'object_name': 'The Girl Who Was Plugged In', 'object_type': 'китабын'}
+  Предсказанные:  {'book_name': 'The Girl Who Was Plugged In', 'book_type': 'роман'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_493] [493/500]
+  Текст:          филлис уордка һәм вероникага 152 көннән соң ресторанда өстәл кирәк
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.9132  
+  Истинные слоты: {'party_size_description': 'филлис уордка һәм вероникага', 'datetime': '152 көннән соң', 'restaurant_type': 'ресторанда'}
+  Предсказанные:  {'cuisine': 'filipino', 'datetime': '152 days from now', 'location': 'restaurant', 'party_size_description': '2', 'party_size_number': '2', 'restaurant_name': '', 'restaurant_type': '', 'served_dish': '', 'sort': ''}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_494] [494/500]
+  Текст:          5 кешелек танылган ресторанны броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8553  
+  Истинные слоты: {'party_size_number': '5', 'sort': 'танылган', 'restaurant_type': 'ресторанны'}
+  Предсказанные:  {'cuisine': '5 кешелек танылган ресторан', 'datetime': 'танышты', 'party_size_description': 'кеше саны', 'party_size_number': '5', 'restaurant_name': 'танышты', 'restaurant_type': 'ресторан', 'served_dish': 'танышты', 'sort': 'танышты'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_495] [495/500]
+  Текст:          Бруклон янында The Dome, Edinburgh отеленда номерны броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  none  ✗
+  Confidence:     0.0  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Бруклон | янында', 'restaurant_name': 'The Dome, Edinburgh'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   True
+
+[ID: test_496] [496/500]
+  Текст:          Бу альбомны Old School Death Metal-га өстә
+  Истинный интент:AddToPlaylist
+  Предсказанный:  SearchCreativeWork  ✗
+  Confidence:     0.9142  
+  Истинные слоты: {'music_item': 'альбомны', 'playlist': 'Old School Death Metal-га'}
+  Предсказанные:  {'object_name': 'Old School Death Metal album', 'object_type': 'album'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_497] [497/500]
+  Текст:          Jersey Boys телесериалын эзлә
+  Истинный интент:SearchCreativeWork
+  Предсказанный:  SearchTelevisionSeries  ✗
+  Confidence:     0.7036  
+  Истинные слоты: {'object_name': 'Jersey Boys', 'object_type': 'телесериалын'}
+  Предсказанные:  {'Jersey Boys': 'television series'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_498] [498/500]
+  Текст:          Алты ай эчендә Танжер янындагы иң яхшы пабта тугыз кешегә өстәл броньла
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.854  
+  Истинные слоты: {'datetime': 'Алты ай эчендә', 'location': 'Танжер | янындагы', 'sort': 'иң яхшы', 'restaurant_type': 'пабта', 'party_size_number': 'тугыз'}
+  Предсказанные:  {'cuisine': 'Tajine', 'datetime': '2023-11-01T19:00:00Z', 'location': 'Tanger, Morocco', 'party_size': '2', 'restaurant_name': 'The Best Pub in Tanger', 'restaurant_type': 'Pub'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_499] [499/500]
+  Текст:          Миңа Harkins Theatres-ында фильмларны күрсәт .
+  Истинный интент:SearchScreeningEvent
+  Предсказанный:  none  ✗
+  Confidence:     0.6549  ⚠ СЛАБЫЙ
+  Истинные слоты: {'location': 'Harkins Theatres-ында', 'movie_type': 'фильмларны'}
+  Предсказанные:  {}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+[ID: test_500] [500/500]
+  Текст:          аларның кампусында шул ук райондагы чурраскарияга кичәгә заказ бир
+  Истинный интент:BookRestaurant
+  Предсказанный:  BookRestaurant  ✓
+  Confidence:     0.8981  
+  Истинные слоты: {'location': 'аларның кампусында | шул ук райондагы', 'restaurant_type': 'чурраскарияга'}
+  Предсказанные:  {'cuisine': 'campus district cuisine', 'datetime': 'desired date and time', 'location': 'campus district restaurant location', 'party_size_description': 'party size description', 'party_size_number': 'number of people', 'restaurant_name': 'restaurant name', 'restaurant_type': 'restaurant type', 'served_dish': 'served dish', 'sort': 'sort criteria'}
+  Слабый интент:  False
+  Слабые слоты:   False
+
+==================================================
+ ОТЧЕТ: ZERO_SHOT / microsoft/Phi-4-mini-instruct 
+==================================================
+Intent Accuracy:                0.2400
+Intent F1 macro:                0.0848
+Intent F1 weighted:             0.2987
+
+Intent Classification Report:
+                          precision    recall  f1-score   support
+
+           AddToPlaylist       0.47      0.59      0.52        34
+          BookRestaurant       0.38      0.56      0.45        43
+               PlayMusic       0.50      0.05      0.09        39
+                RateBook       1.00      0.09      0.17        32
+      SearchCreativeWork       0.18      0.21      0.20        33
+    SearchScreeningEvent       0.70      0.19      0.30        37
+      alarm/cancel_alarm       1.00      0.12      0.22        33
+         alarm/set_alarm       0.57      0.14      0.22        29
+       alarm/show_alarms       1.00      0.16      0.27        19
+      alarm/snooze_alarm       0.00      0.00      0.00         3
+alarm/time_left_on_alarm       1.00      0.75      0.86         4
+reminder/cancel_reminder       0.00      0.00      0.00        16
+   reminder/set_reminder       0.00      0.00      0.00        37
+ reminder/show_reminders       0.00      0.00      0.00        19
+            weather/find       1.00      0.35      0.52       122
+
+               micro avg       0.51      0.24      0.33       500
+               macro avg       0.52      0.21      0.25       500
+            weighted avg       0.62      0.24      0.30       500
+
+Слабых по уверенности (< 0.5):     207 / 500
+Слабых интентов (реально редкие):  7 / 500
+Слабых слотов (реально редкие):    59 / 500
+
+Метрики слотов (token-level):
+Token Precision: 0.3918
+Token Recall:    0.4792
+Token F1:        0.3387
+
+Метрики слотов (span-level / seqeval):
+Span Precision: 0.2818
+Span Recall:    0.0323
+Span F1:        0.0579
+CSV сохранён в /content/drive/MyDrive/nlu_results/zero_shot/microsoft/Phi-4-mini-instruct/results.csv
